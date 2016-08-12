@@ -1,0 +1,215 @@
+
+/* === Shortcode Button Style === */
+
+.mce-ico.mce-i-wp_code.dropdown_icon {
+    background: url("../img/shortcode.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    height: 16px !important;
+    position: relative !important;
+    top: 0 !important;
+    width: 32px !important;
+}
+
+.mce-splitbtn.dropdown_class {
+    height: 22px !important;
+    line-height: 22px !important;
+}
+
+.mce-splitbtn.dropdown_class:hover{
+    border: 1px solid #BBBBBB !important;
+    background: linear-gradient(to top, #E5E5E5, #FFFFFF) repeat scroll 0 0 #EEEEEE !important;
+}
+.dropdown_items{
+    max-height: 22px !important;
+}
+.mce-i-shortcode_icon{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+/* === Modal Dialog Style === */
+
+.sc-dialog .form-table, .sc-dialog .form-table td, .sc-dialog .form-table th,
+.sc-dialog .form-table td p, .sc-dialog .form-wrap label {
+    font-size: 12px;
+}
+.sc-dialog select {
+    height: inherit;
+}
+.sc-dialog input[type="checkbox"],  .sc-dialog input[type="radio"] {
+    margin:  4px 0;
+}
+.sc-dialog .ui-dialog-content.ui-widget-content {
+    margin:  10px;
+}
+.sc-container .form-table th {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 12px 5px;
+}
+.sc-container .form-table tr {
+    border-bottom: 1px solid #cecece;
+}
+.sc-container .form-table tr:last-child {
+    border-bottom: none;
+}
+#sc-table textarea, #sc-table input, #sc-table select {
+    font-size: 13px;
+}
+#bookme-dialog {
+    background-color: #eee;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+#bookme-dialog h2 {
+    font-weight: 800;
+    display: block;
+    background-color: #fff;
+    margin: 0;
+    padding: 15px 0;
+    text-indent: 20px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+#bookme-dialog p.submit {
+    text-align: right;
+    position: absolute;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+#bookme-dialog p.submit input {
+    margin: 15px 20px -10px;
+}
+#bookme-dialog input[type="text"],
+#bookme-dialog input[type="email"],
+#bookme-dialog input[type="phone"],
+#bookme-dialog input[type="url"] {
+    min-width: 200px;
+    padding: 4px 10px 5px;
+}
+#bookme-dialog input[type="url"] { width:260px }
+.sc-container {
+    overflow: scroll;
+    height: inherit;
+    padding: 0 20px;
+}
+table#sc-table {
+    margin: 10px auto;
+}
+#sc-table table i {
+    font-size: 11px;
+}
+.sc-container .tb_multiple_column {
+    float: left;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+#appended thead tr {
+    position: relative;
+    text-align: center;
+    background: none repeat scroll 0 0 #D6D6D6 !important;
+}
+#appended thead tr th {
+    text-align: center;
+    background: none repeat scroll 0 0 #C2C2C2 !important;
+}
+#appended .head_division {
+    float: left;
+    font-size: 10px;
+    text-align: left;
+    width: 40%;
+}
+#appended .head_division.head_division_check {
+    width: 20%;
+}
+#appended .head_division.right {
+    text-align: right;
+}
+.multiple_column {
+    width: 100%;
+    border-collapse: initial;
+    table-layout: auto;
+}
+.multiple_column thead th {
+    background-color: #cecece;
+    text-align: center;
+}
+textarea.sc-itemslider-caption {
+    width: 100%;
+    resize: vertical;
+}
+#sc-append-slideritem td {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#sc-table .image_preview {
+    width: 150px;
+    height: auto;
+    margin: 5px auto;
+    text-align: center;
+	position: relative;
+}
+#sc-table .image_preview img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#osc_thumbnail_upload:hover img,
+#sc-table .image_preview:hover img {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+	z-index: 3;
+}
+#osc_thumbnail_upload a,
+#sc-table .image_preview a {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: -20px;
+	z-index: 4;
+}
+#osc_thumbnail_upload:hover a,
+#sc-table .image_preview:hover a {
+	display: block;
+	text-decoration: none;
+}
+#osc_thumbnail_upload {
+    width: 400px;
+    height: auto;
+    margin: 5px auto;
+    text-align: center;
+	position: relative;
+}
+#osc_thumbnail_upload img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+i.mce-ico.mce-i-none:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    font-size: 1em;
+    line-height: 10px;
+}
+i.mce-ico.mce-i-none{ color: #777 }
+i.mce-ico.mce-i-none:hover { color: #fff }

@@ -1,0 +1,2634 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-10-24 12:44+0700\n"
+"PO-Revision-Date: 2015-10-24 12:44+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/redux-framework\n"
+"X-Poedit-SearchPathExcluded-1: admin/redux-extensions\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+
+#: admin/metabox-init.php:241
+msgid "Client Details"
+msgstr ""
+
+#: admin/metabox-init.php:247
+msgid "URL"
+msgstr ""
+
+#: admin/metabox-init.php:263
+msgid "Testimonials Details"
+msgstr ""
+
+#: admin/metabox-init.php:269
+msgid "Position"
+msgstr ""
+
+#: admin/metabox-init.php:285
+msgid "Team Details"
+msgstr ""
+
+#: admin/metabox-init.php:291 admin/options-init.php:354 inc/extras.php:1180
+#: template-contact.php:71
+msgid "Email"
+msgstr ""
+
+#: admin/metabox-init.php:307
+msgid "Projects Details"
+msgstr ""
+
+#: admin/metabox-init.php:313
+msgid "Projects Image"
+msgstr ""
+
+#: admin/metabox-init.php:329
+msgid "Portfolio Details"
+msgstr ""
+
+#: admin/metabox-init.php:335
+msgid "Short Description"
+msgstr ""
+
+#: admin/metabox-init.php:351 inc/theme-hook.php:350
+msgid "Service Details"
+msgstr ""
+
+#: admin/metabox-init.php:357 admin/metabox-init.php:364
+msgid "Service Icon"
+msgstr ""
+
+#: admin/metabox-init.php:358 admin/metabox-init.php:892
+#: admin/metabox-init.php:1176 admin/metabox-init.php:1569
+#: admin/metabox-init.php:1631 admin/metabox-init.php:1707
+#: admin/metabox-init.php:1738 admin/metabox-init.php:1768
+#: admin/metabox-init.php:2387 admin/metabox-init.php:2956
+#: admin/options-init.php:419 admin/options-init.php:506
+#: admin/options-init.php:593
+msgid ""
+"Fontawesome icon code. i.e: fa-home. You can get the code <a href=\"http://"
+"fortawesome.github.io/Font-Awesome/icons/\">here</a>"
+msgstr ""
+
+#: admin/metabox-init.php:365 admin/metabox-init.php:898
+#: admin/metabox-init.php:1183 admin/metabox-init.php:1576
+#: admin/metabox-init.php:1638 admin/options-init.php:433
+#: admin/options-init.php:520 admin/options-init.php:607
+msgid "Upload Image as icon . This will replace the icon above"
+msgstr ""
+
+#: admin/metabox-init.php:380
+msgid "Pricing Details"
+msgstr ""
+
+#: admin/metabox-init.php:386
+msgid "Box Background Color"
+msgstr ""
+
+#: admin/metabox-init.php:388 admin/metabox-init.php:396
+#: admin/metabox-init.php:404 admin/metabox-init.php:424
+msgid "For pricing page only"
+msgstr ""
+
+#: admin/metabox-init.php:394
+msgid "Box Header Background Color"
+msgstr ""
+
+#: admin/metabox-init.php:402
+msgid "Pricing Value Background Color"
+msgstr ""
+
+#: admin/metabox-init.php:410 admin/metabox-init.php:904
+#: admin/metabox-init.php:1212 admin/metabox-init.php:1289
+#: admin/metabox/example-functions.php:434 inc/extras.php:1301
+msgid "Description"
+msgstr ""
+
+#: admin/metabox-init.php:416
+msgid "Price"
+msgstr ""
+
+#: admin/metabox-init.php:422
+msgid "Feature"
+msgstr ""
+
+#: admin/metabox-init.php:430 admin/metabox-init.php:2835
+#: admin/options-init.php:722 admin/options-init.php:768
+msgid "Button Text"
+msgstr ""
+
+#: admin/metabox-init.php:436 admin/metabox-init.php:2841
+#: admin/options-init.php:728 admin/options-init.php:775
+msgid "Button URL"
+msgstr ""
+
+#: admin/metabox-init.php:452 admin/metabox-init.php:474
+msgid "Page Options"
+msgstr ""
+
+#: admin/metabox-init.php:459 admin/metabox-init.php:481
+msgid "Page Color Scheme"
+msgstr ""
+
+#: admin/metabox-init.php:487
+msgid "Page Layout"
+msgstr ""
+
+#: admin/metabox-init.php:492 admin/metabox-init.php:2618
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/metabox-init.php:493 admin/metabox-init.php:2619
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/metabox-init.php:494 admin/metabox-init.php:2620
+msgid "Fullwidth"
+msgstr ""
+
+#: admin/metabox-init.php:515
+msgid "Header Options"
+msgstr ""
+
+#: admin/metabox-init.php:523
+msgid "Header Background"
+msgstr ""
+
+#: admin/metabox-init.php:524
+msgid "Set header background color for this specific page"
+msgstr ""
+
+#: admin/metabox-init.php:531
+msgid "Header Quote"
+msgstr ""
+
+#: admin/metabox-init.php:532
+msgid "Check to replace default header quote."
+msgstr ""
+
+#: admin/metabox-init.php:538 admin/options-init.php:245
+msgid "Header Quote Text"
+msgstr ""
+
+#: admin/metabox-init.php:544 admin/options-init.php:252
+msgid "Header Quote Phone"
+msgstr ""
+
+#: admin/metabox-init.php:580 admin/metabox-init.php:692
+msgid "Slider Options"
+msgstr ""
+
+#: admin/metabox-init.php:589 admin/metabox-init.php:701
+msgid "Enable Revolution Slider"
+msgstr ""
+
+#: admin/metabox-init.php:590 admin/metabox-init.php:702
+msgid "Use Rev Slider as the slider for this page"
+msgstr ""
+
+#: admin/metabox-init.php:595 admin/metabox-init.php:707
+msgid "Choose Slider"
+msgstr ""
+
+#: admin/metabox-init.php:604 admin/metabox-init.php:716
+msgid "Slide Images"
+msgstr ""
+
+#: admin/metabox-init.php:605 admin/metabox-init.php:717
+msgid "Upload or add slide images."
+msgstr ""
+
+#: admin/metabox-init.php:612
+msgid "Caption Position"
+msgstr ""
+
+#: admin/metabox-init.php:617
+msgid "Left"
+msgstr ""
+
+#: admin/metabox-init.php:618
+msgid "Right"
+msgstr ""
+
+#: admin/metabox-init.php:623
+msgid "Slider Content Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:635
+msgid "Slider Content"
+msgstr ""
+
+#: admin/metabox-init.php:641
+msgid "Slider Button 1 Text"
+msgstr ""
+
+#: admin/metabox-init.php:647
+msgid "Slider Button 1 URL"
+msgstr ""
+
+#: admin/metabox-init.php:653
+msgid "Slider Button 2 Text"
+msgstr ""
+
+#: admin/metabox-init.php:659
+msgid "Slider Button 2 URL"
+msgstr ""
+
+#: admin/metabox-init.php:724
+msgid "Quote Form small text"
+msgstr ""
+
+#: admin/metabox-init.php:730
+msgid "Quote Form Title"
+msgstr ""
+
+#: admin/metabox-init.php:739 admin/metabox-init.php:1063
+#: admin/metabox-init.php:1123 admin/metabox-init.php:2041
+msgid "CF7 Form"
+msgstr ""
+
+#: admin/metabox-init.php:761 admin/metabox-init.php:829
+#: admin/metabox-init.php:920 admin/metabox-init.php:976
+#: admin/metabox-init.php:1028 admin/metabox-init.php:1818
+msgid "About Section"
+msgstr ""
+
+#: admin/metabox-init.php:769 admin/metabox-init.php:837
+#: admin/metabox-init.php:928 admin/metabox-init.php:984
+#: admin/metabox-init.php:1036 admin/metabox-init.php:1091
+#: admin/metabox-init.php:1188
+msgid "Small Title"
+msgstr ""
+
+#: admin/metabox-init.php:775 admin/metabox-init.php:843
+#: admin/metabox-init.php:934 admin/metabox-init.php:990
+#: admin/metabox-init.php:1042
+msgid "About Content"
+msgstr ""
+
+#: admin/metabox-init.php:781 admin/metabox-init.php:849
+#: admin/metabox-init.php:940 admin/metabox-init.php:996
+msgid "About More Text"
+msgstr ""
+
+#: admin/metabox-init.php:787 admin/metabox-init.php:855
+#: admin/metabox-init.php:946 admin/metabox-init.php:1002
+msgid "About More URL"
+msgstr ""
+
+#: admin/metabox-init.php:793
+msgid "About Image 1"
+msgstr ""
+
+#: admin/metabox-init.php:799
+msgid "About Image 2"
+msgstr ""
+
+#: admin/metabox-init.php:805
+msgid "About Image 3"
+msgstr ""
+
+#: admin/metabox-init.php:811
+msgid "About Image 4"
+msgstr ""
+
+#: admin/metabox-init.php:861 admin/metabox-init.php:952
+msgid "About Video Image"
+msgstr ""
+
+#: admin/metabox-init.php:867 admin/metabox-init.php:958
+#: admin/metabox-init.php:2664
+msgid "Video URL"
+msgstr ""
+
+#: admin/metabox-init.php:873
+msgid "Opening Hours Title"
+msgstr ""
+
+#: admin/metabox-init.php:882
+msgid "Open Hours {#}"
+msgstr ""
+
+#: admin/metabox-init.php:883
+msgid "Add Another Open Hours"
+msgstr ""
+
+#: admin/metabox-init.php:884
+msgid "Remove Open Hours"
+msgstr ""
+
+#: admin/metabox-init.php:890 admin/metabox-init.php:1174
+#: admin/metabox-init.php:1567 admin/metabox-init.php:1629
+#: admin/options-init.php:418 admin/options-init.php:505
+#: admin/options-init.php:592
+msgid "Icon"
+msgstr ""
+
+#: admin/metabox-init.php:897 admin/metabox-init.php:1181
+#: admin/metabox-init.php:1574 admin/metabox-init.php:1636
+#: admin/options-init.php:431 admin/options-init.php:518
+#: admin/options-init.php:605
+msgid "Icon Image"
+msgstr ""
+
+#: admin/metabox-init.php:906
+msgid ""
+"Linearicons icon code. i.e: lnr-home. You can get the code <a href=\"https://"
+"linearicons.com/free\">here</a>"
+msgstr ""
+
+#: admin/metabox-init.php:1008 admin/metabox-init.php:1884
+#: admin/metabox-init.php:1917 admin/metabox-init.php:2156
+msgid "Clients Category"
+msgstr ""
+
+#: admin/metabox-init.php:1048
+msgid "About Quote Form small text"
+msgstr ""
+
+#: admin/metabox-init.php:1054
+msgid "About Quote Form Title"
+msgstr ""
+
+#: admin/metabox-init.php:1083
+msgid "Quotation Section"
+msgstr ""
+
+#: admin/metabox-init.php:1097 admin/metabox-init.php:1581
+#: admin/metabox-init.php:1649 admin/metabox-init.php:2276
+#: admin/metabox-init.php:2400 admin/metabox-init.php:2439
+#: admin/metabox-init.php:2736 admin/options-init.php:460
+#: admin/options-init.php:547 admin/options-init.php:634
+#: admin/options-init.php:689
+msgid "Content"
+msgstr ""
+
+#: admin/metabox-init.php:1103
+msgid "Form Left Content"
+msgstr ""
+
+#: admin/metabox-init.php:1109
+msgid "Form Title"
+msgstr ""
+
+#: admin/metabox-init.php:1114
+msgid "Form Description"
+msgstr ""
+
+#: admin/metabox-init.php:1141 admin/metabox-init.php:1250
+#: admin/metabox-init.php:1345
+msgid "Services Section"
+msgstr ""
+
+#: admin/metabox-init.php:1152 admin/metabox-init.php:1261
+#: admin/metabox-init.php:1557 admin/metabox-init.php:1619
+#: admin/metabox/example-functions.php:410
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: admin/metabox-init.php:1154 admin/metabox-init.php:1263
+msgid "Service {#}"
+msgstr ""
+
+#: admin/metabox-init.php:1155 admin/metabox-init.php:1264
+msgid "Add Another Service"
+msgstr ""
+
+#: admin/metabox-init.php:1156 admin/metabox-init.php:1265
+msgid "Remove Service"
+msgstr ""
+
+#: admin/metabox-init.php:1162 admin/metabox-init.php:1525
+#: admin/metabox-init.php:1943 admin/metabox-init.php:2258
+#: admin/metabox-init.php:2350
+msgid "Background Image"
+msgstr ""
+
+#: admin/metabox-init.php:1168 admin/metabox-init.php:1271
+#: admin/metabox-init.php:1531 admin/metabox-init.php:1949
+#: admin/metabox-init.php:2264 admin/metabox-init.php:2356
+msgid "Background Color"
+msgstr ""
+
+#: admin/metabox-init.php:1194
+msgid "Small Title Font Color"
+msgstr ""
+
+#: admin/metabox-init.php:1200 admin/metabox-init.php:1277
+#: admin/metabox-init.php:1643 admin/metabox-init.php:2380
+#: admin/metabox-init.php:2433 admin/options-init.php:449
+#: admin/options-init.php:536 admin/options-init.php:623
+msgid "Title"
+msgstr ""
+
+#: admin/metabox-init.php:1206 admin/metabox-init.php:1283
+#: admin/options-init.php:454 admin/options-init.php:541
+#: admin/options-init.php:628
+msgid "Title Font Color"
+msgstr ""
+
+#: admin/metabox-init.php:1218 admin/metabox-init.php:1295
+msgid "Description Font Color"
+msgstr ""
+
+#: admin/metabox-init.php:1224 admin/metabox-init.php:1301
+#: admin/metabox-init.php:1411 admin/metabox-init.php:1655
+#: admin/metabox-init.php:1798
+msgid "More Button Text"
+msgstr ""
+
+#: admin/metabox-init.php:1230 admin/metabox-init.php:1307
+#: admin/metabox-init.php:1417 admin/metabox-init.php:1660
+#: admin/metabox-init.php:1803
+msgid "More Button URL"
+msgstr ""
+
+#: admin/metabox-init.php:1235 admin/metabox-init.php:1312
+msgid "More Button Color"
+msgstr ""
+
+#: admin/metabox-init.php:1326
+msgid "Time Service"
+msgstr ""
+
+#: admin/metabox-init.php:1330
+msgid "Month"
+msgstr ""
+
+#: admin/metabox-init.php:1331
+msgid "Day"
+msgstr ""
+
+#: admin/metabox-init.php:1353 admin/metabox-init.php:1393
+#: admin/metabox-init.php:1448 admin/metabox-init.php:1486
+#: admin/metabox-init.php:1537 admin/metabox-init.php:1605
+#: admin/metabox-init.php:1694 admin/metabox-init.php:1826
+#: admin/metabox-init.php:1866 admin/metabox-init.php:2270
+msgid "Section Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:1359 admin/metabox-init.php:1454
+#: admin/metabox-init.php:1611 admin/metabox-init.php:1700
+#: admin/metabox-init.php:1832 admin/metabox-init.php:1878
+msgid "Section Content"
+msgstr ""
+
+#: admin/metabox-init.php:1365
+msgid "Service Posts Category"
+msgstr ""
+
+#: admin/metabox-init.php:1385 admin/metabox-init.php:1440
+#: admin/metabox-init.php:1478
+msgid "News Section"
+msgstr ""
+
+#: admin/metabox-init.php:1399 admin/metabox-init.php:1492
+#: admin/metabox-init.php:1543 admin/metabox-init.php:1872
+#: admin/metabox-init.php:1911 admin/metabox-init.php:2362
+msgid "Section Title"
+msgstr ""
+
+#: admin/metabox-init.php:1405 admin/metabox-init.php:1549
+msgid "Section Description"
+msgstr ""
+
+#: admin/metabox-init.php:1423 admin/metabox-init.php:1460
+#: admin/metabox-init.php:1498
+msgid "Post Tag"
+msgstr ""
+
+#: admin/metabox-init.php:1517
+msgid "Facts Section"
+msgstr ""
+
+#: admin/metabox-init.php:1559
+msgid "Fact {#}"
+msgstr ""
+
+#: admin/metabox-init.php:1560
+msgid "Add Another Fact"
+msgstr ""
+
+#: admin/metabox-init.php:1561
+msgid "Remove Fact"
+msgstr ""
+
+#: admin/metabox-init.php:1597 admin/metabox-init.php:1686
+msgid "About Details Section"
+msgstr ""
+
+#: admin/metabox-init.php:1621
+msgid "Detail {#}"
+msgstr ""
+
+#: admin/metabox-init.php:1622
+msgid "Add Another Detail"
+msgstr ""
+
+#: admin/metabox-init.php:1623
+msgid "Remove Detail"
+msgstr ""
+
+#: admin/metabox-init.php:1665
+msgid "Book Button Text"
+msgstr ""
+
+#: admin/metabox-init.php:1670
+msgid "Book Button URL"
+msgstr ""
+
+#: admin/metabox-init.php:1706
+msgid "Home Owner Section Icon"
+msgstr ""
+
+#: admin/metabox-init.php:1713
+msgid "Home Owner Section Icon Image"
+msgstr ""
+
+#: admin/metabox-init.php:1714 admin/metabox-init.php:1745
+#: admin/metabox-init.php:1775 admin/metabox-init.php:2963
+msgid "Will replace the icon above"
+msgstr ""
+
+#: admin/metabox-init.php:1720
+msgid "Home Owner Count"
+msgstr ""
+
+#: admin/metabox-init.php:1726
+msgid "Home Owner Section Title"
+msgstr ""
+
+#: admin/metabox-init.php:1731
+msgid "Home Owner Section Description"
+msgstr ""
+
+#: admin/metabox-init.php:1737
+msgid "Ongoing Project Section Icon"
+msgstr ""
+
+#: admin/metabox-init.php:1744
+msgid "Ongoing Project Section Icon Image"
+msgstr ""
+
+#: admin/metabox-init.php:1751
+msgid "Ongoing Project Count"
+msgstr ""
+
+#: admin/metabox-init.php:1757
+msgid "Ongoing Project Section Title"
+msgstr ""
+
+#: admin/metabox-init.php:1762
+msgid "Ongoing Project Section Description"
+msgstr ""
+
+#: admin/metabox-init.php:1767
+msgid "Future Plans Section Icon"
+msgstr ""
+
+#: admin/metabox-init.php:1774
+msgid "Future Plans Section Icon Image"
+msgstr ""
+
+#: admin/metabox-init.php:1781
+msgid "Future Plans Count"
+msgstr ""
+
+#: admin/metabox-init.php:1787
+msgid "Future Plans Section Title"
+msgstr ""
+
+#: admin/metabox-init.php:1792
+msgid "Future Plans Section Description"
+msgstr ""
+
+#: admin/metabox-init.php:1838
+msgid "About Images Slider"
+msgstr ""
+
+#: admin/metabox-init.php:1839 admin/metabox-init.php:2909
+#: admin/metabox/example-functions.php:330
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: admin/metabox-init.php:1858 admin/metabox-init.php:1903
+#: admin/metabox-init.php:2142
+msgid "Clients Section"
+msgstr ""
+
+#: admin/metabox-init.php:1935 admin/metabox-init.php:1986
+#: admin/metabox-init.php:2061 admin/metabox-init.php:2093
+msgid "Testimonials Section"
+msgstr ""
+
+#: admin/metabox-init.php:1955
+msgid "Testimonial Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:1961
+msgid "Testimonial Title"
+msgstr ""
+
+#: admin/metabox-init.php:1967 admin/metabox-init.php:2006
+#: admin/metabox-init.php:2075 admin/metabox-init.php:2113 inc/extras.php:384
+msgid "Testimonials Category"
+msgstr ""
+
+#: admin/metabox-init.php:1994 admin/metabox-init.php:2101
+msgid "Testimonial Section Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:2000 admin/metabox-init.php:2107
+msgid "Testimonial Section Title"
+msgstr ""
+
+#: admin/metabox-init.php:2014 admin/metabox-init.php:2121
+msgid "Testimonial Callout Image"
+msgstr ""
+
+#: admin/metabox-init.php:2020
+msgid "Testimonial Callout content"
+msgstr ""
+
+#: admin/metabox-init.php:2026
+msgid "Testimonial Quote Form small text"
+msgstr ""
+
+#: admin/metabox-init.php:2032
+msgid "Testimonial Quote Form Title"
+msgstr ""
+
+#: admin/metabox-init.php:2069
+msgid "Show Testimonials Section"
+msgstr ""
+
+#: admin/metabox-init.php:2127
+msgid "Testimonial Callout Content"
+msgstr ""
+
+#: admin/metabox-init.php:2150
+msgid "Show Clients Section"
+msgstr ""
+
+#: admin/metabox-init.php:2173
+msgid "Call out Section"
+msgstr ""
+
+#: admin/metabox-init.php:2181
+msgid "Callout Image"
+msgstr ""
+
+#: admin/metabox-init.php:2187
+msgid "Callout Left Content"
+msgstr ""
+
+#: admin/metabox-init.php:2193
+msgid "Callout Right Content"
+msgstr ""
+
+#: admin/metabox-init.php:2206
+msgid "Projects Section"
+msgstr ""
+
+#: admin/metabox-init.php:2214
+msgid "Project Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:2220
+msgid "Project Title"
+msgstr ""
+
+#: admin/metabox-init.php:2226
+msgid "Project Content"
+msgstr ""
+
+#: admin/metabox-init.php:2232
+msgid "Projects Type"
+msgstr ""
+
+#: admin/metabox-init.php:2250
+msgid "Parallax Section"
+msgstr ""
+
+#: admin/metabox-init.php:2282
+msgid "Featured Logo Text"
+msgstr ""
+
+#: admin/metabox-init.php:2288
+msgid "Featured Logo"
+msgstr ""
+
+#: admin/metabox-init.php:2301
+msgid "Book Calendar Title"
+msgstr ""
+
+#: admin/metabox-init.php:2306
+msgid "Booked shortcode"
+msgstr ""
+
+#: admin/metabox-init.php:2342
+msgid "Tab Section"
+msgstr ""
+
+#: admin/metabox-init.php:2370
+msgid "Tab Details"
+msgstr ""
+
+#: admin/metabox-init.php:2372
+msgid "Tab {#}"
+msgstr ""
+
+#: admin/metabox-init.php:2373
+msgid "Add Another Tab"
+msgstr ""
+
+#: admin/metabox-init.php:2374
+msgid "Remove Tab"
+msgstr ""
+
+#: admin/metabox-init.php:2386
+msgid "Title Icon"
+msgstr ""
+
+#: admin/metabox-init.php:2393
+msgid "Title Image"
+msgstr ""
+
+#: admin/metabox-init.php:2394
+msgid "Will replace the text title above"
+msgstr ""
+
+#: admin/metabox-init.php:2414
+msgid "FAQ Options"
+msgstr ""
+
+#: admin/metabox-init.php:2423
+msgid "FAQ Details"
+msgstr ""
+
+#: admin/metabox-init.php:2425
+msgid "FAQ {#}"
+msgstr ""
+
+#: admin/metabox-init.php:2426
+msgid "Add Another FAQ"
+msgstr ""
+
+#: admin/metabox-init.php:2427
+msgid "Remove FAQ"
+msgstr ""
+
+#: admin/metabox-init.php:2453 admin/metabox-init.php:2889
+msgid "Gallery Options"
+msgstr ""
+
+#: admin/metabox-init.php:2460
+msgid "Gallery Column"
+msgstr ""
+
+#: admin/metabox-init.php:2465 admin/metabox-init.php:2505
+msgid "3 Columns"
+msgstr ""
+
+#: admin/metabox-init.php:2466
+msgid "4 Columns"
+msgstr ""
+
+#: admin/metabox-init.php:2471 admin/metabox-init.php:2902
+msgid "Gallery Sub Title"
+msgstr ""
+
+#: admin/metabox-init.php:2477 admin/metabox-init.php:2641
+#: admin/metabox-init.php:2730
+msgid "Upload Images"
+msgstr ""
+
+#: admin/metabox-init.php:2492
+msgid "Portfolio Options"
+msgstr ""
+
+#: admin/metabox-init.php:2499
+msgid "Portfolio Column"
+msgstr ""
+
+#: admin/metabox-init.php:2504
+msgid "2 Columns"
+msgstr ""
+
+#: admin/metabox-init.php:2510
+msgid "Portfolio Sub Title"
+msgstr ""
+
+#: admin/metabox-init.php:2524 admin/metabox-init.php:2854
+msgid "Pricing Options"
+msgstr ""
+
+#: admin/metabox-init.php:2531 admin/metabox-init.php:2867
+msgid "Pricing Sub Title"
+msgstr ""
+
+#: admin/metabox-init.php:2537 admin/metabox-init.php:2873
+msgid "Pricing Category"
+msgstr ""
+
+#: admin/metabox-init.php:2557
+msgid "Team Section"
+msgstr ""
+
+#: admin/metabox-init.php:2565
+msgid "Team Section Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:2571
+msgid "Team Section Title"
+msgstr ""
+
+#: admin/metabox-init.php:2577
+msgid "Team Section Description"
+msgstr ""
+
+#: admin/metabox-init.php:2583 inc/extras.php:410
+msgid "Team Category"
+msgstr ""
+
+#: admin/metabox-init.php:2601
+msgid "Post Options"
+msgstr ""
+
+#: admin/metabox-init.php:2607
+msgid "Post Color Scheme"
+msgstr ""
+
+#: admin/metabox-init.php:2613
+msgid "Post Layout"
+msgstr ""
+
+#: admin/metabox-init.php:2633
+msgid "Images Gallery"
+msgstr ""
+
+#: admin/metabox-init.php:2656
+msgid "Video Options"
+msgstr ""
+
+#: admin/metabox-init.php:2678
+msgid "Quote Options"
+msgstr ""
+
+#: admin/metabox-init.php:2686
+msgid "Quote Content"
+msgstr ""
+
+#: admin/metabox-init.php:2700
+msgid "Link Options"
+msgstr ""
+
+#: admin/metabox-init.php:2708
+msgid "External Link URL"
+msgstr ""
+
+#: admin/metabox-init.php:2722
+msgid "About Options"
+msgstr ""
+
+#: admin/metabox-init.php:2749
+msgid "Services Options"
+msgstr ""
+
+#: admin/metabox-init.php:2757
+msgid "Services Section Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:2763
+msgid "Services Section Title"
+msgstr ""
+
+#: admin/metabox-init.php:2769
+msgid "Services Section Description"
+msgstr ""
+
+#: admin/metabox-init.php:2775
+msgid "Services Category"
+msgstr ""
+
+#: admin/metabox-init.php:2790
+msgid "Schedule Options"
+msgstr ""
+
+#: admin/metabox-init.php:2798
+msgid "Schedule Section Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:2804
+msgid "Schedule Section Title"
+msgstr ""
+
+#: admin/metabox-init.php:2812
+msgid "Schedule"
+msgstr ""
+
+#: admin/metabox-init.php:2814 admin/metabox-init.php:2946
+#: admin/metabox/example-functions.php:412
+msgid "Entry {#}"
+msgstr ""
+
+#: admin/metabox-init.php:2815 admin/metabox-init.php:2947
+#: admin/metabox/example-functions.php:413
+msgid "Add Another Entry"
+msgstr ""
+
+#: admin/metabox-init.php:2816 admin/metabox-init.php:2948
+#: admin/metabox/example-functions.php:414
+msgid "Remove Entry"
+msgstr ""
+
+#: admin/metabox-init.php:2823
+msgid "Entry Day"
+msgstr ""
+
+#: admin/metabox-init.php:2829
+msgid "Entry Time"
+msgstr ""
+
+#: admin/metabox-init.php:2861
+msgid "Pricing Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:2896
+msgid "Gallery Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:2908
+msgid "Gallery Images"
+msgstr ""
+
+#: admin/metabox-init.php:2923
+msgid "WhyMe Options"
+msgstr ""
+
+#: admin/metabox-init.php:2930
+msgid "WhyMe Small Text"
+msgstr ""
+
+#: admin/metabox-init.php:2936
+msgid "WhyMe Sub Title"
+msgstr ""
+
+#: admin/metabox-init.php:2944
+msgid "WhyMe Entry"
+msgstr ""
+
+#: admin/metabox-init.php:2955
+msgid "WhyMe Icon"
+msgstr ""
+
+#: admin/metabox-init.php:2962
+msgid "WhyMe Icon Image"
+msgstr ""
+
+#: admin/metabox-init.php:2969
+msgid "WhyMe Content"
+msgstr ""
+
+#: admin/metabox/example-functions.php:82
+#: admin/metabox/tests/test-cmb-field.php:228
+msgid "Test Metabox"
+msgstr ""
+
+#: admin/metabox/example-functions.php:93
+#: admin/metabox/example-functions.php:380
+msgid "Test Text"
+msgstr ""
+
+#: admin/metabox/example-functions.php:94
+#: admin/metabox/example-functions.php:106
+#: admin/metabox/example-functions.php:114
+#: admin/metabox/example-functions.php:122
+#: admin/metabox/example-functions.php:131
+#: admin/metabox/example-functions.php:139
+#: admin/metabox/example-functions.php:153
+#: admin/metabox/example-functions.php:160
+#: admin/metabox/example-functions.php:168
+#: admin/metabox/example-functions.php:185
+#: admin/metabox/example-functions.php:194
+#: admin/metabox/example-functions.php:202
+#: admin/metabox/example-functions.php:209
+#: admin/metabox/example-functions.php:216
+#: admin/metabox/example-functions.php:230
+#: admin/metabox/example-functions.php:243
+#: admin/metabox/example-functions.php:256
+#: admin/metabox/example-functions.php:268
+#: admin/metabox/example-functions.php:277
+#: admin/metabox/example-functions.php:285
+#: admin/metabox/example-functions.php:294
+#: admin/metabox/example-functions.php:301
+#: admin/metabox/example-functions.php:315
+#: admin/metabox/example-functions.php:381
+#: admin/metabox/example-functions.php:476
+#: admin/metabox/example-functions.php:484
+#: admin/metabox/example-functions.php:491
+#: admin/metabox/example-functions.php:498
+#: admin/metabox/example-functions.php:505
+#: admin/metabox/example-functions.php:512
+#: admin/metabox/example-functions.php:519
+#: admin/metabox/example-functions.php:557
+#: admin/metabox/tests/test-cmb-field.php:240
+msgid "field description (optional)"
+msgstr ""
+
+#: admin/metabox/example-functions.php:105
+msgid "Test Text Small"
+msgstr ""
+
+#: admin/metabox/example-functions.php:113
+msgid "Test Text Medium"
+msgstr ""
+
+#: admin/metabox/example-functions.php:121
+msgid "Website URL"
+msgstr ""
+
+#: admin/metabox/example-functions.php:130
+msgid "Test Text Email"
+msgstr ""
+
+#: admin/metabox/example-functions.php:138
+msgid "Test Time"
+msgstr ""
+
+#: admin/metabox/example-functions.php:145
+#: admin/metabox/example-functions.php:146
+msgid "Time zone"
+msgstr ""
+
+#: admin/metabox/example-functions.php:152
+msgid "Test Date Picker"
+msgstr ""
+
+#: admin/metabox/example-functions.php:159
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: admin/metabox/example-functions.php:167
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: admin/metabox/example-functions.php:184
+msgid "Test Money"
+msgstr ""
+
+#: admin/metabox/example-functions.php:193
+msgid "Test Color Picker"
+msgstr ""
+
+#: admin/metabox/example-functions.php:201
+msgid "Test Text Area"
+msgstr ""
+
+#: admin/metabox/example-functions.php:208
+msgid "Test Text Area Small"
+msgstr ""
+
+#: admin/metabox/example-functions.php:215
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: admin/metabox/example-functions.php:222
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: admin/metabox/example-functions.php:223
+msgid "This is a title description"
+msgstr ""
+
+#: admin/metabox/example-functions.php:229
+msgid "Test Select"
+msgstr ""
+
+#: admin/metabox/example-functions.php:235
+#: admin/metabox/example-functions.php:248
+#: admin/metabox/example-functions.php:260
+msgid "Option One"
+msgstr ""
+
+#: admin/metabox/example-functions.php:236
+#: admin/metabox/example-functions.php:249
+#: admin/metabox/example-functions.php:261
+msgid "Option Two"
+msgstr ""
+
+#: admin/metabox/example-functions.php:237
+#: admin/metabox/example-functions.php:250
+#: admin/metabox/example-functions.php:262
+msgid "Option Three"
+msgstr ""
+
+#: admin/metabox/example-functions.php:242
+msgid "Test Radio inline"
+msgstr ""
+
+#: admin/metabox/example-functions.php:255
+msgid "Test Radio"
+msgstr ""
+
+#: admin/metabox/example-functions.php:267
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: admin/metabox/example-functions.php:276
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: admin/metabox/example-functions.php:284
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: admin/metabox/example-functions.php:293
+msgid "Test Checkbox"
+msgstr ""
+
+#: admin/metabox/example-functions.php:300
+#: admin/metabox/tests/test-cmb-field.php:239
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: admin/metabox/example-functions.php:306
+#: admin/metabox/tests/test-cmb-field.php:245
+msgid "Check One"
+msgstr ""
+
+#: admin/metabox/example-functions.php:307
+#: admin/metabox/tests/test-cmb-field.php:246
+msgid "Check Two"
+msgstr ""
+
+#: admin/metabox/example-functions.php:308
+#: admin/metabox/tests/test-cmb-field.php:247
+msgid "Check Three"
+msgstr ""
+
+#: admin/metabox/example-functions.php:314
+msgid "Test wysiwyg"
+msgstr ""
+
+#: admin/metabox/example-functions.php:322
+msgid "Test Image"
+msgstr ""
+
+#: admin/metabox/example-functions.php:323
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: admin/metabox/example-functions.php:329
+msgid "Multiple Files"
+msgstr ""
+
+#: admin/metabox/example-functions.php:337
+msgid "oEmbed"
+msgstr ""
+
+#: admin/metabox/example-functions.php:338
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
+msgstr ""
+
+#: admin/metabox/example-functions.php:371
+msgid "About Page Metabox"
+msgstr ""
+
+#: admin/metabox/example-functions.php:402
+msgid "Repeating Field Group"
+msgstr ""
+
+#: admin/metabox/example-functions.php:427
+msgid "Entry Title"
+msgstr ""
+
+#: admin/metabox/example-functions.php:435
+msgid "Write a short description for this entry"
+msgstr ""
+
+#: admin/metabox/example-functions.php:441
+msgid "Entry Image"
+msgstr ""
+
+#: admin/metabox/example-functions.php:447
+msgid "Image Caption"
+msgstr ""
+
+#: admin/metabox/example-functions.php:468
+msgid "User Profile Metabox"
+msgstr ""
+
+#: admin/metabox/example-functions.php:475
+msgid "Extra Info"
+msgstr ""
+
+#: admin/metabox/example-functions.php:483
+msgid "Avatar"
+msgstr ""
+
+#: admin/metabox/example-functions.php:490 admin/options-init.php:267
+msgid "Facebook URL"
+msgstr ""
+
+#: admin/metabox/example-functions.php:497 admin/options-init.php:275
+msgid "Twitter URL"
+msgstr ""
+
+#: admin/metabox/example-functions.php:504 admin/options-init.php:283
+msgid "Google+ URL"
+msgstr ""
+
+#: admin/metabox/example-functions.php:511 admin/options-init.php:298
+msgid "Linkedin URL"
+msgstr ""
+
+#: admin/metabox/example-functions.php:518
+msgid "User Field"
+msgstr ""
+
+#: admin/metabox/example-functions.php:541
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: admin/metabox/example-functions.php:556
+msgid "Site Background Color"
+msgstr ""
+
+#: admin/metabox/includes/CMB2.php:120
+msgid "Metabox configuration is required to have an ID parameter"
+msgstr ""
+
+#: admin/metabox/includes/CMB2.php:326
+msgid "Click to toggle"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Ajax.php:40
+msgid "Please Try Again"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Ajax.php:135
+#: admin/metabox/tests/test-cmb-types.php:786
+msgid "Remove Embed"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Ajax.php:139
+#: admin/metabox/tests/test-cmb-types.php:787
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Field.php:910
+msgid "Add Group"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Field.php:911
+msgid "Remove Group"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Field.php:933
+#: admin/metabox/includes/CMB2_Field.php:937
+#: admin/metabox/tests/test-cmb-field.php:200
+msgid "None"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:86 admin/metabox/includes/CMB2_JS.php:119
+msgid "Clear"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:87
+msgid "Default"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:88
+msgid "Select Color"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:89
+msgid "Current Color"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:110
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:111
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:112
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:113
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:114
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:115
+msgid "Next"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:116
+msgid "Prev"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:117
+msgid "Today"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:118
+#: admin/metabox/includes/CMB2_JS.php:128
+msgid "Done"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:122
+msgid "Choose Time"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:123
+msgid "Time"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:124
+msgid "Hour"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:125
+msgid "Minute"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:126
+msgid "Second"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:127
+msgid "Now"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:135
+msgid "Use this file"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:136
+msgid "Use these files"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:137
+#: admin/metabox/includes/CMB2_Types.php:990
+msgid "Remove Image"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:138
+#: admin/metabox/includes/CMB2_Types.php:357
+#: admin/metabox/includes/CMB2_Types.php:1009
+#: admin/metabox/tests/test-cmb-types.php:155
+#: admin/metabox/tests/test-cmb-types.php:163
+#: admin/metabox/tests/test-cmb-types.php:735
+#: admin/metabox/tests/test-cmb-types.php:760
+msgid "Remove"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:139
+#: admin/metabox/includes/CMB2_Types.php:1004
+#: admin/metabox/tests/test-cmb-types.php:736
+#: admin/metabox/tests/test-cmb-types.php:761
+msgid "File:"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:140
+#: admin/metabox/includes/CMB2_Types.php:1007
+#: admin/metabox/tests/test-cmb-types.php:734
+#: admin/metabox/tests/test-cmb-types.php:759
+msgid "Download"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_JS.php:141
+msgid "Select / Deselect All"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Types.php:298
+msgid "Add Row"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Types.php:735
+#: admin/metabox/includes/CMB2_Types.php:783
+msgid "No terms"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Types.php:850
+#: admin/metabox/tests/test-cmb-types.php:711
+#: admin/metabox/tests/test-cmb-types.php:737
+msgid "Add or Upload Files"
+msgstr ""
+
+#: admin/metabox/includes/CMB2_Types.php:912
+#: admin/metabox/tests/test-cmb-types.php:747
+#: admin/metabox/tests/test-cmb-types.php:762
+msgid "Add or Upload File"
+msgstr ""
+
+#: admin/metabox/includes/helper-functions.php:249
+msgid "Save"
+msgstr ""
+
+#: admin/options-init.php:116
+msgid "Theme Information 1"
+msgstr ""
+
+#: admin/options-init.php:117 admin/options-init.php:122
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: admin/options-init.php:121
+msgid "Theme Information 2"
+msgstr ""
+
+#: admin/options-init.php:128
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: admin/options-init.php:144
+msgid "General"
+msgstr ""
+
+#: admin/options-init.php:152
+msgid "Favicon"
+msgstr ""
+
+#: admin/options-init.php:153 admin/options-init.php:222
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:158
+msgid "Select Default Site Layout"
+msgstr ""
+
+#: admin/options-init.php:169
+msgid "Default Color Scheme"
+msgstr ""
+
+#: admin/options-init.php:174
+msgid "Meta Description"
+msgstr ""
+
+#: admin/options-init.php:175
+msgid ""
+"This is the site meta description field. Leave it empty if you want to use a "
+"plugin instead."
+msgstr ""
+
+#: admin/options-init.php:180
+msgid "Meta Keyword"
+msgstr ""
+
+#: admin/options-init.php:181
+msgid ""
+"This is the site meta keyword field. Leave it empty if you want to use a "
+"plugin instead."
+msgstr ""
+
+#: admin/options-init.php:186
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/options-init.php:187
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: admin/options-init.php:195
+msgid "JS Code"
+msgstr ""
+
+#: admin/options-init.php:196
+msgid "Paste your JS code here."
+msgstr ""
+
+#: admin/options-init.php:204
+msgid "GA Code"
+msgstr ""
+
+#: admin/options-init.php:205
+msgid "Paste your Google Analytics code here."
+msgstr ""
+
+#: admin/options-init.php:213
+msgid "Header"
+msgstr ""
+
+#: admin/options-init.php:221
+msgid "Logo"
+msgstr ""
+
+#: admin/options-init.php:227
+msgid "Header Social Icon, Enable to show"
+msgstr ""
+
+#: admin/options-init.php:228
+msgid "Set your social media account <a href=\"#\">here</a>"
+msgstr ""
+
+#: admin/options-init.php:236
+msgid "Header Quote, Enable to show"
+msgstr ""
+
+#: admin/options-init.php:259
+msgid "Social Media"
+msgstr ""
+
+#: admin/options-init.php:261
+msgid "Social Media Account."
+msgstr ""
+
+#: admin/options-init.php:268
+msgid "Add your facebook page url."
+msgstr ""
+
+#: admin/options-init.php:276
+msgid "Add your twitter page url."
+msgstr ""
+
+#: admin/options-init.php:284
+msgid "Add your google+ page url."
+msgstr ""
+
+#: admin/options-init.php:291
+msgid "Instagram URL"
+msgstr ""
+
+#: admin/options-init.php:292
+msgid "Add your instagram page url."
+msgstr ""
+
+#: admin/options-init.php:299
+msgid "Add your linkedin page url."
+msgstr ""
+
+#: admin/options-init.php:305
+msgid "Youtube URL"
+msgstr ""
+
+#: admin/options-init.php:306
+msgid "Add your youtube page url."
+msgstr ""
+
+#: admin/options-init.php:314 inc/extras.php:943
+msgid "Page"
+msgstr ""
+
+#: admin/options-init.php:320
+msgid "Contact"
+msgstr ""
+
+#: admin/options-init.php:322
+msgid "Contact Info."
+msgstr ""
+
+#: admin/options-init.php:329
+msgid "Contact small text"
+msgstr ""
+
+#: admin/options-init.php:334
+msgid "Contact Form Title"
+msgstr ""
+
+#: admin/options-init.php:339 template-contact.php:43
+msgid "Address"
+msgstr ""
+
+#: admin/options-init.php:344
+msgid "Phone 1"
+msgstr ""
+
+#: admin/options-init.php:349
+msgid "Phone 2"
+msgstr ""
+
+#: admin/options-init.php:360
+msgid "Map Latitude"
+msgstr ""
+
+#: admin/options-init.php:365
+msgid "Map Longitude"
+msgstr ""
+
+#: admin/options-init.php:371
+msgid "Service Archive"
+msgstr ""
+
+#: admin/options-init.php:373
+msgid "Service Archive Page Options"
+msgstr ""
+
+#: admin/options-init.php:380
+msgid "Archive Page Title"
+msgstr ""
+
+#: admin/options-init.php:385
+msgid "Archive Content Background"
+msgstr ""
+
+#: admin/options-init.php:386
+msgid "Archive Content background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:391
+msgid "Archive Content Small Text"
+msgstr ""
+
+#: admin/options-init.php:396
+msgid "Archive Content Title"
+msgstr ""
+
+#: admin/options-init.php:401
+msgid "Archive Content Description"
+msgstr ""
+
+#: admin/options-init.php:406
+msgid "Service Details 1"
+msgstr ""
+
+#: admin/options-init.php:412
+msgid "Service Details 1 Background"
+msgstr ""
+
+#: admin/options-init.php:413
+msgid "Service Details 1 background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:424
+msgid "Icon 1 Font Color"
+msgstr ""
+
+#: admin/options-init.php:438 admin/options-init.php:525
+#: admin/options-init.php:612 admin/options-init.php:756
+msgid "Small Text"
+msgstr ""
+
+#: admin/options-init.php:443 admin/options-init.php:530
+#: admin/options-init.php:617
+msgid "Small Text Font Color"
+msgstr ""
+
+#: admin/options-init.php:465 admin/options-init.php:552
+#: admin/options-init.php:639
+msgid "Content Font Color"
+msgstr ""
+
+#: admin/options-init.php:471 admin/options-init.php:558
+#: admin/options-init.php:645
+msgid "Read More Button Text"
+msgstr ""
+
+#: admin/options-init.php:476 admin/options-init.php:563
+#: admin/options-init.php:650
+msgid "Read More Button URL"
+msgstr ""
+
+#: admin/options-init.php:482 admin/options-init.php:569
+#: admin/options-init.php:656
+msgid "Read More Button Color"
+msgstr ""
+
+#: admin/options-init.php:493
+msgid "Service Details 2"
+msgstr ""
+
+#: admin/options-init.php:499
+msgid "Service Details 2 Background"
+msgstr ""
+
+#: admin/options-init.php:500
+msgid "Service Details 2 background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:511
+msgid "Icon 2 Font Color"
+msgstr ""
+
+#: admin/options-init.php:580
+msgid "Service Details 3"
+msgstr ""
+
+#: admin/options-init.php:586
+msgid "Service Details 3 Background"
+msgstr ""
+
+#: admin/options-init.php:587
+msgid "Service Details 3 background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:598
+msgid "Icon 3 Font Color"
+msgstr ""
+
+#: admin/options-init.php:668
+msgid "404 Error"
+msgstr ""
+
+#: admin/options-init.php:670
+msgid "404 Page Options."
+msgstr ""
+
+#: admin/options-init.php:677
+msgid "404 Left Content"
+msgstr ""
+
+#: admin/options-init.php:683
+msgid "Left Content Title"
+msgstr ""
+
+#: admin/options-init.php:700
+msgid "404 Right Content"
+msgstr ""
+
+#: admin/options-init.php:706
+msgid "Right Content Title"
+msgstr ""
+
+#: admin/options-init.php:711 admin/options-init.php:762
+msgid "Editor"
+msgstr ""
+
+#: admin/options-init.php:716
+msgid "Error 404 menu"
+msgstr ""
+
+#: admin/options-init.php:740
+msgid "Footer"
+msgstr ""
+
+#: admin/options-init.php:747
+msgid "Footer Quote, Enable to show"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333 inc/extras.php:751
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334 inc/extras.php:752
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335 inc/extras.php:753
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:336 inc/extras.php:754
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397 inc/extras.php:815
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:399
+#: inc/class-tgm-plugin-activation.php:3034 inc/extras.php:816
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:400 inc/extras.php:817
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:401 inc/extras.php:818
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402 inc/extras.php:819
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403 inc/extras.php:820
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:405 inc/extras.php:821
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2172
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2175
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2191
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2194
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2197
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2214
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2218
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2220
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2226
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2229
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2232
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2384
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2392
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2404
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2441
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2442
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2443
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2447
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2448
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2608
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2614
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2617
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2648
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2650
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2686
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2688
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3033
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3367
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3369
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3374
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3375
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3376
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3377
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3380
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3382
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3383
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/extras.php:91
+msgid "Add New Client"
+msgstr ""
+
+#: inc/extras.php:92
+msgid "New Client"
+msgstr ""
+
+#: inc/extras.php:93
+msgid "Edit Client"
+msgstr ""
+
+#: inc/extras.php:94
+msgid "View Client"
+msgstr ""
+
+#: inc/extras.php:95
+msgid "All Clients"
+msgstr ""
+
+#: inc/extras.php:96
+msgid "Search Clients"
+msgstr ""
+
+#: inc/extras.php:97
+msgid "Parent Clients:"
+msgstr ""
+
+#: inc/extras.php:98
+msgid "No clients found."
+msgstr ""
+
+#: inc/extras.php:99
+msgid "No clients found in Trash."
+msgstr ""
+
+#: inc/extras.php:104 inc/extras.php:139 inc/extras.php:174 inc/extras.php:209
+#: inc/extras.php:245 inc/extras.php:280 inc/extras.php:315
+msgid "Description."
+msgstr ""
+
+#: inc/extras.php:126
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/extras.php:127
+msgid "New Testimonial"
+msgstr ""
+
+#: inc/extras.php:128
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/extras.php:129
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/extras.php:130
+msgid "All Testimonials"
+msgstr ""
+
+#: inc/extras.php:131
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/extras.php:132
+msgid "Parent Testimonials:"
+msgstr ""
+
+#: inc/extras.php:133
+msgid "No testimonials found."
+msgstr ""
+
+#: inc/extras.php:134
+msgid "No testimonials found in Trash."
+msgstr ""
+
+#: inc/extras.php:161
+msgid "Add New Team"
+msgstr ""
+
+#: inc/extras.php:162
+msgid "New Team"
+msgstr ""
+
+#: inc/extras.php:163
+msgid "Edit Team"
+msgstr ""
+
+#: inc/extras.php:164
+msgid "View Team"
+msgstr ""
+
+#: inc/extras.php:165
+msgid "All Team"
+msgstr ""
+
+#: inc/extras.php:166
+msgid "Search Team"
+msgstr ""
+
+#: inc/extras.php:167
+msgid "Parent Team:"
+msgstr ""
+
+#: inc/extras.php:168
+msgid "No Team found."
+msgstr ""
+
+#: inc/extras.php:169
+msgid "No Team found in Trash."
+msgstr ""
+
+#: inc/extras.php:196
+msgid "Add New Service"
+msgstr ""
+
+#: inc/extras.php:197
+msgid "New Service"
+msgstr ""
+
+#: inc/extras.php:198
+msgid "Edit Service"
+msgstr ""
+
+#: inc/extras.php:199
+msgid "View Service"
+msgstr ""
+
+#: inc/extras.php:200
+msgid "All Services"
+msgstr ""
+
+#: inc/extras.php:201
+msgid "Search Services"
+msgstr ""
+
+#: inc/extras.php:202
+msgid "Parent Services:"
+msgstr ""
+
+#: inc/extras.php:203
+msgid "No Services found."
+msgstr ""
+
+#: inc/extras.php:204
+msgid "No Services found in Trash."
+msgstr ""
+
+#: inc/extras.php:232
+msgid "Add New Project"
+msgstr ""
+
+#: inc/extras.php:233
+msgid "New Project"
+msgstr ""
+
+#: inc/extras.php:234
+msgid "Edit Project"
+msgstr ""
+
+#: inc/extras.php:235
+msgid "View Project"
+msgstr ""
+
+#: inc/extras.php:236
+msgid "All Projects"
+msgstr ""
+
+#: inc/extras.php:237
+msgid "Search Projects"
+msgstr ""
+
+#: inc/extras.php:238
+msgid "Parent Projects:"
+msgstr ""
+
+#: inc/extras.php:239
+msgid "No Projects found."
+msgstr ""
+
+#: inc/extras.php:240
+msgid "No Projects found in Trash."
+msgstr ""
+
+#: inc/extras.php:267
+msgid "Add New Portfolio"
+msgstr ""
+
+#: inc/extras.php:268
+msgid "New Portfolio"
+msgstr ""
+
+#: inc/extras.php:269
+msgid "Edit Portfolio"
+msgstr ""
+
+#: inc/extras.php:270
+msgid "View Portfolio"
+msgstr ""
+
+#: inc/extras.php:271
+msgid "All Portfolio"
+msgstr ""
+
+#: inc/extras.php:272
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/extras.php:273
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: inc/extras.php:274
+msgid "No Portfolio found."
+msgstr ""
+
+#: inc/extras.php:275
+msgid "No Portfolio found in Trash."
+msgstr ""
+
+#: inc/extras.php:302
+msgid "Add New Pricing"
+msgstr ""
+
+#: inc/extras.php:303
+msgid "New Pricing"
+msgstr ""
+
+#: inc/extras.php:304
+msgid "Edit Pricing"
+msgstr ""
+
+#: inc/extras.php:305
+msgid "View Pricing"
+msgstr ""
+
+#: inc/extras.php:306
+msgid "All Pricing"
+msgstr ""
+
+#: inc/extras.php:307
+msgid "Search Pricing"
+msgstr ""
+
+#: inc/extras.php:308
+msgid "Parent Pricing:"
+msgstr ""
+
+#: inc/extras.php:309
+msgid "No Pricing found."
+msgstr ""
+
+#: inc/extras.php:310
+msgid "No Pricing found in Trash."
+msgstr ""
+
+#: inc/extras.php:350 inc/extras.php:376 inc/extras.php:402 inc/extras.php:428
+#: inc/extras.php:455 inc/extras.php:507 inc/extras.php:533
+msgid "Search Categories"
+msgstr ""
+
+#: inc/extras.php:351 inc/extras.php:377 inc/extras.php:403 inc/extras.php:429
+#: inc/extras.php:456 inc/extras.php:508 inc/extras.php:534
+msgid "All Categories"
+msgstr ""
+
+#: inc/extras.php:352 inc/extras.php:378 inc/extras.php:404 inc/extras.php:430
+#: inc/extras.php:457 inc/extras.php:509 inc/extras.php:535
+msgid "Parent Category"
+msgstr ""
+
+#: inc/extras.php:353 inc/extras.php:379 inc/extras.php:405 inc/extras.php:431
+#: inc/extras.php:458 inc/extras.php:510 inc/extras.php:536
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/extras.php:354 inc/extras.php:380 inc/extras.php:406 inc/extras.php:432
+#: inc/extras.php:459 inc/extras.php:511 inc/extras.php:537
+msgid "Edit Category"
+msgstr ""
+
+#: inc/extras.php:355 inc/extras.php:381 inc/extras.php:407 inc/extras.php:433
+#: inc/extras.php:460 inc/extras.php:512 inc/extras.php:538
+msgid "Update Category"
+msgstr ""
+
+#: inc/extras.php:356 inc/extras.php:382 inc/extras.php:408 inc/extras.php:434
+#: inc/extras.php:461 inc/extras.php:513 inc/extras.php:539
+msgid "Add New Category"
+msgstr ""
+
+#: inc/extras.php:357 inc/extras.php:383 inc/extras.php:409 inc/extras.php:435
+#: inc/extras.php:462 inc/extras.php:514 inc/extras.php:540
+msgid "New Category Name"
+msgstr ""
+
+#: inc/extras.php:358
+msgid "Client Category"
+msgstr ""
+
+#: inc/extras.php:436
+msgid "Service Category"
+msgstr ""
+
+#: inc/extras.php:463
+msgid "Project Category"
+msgstr ""
+
+#: inc/extras.php:481
+msgid "Search Types"
+msgstr ""
+
+#: inc/extras.php:482
+msgid "All Types"
+msgstr ""
+
+#: inc/extras.php:483
+msgid "Parent Type"
+msgstr ""
+
+#: inc/extras.php:484
+msgid "Parent Type:"
+msgstr ""
+
+#: inc/extras.php:485
+msgid "Edit Type"
+msgstr ""
+
+#: inc/extras.php:486
+msgid "Update Type"
+msgstr ""
+
+#: inc/extras.php:487
+msgid "Add New Type"
+msgstr ""
+
+#: inc/extras.php:488
+msgid "New Type Name"
+msgstr ""
+
+#: inc/extras.php:489
+msgid "Project Type"
+msgstr ""
+
+#: inc/extras.php:515
+msgid "Portfolio Category"
+msgstr ""
+
+#: inc/extras.php:541
+msgid "Category"
+msgstr ""
+
+#: inc/extras.php:981
+msgid "<span class=\"lnr lnr-arrow-left\"></span>"
+msgstr ""
+
+#: inc/extras.php:982
+msgid "<span class=\"lnr lnr-arrow-right\"></span>"
+msgstr ""
+
+#: inc/extras.php:1178
+msgid "Name"
+msgstr ""
+
+#: inc/extras.php:1179
+msgid "Last Name"
+msgstr ""
+
+#: inc/extras.php:1181
+msgid "Phone"
+msgstr ""
+
+#: inc/extras.php:1182 inc/extras.php:1275 inc/extras.php:1311
+#: inc/theme-hook.php:338 inc/theme-widgets.php:327
+msgid "Service"
+msgstr ""
+
+#: inc/extras.php:1183
+msgid "Message"
+msgstr ""
+
+#: inc/extras.php:1184
+msgid "Submit"
+msgstr ""
+
+#: inc/extras.php:1186
+msgid "Please fill in all the required fields."
+msgstr ""
+
+#: inc/extras.php:1188
+msgid "Please enter a valid e-mail address."
+msgstr ""
+
+#: inc/extras.php:1190
+msgid "Thanks for your e-mail! We'll get back to you as soon as we can."
+msgstr ""
+
+#: inc/extras.php:1298
+msgid "Full Name"
+msgstr ""
+
+#: inc/extras.php:1299
+msgid "Email Address"
+msgstr ""
+
+#: inc/template-tags.php:298
+msgid "Related posts"
+msgstr ""
+
+#: inc/template-tags.php:313
+msgid "IN"
+msgstr ""
+
+#: inc/template-tags.php:350
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: inc/template-tags.php:361
+msgid "on: "
+msgstr ""
+
+#: inc/template-tags.php:363
+msgid "Posted by: "
+msgstr ""
+
+#: inc/template-tags.php:364
+msgid "in "
+msgstr ""
+
+#: inc/template-tags.php:376
+msgid "No Comments"
+msgstr ""
+
+#: inc/template-tags.php:378
+msgid " Comments"
+msgstr ""
+
+#: inc/template-tags.php:380
+msgid " Comment"
+msgstr ""
+
+#: inc/template-tags.php:384
+msgid "Comments are off for this post."
+msgstr ""
+
+#: inc/template-tags.php:399
+msgid "(Author)"
+msgstr ""
+
+#: inc/template-tags.php:412 template-parts/section/about-attorney.php:31
+#: template-parts/section/about-therapy.php:24
+#: template-parts/section/about-trainer.php:24
+#: template-parts/section/services-barber.php:54
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:426
+#, php-format
+msgid "<b class=\"fn\">%s</b> "
+msgstr ""
+
+#: inc/template-tags.php:429
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:432
+msgid "On: "
+msgstr ""
+
+#: inc/template-tags.php:433
+#, php-format
+msgid "%1$s &nbsp;"
+msgstr ""
+
+#: inc/template-tags.php:433
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-tags.php:434
+msgid "(Edit)"
+msgstr ""
+
+#: inc/theme-hook.php:320
+msgid "404 Error Page"
+msgstr ""
+
+#: inc/theme-hook.php:344
+msgid "Blog Post"
+msgstr ""
+
+#: inc/theme-widgets.php:13
+msgid "Bookme : Contact Info"
+msgstr ""
+
+#: inc/theme-widgets.php:14
+msgid "Display Contact Info."
+msgstr ""
+
+#: inc/theme-widgets.php:56
+msgid "Call Me: "
+msgstr ""
+
+#: inc/theme-widgets.php:113 inc/theme-widgets.php:230
+#: inc/theme-widgets.php:319
+msgid "Title:"
+msgstr ""
+
+#: inc/theme-widgets.php:118
+msgid "Map Latitude:"
+msgstr ""
+
+#: inc/theme-widgets.php:123
+msgid "Map Longitude:"
+msgstr ""
+
+#: inc/theme-widgets.php:128
+msgid "Map Zoom:"
+msgstr ""
+
+#: inc/theme-widgets.php:133
+msgid "Name:"
+msgstr ""
+
+#: inc/theme-widgets.php:138
+msgid "Address:"
+msgstr ""
+
+#: inc/theme-widgets.php:143
+msgid "Phone:"
+msgstr ""
+
+#: inc/theme-widgets.php:163
+msgid "Bookme : Recent Posts"
+msgstr ""
+
+#: inc/theme-widgets.php:164
+msgid "Display Recent Posts."
+msgstr ""
+
+#: inc/theme-widgets.php:235 inc/theme-widgets.php:331
+msgid "Posts to show:"
+msgstr ""
+
+#: inc/theme-widgets.php:255
+msgid "Bookme : Related Posts"
+msgstr ""
+
+#: inc/theme-widgets.php:256
+msgid "Display Related Posts."
+msgstr ""
+
+#: inc/theme-widgets.php:324
+msgid "Post Type:"
+msgstr ""
+
+#: inc/theme-widgets.php:326
+msgid "Post"
+msgstr ""
+
+#: template-contact.php:58
+msgid "Call me"
+msgstr ""
+
+#: template-contact.php:117
+msgid "Map & Locations"
+msgstr ""
+
+# @ _s
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+# @ _s
+#: template-parts/content.php:72
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/section/news-attorney.php:67
+#: template-parts/section/news-attorney.php:119
+msgid "Read more "
+msgstr ""
+
+#: template-parts/section/news-corporate-trainer.php:57
+#: template-parts/section/news-trainer.php:59
+#: template-parts/section/news.php:75
+msgid "Read more <span class=\"lnr lnr-arrow-right\"></span>"
+msgstr ""
+
+#: template-parts/section/news-corporate-trainer.php:66
+msgid "Read All Posts"
+msgstr ""
+
+#: template-parts/section/news.php:39
+msgid "More News"
+msgstr ""
+
+#: template-parts/section/pricing-barber.php:53
+#: template-parts/section/schedule-barber.php:47
+msgid "Book Me"
+msgstr ""
+
+#: template-parts/section/project-architect.php:29
+msgid "All"
+msgstr ""
+
+#: template-parts/section/project-architect.php:79
+msgid "View More"
+msgstr ""
+
+#: template-parts/section/projects.php:58
+msgid "View Gallery "
+msgstr ""
+
+#: template-parts/section/tab.php:48
+msgid "Tab "
+msgstr ""
+
+#: template-pricing.php:95
+msgid "Book Now"
+msgstr ""

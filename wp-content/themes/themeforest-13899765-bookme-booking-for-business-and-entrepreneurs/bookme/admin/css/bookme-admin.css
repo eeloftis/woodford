@@ -1,0 +1,48 @@
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+.option_tab {
+  float: right;
+  display: block;
+  max-width: 768px;
+  width: 100%;
+}
+.tab-panel a {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  float: left;
+  color: #555;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 7px 0;
+  display: inline-block;
+  width: 32%;
+  margin-left: 1%;
+  text-decoration: none;
+  text-align: center;
+}
+.tab-panel a:hover, .tab-panel a:focus {
+  border-color: #aaa;
+}
+
+.admin-color-fresh #redux-header, .wp-customizer #redux-header {
+  position: relative;
+}
+.bookme-logo {
+  background-image: url('../images/bookme-logo.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  height: 61px;
+  width: 162px;
+}

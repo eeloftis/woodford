@@ -1,0 +1,48 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">bookme_service</custom-type>
+        <custom-type translate="1">bookme_project</custom-type>
+        <custom-type translate="1">bookme_portfolio</custom-type>
+        <custom-type translate="1">bookme_pricing</custom-type>
+    </custom-types>
+	<admin-texts>
+		<key name="bookme_option">
+			<key name="meta_description" />
+			<key name="meta_keyword" />
+			<key name="header_quote_text" />
+			<key name="contact_small_text" />
+			<key name="contact_form_title" />
+			<key name="service_archive_title" />
+			<key name="service_archive_content_small_text" />
+			<key name="service_archive_content_title" />
+			<key name="service_archive_content_description" />
+			<key name="service_details1_small_text" />
+			<key name="service_details1_title" />
+			<key name="service_details1_content" />
+			<key name="service_details1_readmore_tex" />
+			<key name="service_details1_readmore_url" />
+			<key name="service_details2_small_text" />
+			<key name="service_details2_title" />
+			<key name="service_details2_content" />
+			<key name="service_details2_readmore_tex" />
+			<key name="service_details2_readmore_url" />
+			<key name="service_details3_small_text" />
+			<key name="service_details3_title" />
+			<key name="service_details3_content" />
+			<key name="service_details3_readmore_tex" />
+			<key name="service_details3_readmore_url" />
+			<key name="error404_left_title" />
+			<key name="error404_left_content" />
+			<key name="error404_right_title" />
+			<key name="error404_right_content" />
+			<key name="error404_btn_text" />
+			<key name="error404_btn_url" />
+			<key name="footer_quote_small_text" />
+			<key name="footer_quote_conten" />
+			<key name="footer_quote_btn_text" />
+			<key name="footer_quote_btn_url" />
+		</key>
+	</admin-texts> 
+</wpml-config>
+
+

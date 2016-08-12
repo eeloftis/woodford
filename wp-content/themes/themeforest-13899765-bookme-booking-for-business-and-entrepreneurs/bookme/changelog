@@ -1,0 +1,41 @@
+Changelog:
+
+Mar 17, 2016
+---------------------
+    Modifications:
+        - Small template fix
+
+    Files editted:
+        - template-parts/section/testi.php
+
+Jan 07, 2016
+---------------------
+    Modifications:
+        - Add custom image banner for each page
+        - Add custom breadcrumb color
+        - Add custom page title colour
+
+    Files editted:
+        - admin/metabox-init.php
+        - admin/options-init.php
+        - inc/extras.php
+        - inc/theme-hook.php 
+        
+
+Dec 22, 2015
+---------------------
+	Modifications:
+
+		 - Fix services section
+		 - Fix revslider on mobile device
+		 - Fix Bookme SHortcode plugin
+		 - Add On/Off Retina Option
+		 
+		 
+	Files editted:
+
+        - functions.php
+        - admin/options-init.php
+        - inc/extras.php
+		- inc/theme-hook.php
+		- style.css

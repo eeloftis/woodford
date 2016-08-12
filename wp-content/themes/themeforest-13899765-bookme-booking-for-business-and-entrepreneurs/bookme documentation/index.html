@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bookme Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Style Sheet-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/lightbox.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/images/favicon.jpg" >
+
+</head>
+<body>
+    <div class="container-fluid main-container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-4 sidebar-wrapper">
+                <div class="sidebar-inner-wrapper">
+
+                    <div class="title-area">
+                        <h1 class="site-title"><image src="assets/images/bookme-logo.png"></h1>
+                        <br/>
+                        <p><img src="assets/images/logo-minimal.png"></p>
+                        <p class="site-description">By <a target="_blank" href="http://themeforest.net/user/minimalthemes">Minimal Themes</a></p>
+                    </div>
+
+                    <nav class="nav-main" id="nav" role="navigation">
+                        <ul class="main-menu">
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-cog"></i>Basic Setup<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#introduction">Introduction</a></li>
+                                    <li><a class="sub-menu-item" href="#install-theme">Install Theme</a></li>
+                                    <li><a class="sub-menu-item" href="#import-xml">Import Demo Contents</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-menus">Configure Menus</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-reading">Configure Reading Settings</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-permalinks">Configure Permalinks Settings</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-home"></i>Themes Overview<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#create-home">Preview Homepage of Accounting</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-header">Configure Header</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-slider">Configure Slider Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-about-me">Configure About Me on Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-service">Configure Service on Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-blog">Configure Blog Post on Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-fact">Configure Facts on Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-testi">Configure Testimony &amp; Contact on Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-about">Configure About Detail on Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-client">Configure About Client on Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-appointment">Configure Appointment on Homepage</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-footer">Configure Footer Section on Homepage</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                    <i class="glyphicon glyphicon-th-list"></i>Bookme Option<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#social-media">Social Media</a></li>
+                                    <li><a class="sub-menu-item" href="#contact">Contact</a></li>
+                                    <li><a class="sub-menu-item" href="#service-archive">Service Archive</a></li>
+                                    <li><a class="sub-menu-item" href="#404">404 Error</a></li>
+                                    <li><a class="sub-menu-item" href="#footer">Footer</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-edit"></i>Miscellaneous<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#team">Create Team</a></li>
+                                    <li><a class="sub-menu-item" href="#project">Create Project</a></li>
+                                    <li><a class="sub-menu-item" href="#portfolio">Create Portfolio</a></li>
+                                    <li><a class="sub-menu-item" href="#pricing">Create Pricing</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-pencil"></i>Credits<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#credit">Thanks to</a></li>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div><!-- inner wrapper -->
+            </div><!-- sidebar wrapper -->
+
+
+            <div class="col-lg-9 col-md-8 col-sm-7">
+
+                <main class="page-content"  role="main">
+                
+                    <article class="hentry" id="introduction">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Introduction</h2>
+                                <div class="bg-warning text-warning">
+                                <h1>Bookme Premium WordPress Theme Documentation v.1.0.0</h1>
+								<p>Thank you for purchasing Bookme WordPress Theme . If you have any question that is beyond the scope of this documentation, Please feel free to create a support ticket using <a href="http://support.puriwp.com/" target="_blank">Our Support Site</a> or send an email to <a href="mailto:support@puriwp.com" target="_blank">support@puriwp.com</a>.</p>
+									<p>
+										<ul>
+											<li>Created: November 12, 2015 </li>
+											<li>Last Updated: November 12, 2015</li>
+											<li>By: <a href="http://minimalthemes.net/" target="_blank">minimalthemes</a></li>
+											<li>Support: <a href="http://support.puriwp.com/" target="_blank">support.puriwp.com</a> </li>
+										</ul>
+									</p>
+                                </div>		
+                            <p><strong>If you like this theme, Please support us by rating this theme with 5 stars (<a data-lightbox="how-to-rate-theme" href="how-to-rate-theme.png" >How to rate?</a>)</strong>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="install-theme">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Install Theme</h2>
+                            <h4>Step 1: Install Theme Via WordPress Dashboard</h4>
+
+                            <ol>
+                                <li>Go to 'Appearance &gt; Themes' section</li>
+                                <li>Click 'Add New' and select the 'Upload Theme' option
+                                    <br/>
+                                    <br/>
+                                    <img src="assets/bookme/install/1.jpeg" alt=""/><br/><br/>
+                                    <img src="assets/bookme/install/1-1.jpeg" alt=""/><br/><br/>
+                                </li>
+                                <li>Choose the <strong>bookme.zip</strong> file and press 'Install Now'
+                                    <br/>
+                                    <br/>
+                                    <img src="assets/bookme/install/1-2.jpeg" alt=""/><br/><br/>
+                                </li>
+                                <li>Once the theme is uploaded you need to activate it.<br/>
+                                    <br/>
+                                    <img src="assets/bookme/install/1-3.jpeg" alt=""/><br/><br/>
+                                </li>
+                                <li>Activating theme will take you to the theme options, <strong>Save the Theme Options Once</strong> So that theme options default values gets stored in the database.</li>
+                            </ol>
+                            <p class="bg-info text-info">
+                                if you face any problem during upload through dashboard, please upload the theme using FTP as guided below.
+                            </p>
+
+
+                            <h3>Step 2 (Alternative): Install Theme Via FTP</h3>
+                            <ol>
+                                <li>Access your hosting server using an ftp client like <a target="_blank" href="https://filezilla-project.org/">FileZilla</a></li>
+                                <li>Go to the 'wp-content/themes' folder of your WordPress installation</li>
+                                <li>Extract the <strong>bookme.zip</strong> file and put the <strong>bookme</strong> folder in 'wp-content/themes/' folder</li>
+                                <li>Go to 'WordPress Dashboard &gt; Appearance &gt; Themes' section to activate the theme</li>
+                                <li>Activating theme will take you to the theme options, <strong>Save the Theme Options Once</strong> So that theme options default values gets stored in the database.</li>
+                            </ol>
+
+                            <hr/>
+
+                            <h3>Step 3: Install Child Theme</h3>
+                            <p>It is better to use child theme as if you need to modify anything you modify in child theme only. This way you can easily update your parent theme whenever new update becomes available on themeforest. You can read more about child theme from <a target="_blank" href="http://codex.wordpress.org/Child_Themes">here.</a> </p>
+                            <p>To install child theme, you need to upload the <strong>bookme-childtheme.zip</strong> and activate it in the same way as you uploaded and activated the parent theme's <strong>bookme.zip</strong>.</p>
+
+                            <hr/>
+
+                            <p><strong>Next Step is to Import Demo Contents</strong></p>
+
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="import-xml">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Import XML for Demo Contents</h2>
+                            <p>Look for <strong>Import XML</strong> folder in unzipped package downloaded from themeforest and use the XML within it.
+                                <br/> Go to the <strong>WordPress Admin &gt; Tools &gt; Import </strong> and click <strong>WordPress</strong> as displayed in image below.</p>
+                            <img src="assets/bookme/install/4.jpeg" alt=""/><br/><br/>
+                            <p>At 1st time you need to install WordPress importer plugin</p>
+                            <img src="assets/bookme/install/5.jpeg" alt=""/><br/><br/>
+                            <p>Once installed you need to activate the plugin and run the importer.</p>
+                            <img src="assets/bookme/install/6.jpeg" alt=""/><br/><br/>
+                            <p>Select the XML file from <strong>Import XML</strong> folder in unzipped package that you have downloaded from themeforest.</p>
+                            <img src="assets/bookme/install/7.jpeg" alt=""/><br/><br/>
+                            <p>
+                                After importing XML file.
+                                <ol>
+                                    <li>Assign posts to an existing author.</li>
+                                    <li>Mark the checkbox to download and import file attachments</li>
+                                    <li>Click 'Submit' button</li>
+                                </ol>
+                            </p>
+                            <img src="assets/bookme/install/8.jpeg" alt=""/><br/><br/>
+                            <p>After that is done, you will have bunch of posts, pages, properties and other contents as on the theme demo.</p>
+                            <img src="assets/bookme/install/9.png" alt=""/><br/><br/>
+
+                            <hr/>
+
+                            <p><strong>Next Step is to Configure Menu</strong></p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="configure-menus">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Menus</h2>
+                            <p>Navigate to <strong>Appearance &gt; Menus</strong> and use the Already Imported Menu from XML and assign it to theme location "Main Menu" from <strong>Menu Settings</strong> section below menu. After that save the menu. As pointed in screenshot below.</p>
+                            <img src="assets/bookme/install/10.jpeg" alt=""/><br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Reading Settings</strong></p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="create-news">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Create News Page</h2>
+                            <p class="bg-info text-info">
+                                In case of imported XML the news page is already created and you do not need to follow this section.
+                            </p>
+                            <p>To set up the News page you need to create a new page,<br/><br/>
+                                Go to <strong>Pages > Add New</strong>. You can give this page a title &quot;News&quot; yet you do not need to include any contents for now.
+                                <br/><br/> Select the “Default Template” template from the Page Attributes section, as displayed in screen shot below and click <strong>“Publish”</strong>.</p>
+                            <img src="assets/bookme/pages/2.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+                    
+                    <article class="hentry" id="configure-reading">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Reading Settings</h2>
+                            <p>I am assuming that you have imported the XML successfully and you have home page and news page available for use. If this is not the case then simply create a new page using <strong>Home Template</strong> and BookMe have eight home page template:
+                            <ol>
+                                <li>Accounting</li>
+                                <li>Architect</li>
+                                <li>Attorney</li>
+                                <li>Barber</li>
+                                <li>Corporate Trainer</li>
+                                <li>Movers</li>
+                                <li>Therapy</li>
+                                <li>Trainer</li>
+                            </ol></p>
+                            <p>To configure reading settings you need to visit <strong>WordPress Admin &gt; Settings &gt; Reading</strong> and choose that front page displays as static page. Then select one of seven homepage template Bookme. In case i choose Accounting page template for setup "Front page". As, displayed in screen shot below.</p>
+                            <img class="light-border" src="assets/bookme/home/reading-settings.jpeg" alt=""/><br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Permalink Settings</strong></p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="configure-permalinks">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Permalinks Settings</h2>
+                            <p> To configure permalinks settings visit <strong>WordPress Admin &gt; Settings &gt; Permalinks</strong> and configure it as displayed in image below.</p>
+                            <img src="assets/bookme/install/13.jpeg" alt=""/><br/><br/>
+                        </div>
+                    </article>
+            
+                    <article class="hentry" id="create-home">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Preview Homepage of Accounting</h2>
+                            <img src="assets/bookme/home/homepage-accounting.jpeg" alt=""/><br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Header</strong></p>
+                        </div>
+                    </article>
+            
+                    <article class="hentry" id="configure-header">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Header</h2>
+                            <img src="assets/bookme/home/header.jpg" alt=""/><br /><br />
+                            <h4>The header contains:</h4>
+                            <ol>
+                                <li>Site's Logo</li>
+                                <li>Social Media</li>
+                                <li>Header Quote</li>
+                                <li>Contact Number</li>
+                                <li>Nav Menu</li>
+                            </ol>
+                            <p>
+                            For Configure header section you just setup on BookMe Options, follow step below:
+                            </p>
+                            <ol>
+                                <li>Go to WordPress dashboard >> BookMe Option.</li>
+                                <li>Upload image (png file) for logo</li>
+                                <li>Enable header social icon if you want to activated it</li>
+                                <li>Enable header quote and fill your quote</li>
+                                <li>fill number phone</li>
+                                <li>Save it</li>
+                            </ol>
+                            <img src="assets/bookme/bookme-option/bookme-header.jpg" alt=""/><br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Slider Homepage</strong></p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="configure-slider">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Slider Homepage</h2>
+                            <img src="assets/bookme/home/slider-ss.jpg" alt="" /><br /><br />
+                            <p>For setup slider homepage, follow step below:
+                            </p>
+                            <ol>
+                                <li>Go Dashboard >> Pages >> Accounting, edit (in case i'm using Accounting page for front page)</li>
+                                <li>Click arrow "Slider Options" section</li>
+                                <li>Upload image for slider homepage</li>
+                                <li>Choose "Caption Position" what you want</li>
+                                <li>Fill Slider content small text and slider content</li>
+                                <li>Fill slider button 1 and slider button 2</li>
+                                <li>Save or update the page</li>
+                            </ol>
+                            <img src="assets/bookme/home/slider.jpeg" alt=""/><br /><br />
+                            <hr/>
+                            <p><strong>Next Step is to Configure About Me on homepage</strong></p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="configure-about-me">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure About Me on homepage</h2>
+                            <img src="assets/bookme/home/about-me-ss.jpeg" alt="" /><br /><br />
+                            <p>For setup slider homepage, follow step below:
+                            </p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; Accounting, edit (in case i'm using Accounting page for front page)</li>
+                                <li>Click arrow "About Section"</li>
+                                <li>Fill the Small title text</li>
+                                <li>Fill about content, about more text, and about more URL</li>
+                                <li>Also you can add image on about section</li>
+                            </ol>
+                            <p>For detail, see displayed in screenshot below</p>
+                            <img src="assets/bookme/home/about-me.jpeg" alt=""/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Services Homepage</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="configure-service">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Service</h2>
+                            <img src="assets/bookme/home/services.jpg" alt="" /><br /><br />
+                            <p>For setup Services section on homepage, follow step below:
+                            </p>
+                            <h4>1. Go to Dashboard &raquo; Services &raquo; Add Service</h4>
+                            <img src="assets/bookme/home/add-service.jpeg" alt=""/>
+                            <hr/>
+
+                            <h4>2. Setup Service to show on homepage section</h4>
+                            <p>After add Service, next step is how to <strong>"Service"</strong> appear on homepage section.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; Accounting, edit (in the case  i'm using Accounting page for front page).</li>
+                                <li>Click arrow <strong>"Services Section"</strong></li>
+                                <li>At <strong>"Service 1"</strong>, Fill the colomn with service of data what you want to show on homepage section.</li>
+                                <li>If you done with <strong>"services 1"</strong>, you can do it the same to <strong>"Services 2"</strong> and <strong>"Services 3"</strong>.</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/home/service-homepage.jpeg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Blog post Homepage</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="configure-blog">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Blog Post on Homepage</h2>
+                            <img src="assets/bookme/home/blog-news.jpg" alt="" /><br /><br />
+                            <h4>1. Go to Dashboard &raquo; Posts &raquo; Add New Post</h4>
+                            <img src="assets/bookme/home/blog.jpeg" alt=""/>
+                            <hr/>
+
+                            <h4>2. Setup Blog post to show on homepage section</h4>
+                            <p>After add Service, next step is how to <strong>"Blog post"</strong> appear on homepage section.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; Accounting, edit (in the case  i'm using Accounting page for front page).</li>
+                                <li>Click arrow <strong>"News Section"</strong></li>
+                                <li>Fill all colomn on <strong>"News Section"</strong>.
+                                <li>Fill "More Button UL" with Blog page's URL</li>
+                                <li>Also setup Post tag, it's mean post tag what you want appear on Blog post homepage.</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/home/blog-homepage.jpeg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Facts on Homepage</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="configure-fact">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Facts on Homepage</h2>
+                            <img src="assets/bookme/home/facts.jpg" alt="" /><br /><br />
+                            <p>For setup Facts on homepage, follow step below:
+                            </p>
+                            <ol>
+                                <li>Go Dashboard >> Pages >> Accounting, edit (in case i'm using Accounting page for front page)</li>
+                                <li>Click arrow "Facts Section"</li>
+                                <li>Fill Section small text, Section title, Section description</li>
+                                    <img src="assets/bookme/home/fact.jpeg" alt="" /><br /><br />
+                                <li>Create <strong>"Fact 1"</strong> to appear on Homepage</li>
+                                    <p>You can use icon with Fontawesome code, you can get the code <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> here</a>. Or <strong>Upload image</strong> because you have created icon image</p>
+                                    <img src="assets/bookme/home/facts-1.jpeg" alt="" /><br /><br />
+                                <li>If you done create <strong>"Fact 1"</strong>, next step add new facts and do the same when you create <strong>"Facts-1"</strong></li>
+                                    <img src="assets/bookme/home/add-facts.jpeg" alt="" /><br /><br />
+                                <li>If all done, click <strong>"Save"</strong> Accounting page.</li>
+                            </ol>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Testimony &amp; Contact on Homepage</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="configure-testi">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Testimony &amp; Contact on Homepage</h2>
+                            <img src="assets/bookme/home/testi.jpg" alt="" /><br /><br />
+                            <p>For setup Testimony &amp; Contact on Homepage, follow step below:
+                            </p>
+                            <h4>1. Create Testimonials:</h4>
+                            <p>Go to Dashboard &raquo; Testimonials &raquo; Add New</p>
+                            <img src="assets/bookme/home/testi_post.jpeg" alt=""/>
+                            <hr/>
+                            <h4>2. Create Contact Form:</h4>
+                            <ul>
+                                <li>After installed BookMe theme, you will get warning for install recommends plugin: Contact Form 7, Easy Custom Sidebar, WP Retina 2x, and WP User Avata.<br /><br />
+                            <img src="assets/bookme/home/install-plugin.jpeg" alt="" /><br /><br /></li>
+                                <li>Install all plugins and activated. If you done, Go to Dashboard &raquo; Contact &raquo; Add New</p>
+                            <img src="assets/bookme/home/cf7.jpeg" alt="" /><br /><br /></li>
+                                <li>And Save it if you done.</li>
+                                <li>Now, your Contact Form 7 <strong>"Contact form 1"</strong> has created.</li>
+                            </ul>
+                            <hr/>
+                            <h4>3. Setup Testimony &amp; Contact to show on homepage section</h4>
+                            <p>After create testimonial and create contact form with Contact form 7, next step is how to <strong>"Testimony &amp; Contact Form"</strong> appear on homepage section.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; Accounting, edit (in the case  i'm using Accounting page for front page).</li>
+                                <li>Click arrow <strong>"Testimonials Section"</strong></li>
+                                <li>Fill all colomn on <strong>"Testimonials Section"</strong>.
+                                <li>If you done fill all colomn "Testimonials Section", now select <strong>"Contact Form 7"</strong> fill with Contact form 7 has you created</li>
+                                <li>And then save it</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/home/testi.jpeg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure About detail on Homepage</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="configure-about">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure About Detail on Homepage</h2>
+                            <img src="assets/bookme/home/about-detail.jpg" alt="" /><br /><br />
+                            <p>For setup About Detail on homepage, follow step below:
+                            </p>
+                            <ol>
+                                <li>Go Dashboard >> Pages >> Accounting, edit (in case i'm using Accounting page for front page)</li>
+                                <li>Click arrow <strong>"About detail Section"</strong></li>
+                                <li>Fill Section small text for the title of about detail, and section content<br /></li>
+                                    <img src="assets/bookme/home/about-detail-1.jpg" alt="" /><br /><br />
+                                <li>Create <strong>"Detail 1"</strong> to appear on Homepage.</li>
+                                    <p>You can use icon with Fontawesome code, you can get the code <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> here</a>. Or <strong>Upload image</strong> because you have created icon image</p>
+                                    <img src="assets/bookme/home/about-detail-2.jpg" alt="" /><br /><br />
+                                <li>If you done create <strong>"Detail 1"</strong>, next step add new About Detail and do the same when you created <strong>"Detail 1"</strong></li>
+                                    <img src="assets/bookme/home/about-detail-3.jpg" alt="" /><br /><br />
+                                <li>The last fill colonm <strong>"More Button Text"</strong> and <strong>Book Button Text</strong></li>
+                                    <img src="assets/bookme/home/about-detail-4.jpg" alt="" /><br /><br />
+                                <li>If all done, click <strong>"Save"</strong> Accounting page.</li>
+                            </ol>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Client on Homepage</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="configure-client">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Client Section on Homepage</h2>
+                            <img src="assets/bookme/home/client-section.jpg" alt="" /><br /><br />
+                            <p>For setup Client Section on Homepage, follow step below:
+                            </p>
+                            <h4>1. Create Client:</h4>
+                            <p>Go to Dashboard &raquo; Client &raquo; Add New</p>
+                            <img src="assets/bookme/home/add-client.jpeg" alt=""/>
+                            <hr/>
+                            <h4>2. Setup Client section to show on homepage section</h4>
+                            <p>After create add new Client, next step is how to <strong>"Your Client"</strong> appear on homepage section.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; Accounting, edit (in the case  i'm using Accounting page for front page).</li>
+                                <li>Click arrow <strong>"Clients Section"</strong></li>
+                                <li>Fill all colomn on <strong>"Clients Section"</strong>.
+                                <li>Select <strong>"Clients Category"</strong> and choose clients category what you want to on homepage.</li>
+                                <li>And then save it</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/home/client.jpg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure About detail on Homepage</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="configure-appointment">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Appointment Section on Homepage</h2>
+                            <img src="assets/bookme/home/booking.jpg" alt="" /><br /><br />
+                            <p>For create this section you must buy <strong>"Booked - Appointment Booking for WordPress"</strong> plugin, you can buy <a href="http://codecanyon.net/item/booked-appointment-booking-for-wordpress/9466968" target="_blank">Here</a>.<br />
+                            If you have ready purchased that plugin. Let's start how to setup this section.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; Accounting, edit (in the case  i'm using Accounting page for front page).</li>
+                                <li>Click Arrow <strong>"Parallax Section"</strong></li>
+                                <li>Upload image for background this section.</li>
+                                <li>Fill Section small text for tagline</li>
+                                <li>Fill content for description this section.</li>
+                                <li>Fill Feature logo text</li>
+                                <li>Upload feature image</li>
+                                <li>Checklist for enable book calendar.</li>
+                                <li>Fill Title for Book calendar.</li>
+                                <li>Fill Booked shortcode, you will find booked shortcode at Dashboard &raquo; Appointment &raquo; Settings &raquo; Shortcodes.<br />
+                                <div id="spoiler" style="display:none"> 
+                                    <img src="assets/bookme/home/settings-booked.jpeg" alt="" /> 
+                                    </div> 
+                                    <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Click for detail Booked shortcode setup</button><br /></li>
+                                <li>Save it if you done.</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/home/appointment.jpeg" alt="" />
+                             <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Configure Footer Section on Homepage</strong></p>
+                        </div>
+                    </article>
+                        
+                    <article class="hentry" id="configure-footer">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Configure Footer Section on Homepage</h2>
+                            <img src="assets/bookme/home/footer.jpg" alt="" /><br /><br />
+                            <p>For setup footer Section on Homepage, follow step below:</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Appearance &raquo; Widgets.</li>
+                                <li>Drag and drop <strong>"Available Widgets"</strong> to Footer 1, Footer 2, Footer 3, and Footer 4. </li>
+                                <li>If done And then save it</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/home/widgets-footer.jpeg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Setup Bookme Option</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="social-media">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Setup Social Media</h2>
+                            <p>Social Media will appear on <strong>Header</strong> and <strong>Contact Page</strong>, for setup social media you just go to dashboard &raquo; bookme option &raquo; <strong>Social Media</strong>.</p>
+                            <img class="light-border" src="assets/bookme/bookme-option/social-media.jpeg" alt="" />
+                            <br /><br />
+                            <hr />
+                            <p><strong>Next Step is to Setup Contact on BookMe Option</strong></p>    
+                        </div>    
+                    </article>
+                        
+                    <article class="hentry" id="contact">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Setup Contact</h2>
+                            <p>Setup Contact form on bookme option will appear on <strong>Contact Page</strong>, for setup Contact you just go to dashboard &raquo; bookme option &raquo; Pages &raquo; <strong>Contact</strong>.</p>
+                            <img class="light-border" src="assets/bookme/bookme-option/contact.jpeg" alt="" />
+                            <br /><br />
+                            <hr/>
+                            <p><strong>Next Step is to Setup Contact on BookMe Option</strong></p>    
+                        </div>    
+                    </article>
+                        
+                    <article class="hentry" id="service-archive">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Setup Service Archive</h2>
+                            <p>Before setup Service Archive on Bookme Option, First you must create Services page.
+                                <ol>
+                                    <li>Go to Dashboard &raquo; Pages &raquo; Add New Pages</li>
+                                    <li>Create Services page use <strong>"Services Archive Page"</strong> template.</li>
+                                    <li>Publish if you done.</li>
+                                </ol>
+                            </p>
+                            <img class="light-border" src="assets/bookme/pages/services.jpeg" alt="" />
+                            <br /><br />
+                            <p>If you have created Service page, next step go to BookMe Options &raquo; Page &raquo; Services Archive.
+                                <ol>
+                                    <li>Go to Dashboard &raquo; BookMen Option &raquo; Page &raquo; Service Archive</li>
+                                    <li>Fill colomn in Service Archive
+                                        <ul>
+                                            <li>Upload image for the archive content background.</li>
+                                            <li>Fill Archive content small text colomn for <strong>Tagline</strong>.</li>
+                                            <li>Fill Archive content title colomn for <strong>Title Service</strong>.</li>
+                                            <li>Fill Archive content description colomn for <strong>Service Description</strong>.</li>
+                                        </ul>
+                                        <img class="light-border" src="assets/bookme/pages/service-option.jpeg" alt="" /><br /><br />
+                                    </li>
+                                    <li>Fill colomn in Service Detail.
+                                        <ul>
+                                            <li>Upload image for Service detail backgorund</li>
+                                            <li>You can use icon with Fontawesome code, you can get the code <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> here</a>. Or you can <strong>Upload image</strong> because you have created icon image</li>
+                                            <li>Fill Archive content small text colomn for <strong>Tagline</strong> your service.</li>
+                                            <li>Fill Archive content title colomn for <strong>Title Service</strong>.</li>
+                                            <li>Fill Archive content description colomn for <strong>Service Description</strong>.</li>
+                                            <li>And the last fill the colomn for <strong>"Read More Button"</strong></li>
+                                        </ul>
+                                        <img class="light-border" src="assets/bookme/bookme-option/service-detail.jpeg" alt="" /></li><br /><br />
+                                    <li>If you done with Service detail 1, next step is create <strong>Service Detail 2</strong> and <strong>Service Detail 3</strong> like created before.</li>
+                                </ol>    
+                            </p>
+                            <hr/>
+                            <p><strong>Next Step is to Setup 404 page on BookMe Option</strong></p>    
+                        </div>    
+                    </article>
+                        
+                    <article class="hentry" id="404">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Setup 404 (Error) Pages</h2>
+                            <img src="assets/bookme/pages/404-pages.jpeg" alt=""/>
+                            <p>
+                            For setup 404 (error) pages, you just setup on BookMe Options, follow step below:
+                            </p>
+                            <ol>
+                                <li>Go to WordPress dashboard &raquo; BookMe Option &raquo; Page &raquo; 404 Error.</li>
+                                <li>Fill 404 left Content colomn</li>
+                                <li>Fill <strong>"Right Content Title"</strong> and <strong>"Editor"</strong> colomn for 404 Right Content section.</li>
+                                <li>Select Error 404 Menu want to appear on 404 pages. But first you must create custom menu at Dashboard &raquo; Appearance &raquo; Menus.</li>
+                                <li>fill Button text and fill button URL.</li>
+                                <li>Save it</li>
+                            </ol>
+                            <img src="assets/bookme/bookme-option/404.jpeg" alt=""/><br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Setup Footer Homepage</strong></p>
+                        </div>
+                    </article>
+                    
+                    <article class="hentry" id="footer">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Setup Footer</h2>
+                            <img src="assets/bookme/pages/footer-theme-option.jpeg" alt=""/><br /><br />
+                            <p>This footer will appear at most of the pages. For setup Footer section, you just setup on BookMe Options, follow step below:</p>
+                            <ol>
+                                <li>Go to WordPress dashboard &raquo; BookMe Option &raquo; Page &raquo; Footer.</li>
+                                <li>Enable Footer Quote.</li>
+                                <li>Fill small text for title footer.</li>
+                                <li>Fill Editor for description footer.</li>
+                                <li>Fill button text and button text.</li>
+                                <li>Save it</li>
+                            </ol>
+                            <img src="assets/bookme/bookme-option/footer.jpeg" alt=""/><br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Miscellaneous</strong></p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="team">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Create Team</h2>
+                            <img src="assets/bookme/miscellaneous/team.jpeg" alt="" /><br />
+                            <p>Your team has created will appear on About Us page section. I am assuming that you have created About Us page, so let start to setup <strong>Team</strong> Section on About Us page, follow step below:
+                            </p>
+                            <h4>1. Create Team:</h4>
+                            <p>Go to Dashboard &raquo; Team &raquo; Add New</p>
+                            <img src="assets/bookme/miscellaneous/add-team.jpeg" alt=""/>
+                            <hr/>
+                            <h4>2. Setup Team section to show on About Us page section</h4>
+                            <p>After create add team, next step is how to <strong>"Your Team"</strong> appear on about us section.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; About Us page, and edit</li>
+                                <li>Click arrow <strong>"Team Section"</strong></li>
+                                <li>Fill Team selection small text for tagline your team</li>
+                                <li>Fill Team section title for title of team.</li>
+                                <li>Fill Team section description</li>
+                                <li>Select Team Category if some team of division</li>
+                                <li>And then save it</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/miscellaneous/team-section.jpeg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Create Project</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="project">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Create Project</h2>
+                            <img src="assets/bookme/miscellaneous/project.jpeg" alt="" /><br />
+                            <p>The Project section will appear on <strong>Architect</strong> page section and <strong>Movers</strong> page section. I am assuming that you have created <strong>Architect</strong> page using Architect page template, so let start to create  <strong>Project</strong>, and how to setup <strong>Architect</strong> page. Follow step below:
+                            </p>
+                            <h4>1. Create Project:</h4>
+                            <p>Go to Dashboard &raquo; Project &raquo; Add New</p>
+                            <img src="assets/bookme/miscellaneous/add-project.jpeg" alt=""/>
+                            <hr/>
+                            <h4>2. Setup Project section to show on Architect page section</h4>
+                            <p>After create add new project, next step is how to <strong>"Your Porject"</strong> appear on Architect page section.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; Architect page, and edit</li>
+                                <li>Click arrow <strong>"Project Section"</strong></li>
+                                <li>Fill all colomn on <strong>Project Section.</strong></li>
+                                <li>Select Project Type what you want to appear on Achitect page.</li>
+                                <li>And then save it</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/miscellaneous/project-section.jpeg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Create Portfolio</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="portfolio">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Create Portfolio</h2>
+                            <img src="assets/bookme/miscellaneous/portfolio.jpeg" alt="" /><br />
+                            <p>The Portfolio will appear on <strong>Portfolio</strong> page. I am assuming that you have created <strong>Portfolio</strong> page using Portfolio page template, so let start to create  <strong>Portfolio</strong>. Follow step below:
+                            </p>
+                            <h4>1. Create Portfolio:</h4>
+                            <p>Go to Dashboard &raquo; Portfolio &raquo; Add New</p>
+                            <img src="assets/bookme/miscellaneous/add-portfolio.jpeg" alt=""/>
+                            <hr/>
+                            <h4>2. Setup Portfolio page</h4>
+                            <p>After create add new portfolio, your portfolio will automatically appear on <strong>Portfolio</strong> page.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Portfolio &raquo; All Portfolio, select portfolio want you edit.</li>
+                                <li>Click arrow <strong>"Portfolio Option"</strong></li>
+                                <li>Select Portfolio Column (2 Columns or 3 Columns)</li>
+                                <li>Fill Portfolio subtitle.</li>
+                                <li>And then save it</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/miscellaneous/portfolio-option.jpeg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                            <p><strong>Next Step is to Create Pricing</strong></p>
+                    </article>
+                        
+                    <article class="hentry" id="pricing">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Create Pricing</h2>
+                            <img src="assets/bookme/miscellaneous/pricing-barber.jpeg" alt="" /><br />
+                            <p>The Pricing section will appear on <strong>Barber</strong> page section. I am assuming that you have created <strong>Barber</strong> page using Barber page template, so let start to create <strong>Pricing</strong>, and how to setup <strong>Barber</strong> page. Follow step below:
+                            </p>
+                            <h4>1. Create Pricing:</h4>
+                            <p>Go to Dashboard &raquo; Pricing &raquo; Add New</p>
+                            <img src="assets/bookme/miscellaneous/add-pricing.jpeg" alt=""/>
+                            <hr/>
+                            <h4>2. Setup Pricing section to show on Barber page section</h4>
+                            <p>After create add new pricing, next step is how to <strong>"Pricing"</strong> appear on Barber page section.</p>
+                            <ol>
+                                <li>Go Dashboard &raquo; Pages &raquo; Barber page, and edit</li>
+                                <li>Click arrow <strong>"Pricing Option"</strong></li>
+                                <li>Fill Pricing small text for tagline.</li>
+                                <li>Fill Pricing sub title for title of pricing section</li>
+                                <li>Select Pricing category what you want to appear on Barber page.</li>
+                                <li>And then save it</li>
+                            </ol>
+                            <img class="light-border" src="assets/bookme/miscellaneous/pricing-option.jpeg" alt="" />
+                            <br/><br/>
+                            <hr/>
+                    </article>
+
+                    <article class="hentry" id="credit">
+                        <div class="entry-content">
+                            <h2 class="entry-title">Credits</h2>
+                            <p><h3>Thanks to:</h3>
+                                <ul>
+                                    <li><a target="_blank" href="http://getbootstrap.com/">Twitter Bootstrap</a></li>
+                                    <li><a target="_blank" href="http://www.reduxframework.com//">Redux Framework</a></li>
+                                    <li><a target="_blank" href="http://contactform7.com/">Contact Form 7</a></li>
+                                    <li><a target="_blank" href="https://wordpress.org/plugins/wp-retina-2x/">WP Retina 2x</a></li>
+                                    <li><a target="_blank" href="https://wordpress.org/plugins/wp-user-avatar/">WP User Avatar</a></li>
+                                    <li><a target="_blank" href="http://codecanyon.net/user/boxystudio">Booked - Appointment Booking for WordPress</a></li>
+                                    <li><a target="_blank" href="https://wordpress.org/plugins/meta-box/">Meta-box</a></li>
+                                    <li><a target="_blank" href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
+                                </ul>
+                            </p>
+                        </div>
+                    </article>
+
+                </main>
+            </div>
+        </div>
+    </div><!-- site container end -->
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="assets/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/purl.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>
