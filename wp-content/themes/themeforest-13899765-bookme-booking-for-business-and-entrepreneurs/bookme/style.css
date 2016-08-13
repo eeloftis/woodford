@@ -1217,8 +1217,9 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .services-item {
 	padding: 15%;
 	min-height: 520px;
-
+  margin-top: 30%;
 }
+
 #services .row>div:nth-child(2n+0) .services-item {
 
 }
