@@ -181,13 +181,16 @@
                         <div class="col-md-12">
                             <nav id="main-menu" class="clearfix">
                                 <ul class="nav-menu">
-                                    <?php
+
+																		<li><a name="about">About</a></li>
+
+                                    <!-- <?php
                                         if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'primary' ) ) {
                                             wp_nav_menu( array( 'container' => false, 'items_wrap' => '%3$s', 'theme_location' => 'primary' ) );
                                         } else {
                                             wp_list_pages( 'sort_column=menu_order&depth=6&title_li=' );
                                         }
-                                    ?>
+                                    ?> -->
                                 </ul>
                             </nav>
                         </div>

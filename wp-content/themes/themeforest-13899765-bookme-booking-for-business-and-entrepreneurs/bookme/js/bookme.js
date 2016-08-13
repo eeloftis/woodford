@@ -1,11 +1,11 @@
 jQuery(document).ready(function($) {
 
 	"use strict";
-	
+
 	/* ========================================================================= */
 	/*  Main Slider
 	/* ========================================================================= */
-	
+
 	$("#acc-slides").owlCarousel({
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
@@ -14,11 +14,11 @@ jQuery(document).ready(function($) {
 		autoPlay : true,
 		singleItem:true
 	});
-	
+
 	/* ========================================================================= */
 	/*  Accounting Testimonial Slider
 	/* ========================================================================= */
-	
+
 	$("#testimonial-slides .owl-carousel").owlCarousel({
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
@@ -28,13 +28,13 @@ jQuery(document).ready(function($) {
 		navigationText : ["<span class=\"lnr lnr-arrow-left\"/></span>", "<span class=\"lnr lnr-arrow-right\"/></span>"],
 		singleItem:true
 	  });
-  
+
 	/* ========================================================================= */
 	/*  Accounting Gallery Slider
 	/* ========================================================================= */
-	
+
 	$("#gallery-slides .owl-carousel").owlCarousel({
- 
+
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
 		paginationSpeed : 400,
@@ -44,13 +44,13 @@ jQuery(document).ready(function($) {
 		singleItem:true
 
 	});
-  
+
 	/* ========================================================================= */
 	/*  Accounting Team Slider
 	/* ========================================================================= */
-	
+
 	$("#team-slides .owl-carousel").owlCarousel({
- 
+
 		navigation : false, // Show next and prev buttons
 		slideSpeed : 300,
 		paginationSpeed : 400,
@@ -59,15 +59,15 @@ jQuery(document).ready(function($) {
 		items: 4
 
 	});
-	
+
 	/* ========================================================================= */
 	/*  Therapy Testimonial Slider
 	/* ========================================================================= */
-  
+
 	$("#testimonial-therapy").owlCarousel({
 		slideSpeed : 300,
 		paginationSpeed : 400,
-		pagination : false, 
+		pagination : false,
 		autoPlay : true,
 		items:2,
 		itemsDesktop: [1199,2],
@@ -75,11 +75,11 @@ jQuery(document).ready(function($) {
 		itemsTablet: [768,1],
 		itemsMobile: [479,1]
 	});
-	
+
 	/* ========================================================================= */
 	/*  Attorney Testimonial Slider
 	/* ========================================================================= */
-  
+
 	$("#testimonial-attorney .owl-carousel").owlCarousel({
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
@@ -91,18 +91,18 @@ jQuery(document).ready(function($) {
 		itemsDesktop : [1199,2],
 		itemsDesktopSmall : [979,1]
 	});
-  
+
 	/* ========================================================================= */
 	/*  Trainer Testimonial Slider
 	/* ========================================================================= */
-	
+
 	var trainersync1 = $("#testimonial-trainer-img");
 	var trainersync2 = $("#testimonial-trainer-content");
-  
+
 	trainersync1.owlCarousel({
 		slideSpeed : 300,
 		paginationSpeed : 400,
-		pagination : false, 
+		pagination : false,
 		autoPlay : true,
 		mouseDrag : false,
 		touchDrag : false,
@@ -111,18 +111,18 @@ jQuery(document).ready(function($) {
 		},
 		singleItem:true
 	});
-  
+
 	trainersync2.owlCarousel({
 		slideSpeed : 300,
 		paginationSpeed : 400,
-		pagination : true, 
+		pagination : true,
 		autoPlay : true,
 		afterAction : syncPosition,
 		mouseDrag : false,
 		touchDrag : false,
 		singleItem:true
 	});
-  
+
 	function syncPosition(el){
 		var current = this.currentItem;
 		$("#testimonial-trainer-img")
@@ -161,19 +161,19 @@ jQuery(document).ready(function($) {
 			trainersync1.trigger("owl.goTo", num-1)
 		}
 	}
-  
+
 	/* ========================================================================= */
 	/*  Movers Projects Slider
 	/* ========================================================================= */
 
 	var moversync1 = $("#project-mover-img");
 	var moversync2 = $("#project-mover-content");
-	  
+
 	moversync1.owlCarousel({
 		slideSpeed : 300,
 		autoHeight : true,
 		paginationSpeed : 400,
-		pagination : false, 
+		pagination : false,
 		autoPlay : true,
 		mouseDrag : false,
 		touchDrag : false,
@@ -182,11 +182,11 @@ jQuery(document).ready(function($) {
 		},
 		singleItem:true
 	});
-	  
+
 	moversync2.owlCarousel({
 		slideSpeed : 300,
 		paginationSpeed : 400,
-		pagination : false, 
+		pagination : false,
 		navigation : true, // Show next and prev buttons
 		navigationText : ["<span class=\"lnr lnr-chevron-left\"/></span>", "<span class=\"lnr lnr-chevron-right\"/></span>"],
 		autoPlay : true,
@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
 		touchDrag : false,
 		singleItem:true
 	});
-	  
+
 	function syncMoverPosition(el){
 		var current2 = this.currentItem;
 		$("#project-mover-img")
@@ -234,11 +234,11 @@ jQuery(document).ready(function($) {
 			  moversync1.trigger("owl.goTo", num2-1)
 		}
 	}
-	  
+
 	/* ========================================================================= */
 	/*  Movers Testimonial Slider
 	/* ========================================================================= */
-	  
+
 	$("#testimonial-movers .owl-carousel").owlCarousel({
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
@@ -250,26 +250,26 @@ jQuery(document).ready(function($) {
 		itemsDesktop : [1199,2],
 		itemsDesktopSmall : [979,1]
 	});
-	
+
 	/* ========================================================================= */
 	/*  Architect Testimonial Slider
 	/* ========================================================================= */
-	
+
 	 $("#testimonial-architect").owlCarousel({
 
 		slideSpeed : 300,
 		paginationSpeed : 400,
-		pagination : true, 
+		pagination : true,
 		autoPlay : true,
 		singleItem:true
 	});
-	
+
 	/* ========================================================================= */
 	/*  Barber Gallery Slider
 	/* ========================================================================= */
-	
+
 	 $("#gallery-barber-slides").owlCarousel({
-	  
+
 		navigation : true, // Show next and prev buttons
 		slideSpeed : 300,
 		paginationSpeed : 400,
@@ -279,37 +279,37 @@ jQuery(document).ready(function($) {
 		center: true,
 		items:7,
 	});
-	
+
 	/* ========================================================================= */
 	/*  Corporate Trainer About Slider
 	/* ========================================================================= */
-	
+
 	 $("#about-corp-trainer").owlCarousel({
 		  slideSpeed : 300,
 		  paginationSpeed : 400,
-		  pagination : true, 
+		  pagination : true,
 		  autoPlay : true,
 		  singleItem:true
 	  });
-	  
+
 	/* ========================================================================= */
 	/*  Corporate Trainer About Slider
 	/* ========================================================================= */
-	
+
 	 $("#testimonial-corp-trainer").owlCarousel({
 		  slideSpeed : 300,
 		  paginationSpeed : 400,
-		  pagination : false, 
+		  pagination : false,
 		  autoPlay : true,
 		  items:2,
 		  itemsDesktop : [1199,2],
 		  itemsDesktopSmall : [979,1]
 	  });
-  
+
 	/* ========================================================================= */
 	/*  Scrolling jQuery
-	/* ========================================================================= */	
-	
+	/* ========================================================================= */
+
 	$('a.page-scroll').bind('click', function(event) {
 		var $anchor = $(this);
 		$('html, body').stop().animate({
@@ -317,20 +317,20 @@ jQuery(document).ready(function($) {
 		}, 1500, 'easeInOutExpo');
 		event.preventDefault();
 	});
-	
+
 	/* ========================================================================= */
 	/*  Select jQuery class quote-form
-	/* ========================================================================= */	
-	
+	/* ========================================================================= */
+
 	$(".quote-form select").selectBox();
 	$(".contact-form select").selectBox();
 	$(".widget_archive select").selectBox();
-	
-	
+
+
 	/* ========================================================================= */
 	/*  Count jQuery
-	/* ========================================================================= */	
-	
+	/* ========================================================================= */
+
 	$(".about-details-count").appear(function () {
         $(".about-details-count [data-to]").each(function () {
             var e = $(this).attr("data-to");
@@ -342,11 +342,11 @@ jQuery(document).ready(function($) {
             })
         })
     });
-	
+
 	/* ========================================================================= */
 	/*  Points jQuery
-	/* ========================================================================= */	
-	
+	/* ========================================================================= */
+
 	//open interest point description
 	$('.cd-single-point').children('a').on('click', function(){
 		var selectedPoint = $(this).parent('.cd-single-point');
@@ -361,15 +361,22 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 		$(this).parents('.cd-single-point').eq(0).removeClass('is-open').addClass('visited');
 	});
-	
+
 	/* ========================================================================= */
 	/*  Meanmenu jQuery
-	/* ========================================================================= */	
-	
+	/* ========================================================================= */
+
 	jQuery('header nav').meanmenu({
 		meanScreenWidth: '768',
 	});
-		
+
 });
-	
-	
+
+
+
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+scrollToAnchor('about');
