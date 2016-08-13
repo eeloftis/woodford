@@ -57,7 +57,7 @@
 										</div>
 								<?php } ?>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col-md-offset-6">
 								<?php
 									if ( class_exists( 'booked_plugin' ) ) {
 										$parallax_booked_title = get_post_meta(get_the_ID(), '_BookmeMB_parallax_booked_title', true);
