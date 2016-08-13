@@ -6850,6 +6850,10 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   background-color: #d1d0ce !important;
 }
 
+.services-item {
+  background-color: transparent !important;
+}
+
 .services-item p {
   text-align:left !important;
 }
