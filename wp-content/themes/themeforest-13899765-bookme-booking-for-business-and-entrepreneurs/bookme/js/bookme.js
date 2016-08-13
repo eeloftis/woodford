@@ -370,13 +370,11 @@ jQuery(document).ready(function($) {
 		meanScreenWidth: '768',
 	});
 
+	function scrollToAnchor(aid){
+	    var aTag = jQuery("a[name='"+ aid +"']");
+	    jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
+	}
+
+	scrollToAnchor('about');
+
 });
-
-
-
-function scrollToAnchor(aid){
-    var aTag = jQuery("a[name='"+ aid +"']");
-    jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
-}
-
-scrollToAnchor('about');
