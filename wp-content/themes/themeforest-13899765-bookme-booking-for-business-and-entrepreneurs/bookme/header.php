@@ -112,7 +112,7 @@
 				    </div>
                     <div class="clearfix"></div>
 				</div>
-				<div class="col-md-9 re-size">
+				<div class="col-md-8 re-size">
 					<div class="row">
 						<div class="header-right">
 							<?php
