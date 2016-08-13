@@ -1333,6 +1333,15 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	background-size: cover;
 }
 
+#facts h2 {
+  color: #101f2d;
+}
+
+#facts p {
+  color: #101f2d;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .page-template-template-why-me #facts { background: none; }
 .page-template-template-why-me  .facts-wrapper { padding: 0; margin: 0; }
 .page-template-template-why-me  .facts-item { background: #f2f2f1; }
@@ -1357,7 +1366,6 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 .facts-item .icon-img {
     display: inline-block;
-    background: #9f8447 none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     position: relative;
@@ -1368,7 +1376,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 #facts .icon-img img {
-	height:35px;
+	height:100px;
     margin:25px 0;
 }
 
@@ -1378,6 +1386,16 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	padding: 0 30px;
 	padding-bottom: 30px;
 	background: #fff;
+}
+
+.facts-item h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #101f2d;
+}
+
+.facts-item p {
+  color: #101f2d;
 }
 
 /*-----------------------------------------------*/
@@ -1736,13 +1754,14 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   color: #101f2d;
   text-transform: uppercase;
   font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
 
 #features .main-post {
   color: #101f2d;
-
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
