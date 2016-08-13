@@ -6835,15 +6835,16 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .service-0 {
   background-color: #becdd6 !important;
-  text-align:left;
 }
 
 .service-1 {
   background-color: #7b98ac !important;
-  text-align:left;
 }
 
 .service-2 {
   background-color: #d1d0ce !important;
+}
+
+.service-item p {
   text-align:left;
 }
