@@ -6940,7 +6940,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#contact-estimate .contact-button, .wpcf7-submit {
+#contact-estimate .contact-button {
   margin-top: 230px;
   display: inline-block;
   padding: 15px 30px;
@@ -6952,6 +6952,46 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.wpcf7-submit {
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #214567;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 #contact-estimate .estimate h3 {
   color: #101f2d;
+
+}
+
+.wpcf7-form-control-wrap input {
+  background: transparent;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px dashed #000;
+}
+
+::-webkit-input-placeholder {
+   color: #101f2d;
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #101f2d;
+   font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #101f2d;
+   font-style: italic;
+}
+
+:-ms-input-placeholder {
+   color: #101f2d;
+   font-style: italic;
 }
