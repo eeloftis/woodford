@@ -6905,6 +6905,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #contact-estimate .contact {
   background-color: #454d51;
+  padding-left: 30px;
 }
 
 #contact-estimate .estimate {
@@ -6915,6 +6916,8 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-family: "montserratregular";
   font-weight: bold;
   font-size: 30px;
+  text-transform: uppercase;
+
 }
 
 #contact-estimate .contact h3 {
@@ -6925,8 +6928,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   color: #e6edf3;
   font-size: 20px;
   font-weight: bold;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 #contact-estimate .contact p{
   color: #e6edf3;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
