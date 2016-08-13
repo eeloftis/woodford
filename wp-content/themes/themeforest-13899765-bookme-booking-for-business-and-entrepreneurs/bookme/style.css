@@ -1177,7 +1177,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*-----------------------------------------------*/
 
 #about {
-	padding: 130px 0 165px;
+	padding: 0 0 115px;
 }
 
 #about img {
@@ -1187,6 +1187,23 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #about .post {
 	padding-bottom: 0
+}
+
+#about .small-title h4 {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  color: #101f2d;
+  font-family: 'montserratregular';
+
+}
+
+#about .about-desc {
+  font-size: 14px;
+
+  font-style: normal;
+  color: #101f2d;
+
 }
 
 
