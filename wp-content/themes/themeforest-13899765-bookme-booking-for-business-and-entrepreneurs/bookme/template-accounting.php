@@ -31,7 +31,7 @@ get_header();
 
 <a name="contact-estimate" />
 <section id="contact-estimate">
-	<div class="container">
+
 		<div class="row wow fadeInUp" data-right-height>
 			<div class="col-md-5 col-sm-5 contact" data-right-height-content>
 				<h3>Contact</h3>
@@ -39,11 +39,11 @@ get_header();
 					paul.belanger@woodfordadvisors.com</p>
 					<a>Contact Me</a>
 			</div>
-			<div class="col-md-7 col-sm-7 estimate">
+			<div class="col-md-7 col-sm-7 estimate" data-right-height-content>
 				<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
 
 			</div>
-		</div>
+	
 	</div>
 </section>
 
