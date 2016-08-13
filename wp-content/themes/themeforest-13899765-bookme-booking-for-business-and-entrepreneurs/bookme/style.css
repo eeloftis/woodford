@@ -6941,6 +6941,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #contact-estimate .contact-button {
   margin-top: 230px;
+  display: block;
   padding: 15px 30px;
   background-color: #f4f8fc;
   color: #214567;
