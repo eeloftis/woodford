@@ -1236,7 +1236,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 .icon-img img {
-	max-height: 38px;
+	max-height: 60px;
 }
 
 #services .small-title {
@@ -1249,6 +1249,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #services .title {
 	color: #fff;
+}
+
+#services h3 {
+  font-size: 24px;
+  margin-top: 10px;
 }
 
 .services-item p {
@@ -6420,7 +6425,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
     .logo-wrapper{
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     .header-right{
         float: none;
