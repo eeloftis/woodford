@@ -35,15 +35,16 @@ get_header();
 		<div class="row wow fadeInUp" data-right-height>
 			<div class="col-md-5 col-sm-5 contact" data-right-height-content>
 				<h3>Contact</h3>
-				<p>Paul Belanger, Founder<br/>
-					paul.belanger@woodfordadvisors.com</p>
+				<h4>Paul Belanger, Founder</h4>
+					<p>paul.belanger@woodfordadvisors.com</p>
 					<a>Contact Me</a>
 			</div>
 			<div class="col-md-7 col-sm-7 estimate" data-right-height-content>
+				<h3>Request a quote</h3>
 				<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
 
 			</div>
-	
+
 	</div>
 </section>
 

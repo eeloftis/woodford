@@ -6910,3 +6910,23 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #contact-estimate .estimate {
   background-color: #abb2b6;
 }
+
+#contact-estimate h3 {
+  font-family: "montserratregular";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#contact-estimate .contact h3 {
+    color: #e6edf3;
+}
+
+#contact-estimate .contact h4 {
+  color: #e6edf3;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contact-estimate .contact p{
+  color: #e6edf3;
+}
