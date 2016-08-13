@@ -6972,26 +6972,41 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .wpcf7-form-control-wrap input {
   background: transparent;
   border: 0;
-  width: 100%;
+  width: 70%;
   border-bottom: 1px dashed #000;
 }
 
 ::-webkit-input-placeholder {
-   color: #101f2d;
-   font-style: italic;
+   color: #101f2d !important;
+   font-style: italic !important;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+
+}
+
+::placeholder {
+  color: #101f2d !important;
+  font-style: italic !important;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #101f2d;
-   font-style: italic;
+   color: #101f2d !important;
+   font-style: italic !important;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #101f2d;
-   font-style: italic;
+   color: #101f2d !important;
+   font-style: italic !important;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+
 }
 
 :-ms-input-placeholder {
-   color: #101f2d;
-   font-style: italic;
+   color: #101f2d !important;
+   font-style: italic !important;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+
 }
