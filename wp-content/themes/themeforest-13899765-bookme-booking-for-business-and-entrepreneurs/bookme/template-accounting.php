@@ -8,6 +8,12 @@ get_header();
 			while ( have_posts() ) : the_post();
 
 				get_template_part('template-parts/section/slider');
+
+				?>
+
+				<div class="rest">
+
+					<?php
 				get_template_part('template-parts/section/about');
 				get_template_part('template-parts/section/services');
 
@@ -43,3 +49,5 @@ get_header();
 
 
 	<?php get_footer(); ?>
+
+</div>

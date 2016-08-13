@@ -7000,3 +7000,12 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-style: italic !important;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
+
+.tp-bgimg {
+  position: relative;
+  top: -150px;
+}
+ .rest {
+   position: relative;
+   top: -150px;
+ }
