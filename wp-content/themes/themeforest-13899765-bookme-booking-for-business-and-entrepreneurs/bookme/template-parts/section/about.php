@@ -9,7 +9,7 @@
 <section id="about">
 	<div class="container">
 		<div class="row wow fadeInUp">
-			<div class="col-md-5  col-md-offset-1 col-sm-6">
+			<div class="col-md-4  col-md-offset-1 col-sm-6">
 				<div class="post">
 					<?php
 						$abt_title = get_post_meta(get_the_ID(), '_BookmeMB_about_small_title', true);
