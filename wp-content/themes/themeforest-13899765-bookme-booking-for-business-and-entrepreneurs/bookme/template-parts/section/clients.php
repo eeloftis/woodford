@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
  * Section Clients
  *
@@ -28,12 +28,12 @@
 						<?php endif; ?>
 					</div>
 				</div>
-				<?php 
+				<?php
 					$client_cat = get_post_meta(get_the_ID(), '_BookmeMB_clients_cat', true);
 					if ( $client_cat ) {
 						$term_ids = array($client_cat);
 					} else {
-						$terms = get_terms( 'client_category' ); 
+						$terms = get_terms( 'client_category' );
 						$term_ids = wp_list_pluck( $terms, 'term_id' );
 					}
 					$clients = array(
@@ -48,40 +48,40 @@
 						),
 					);
 					$client = new WP_Query( $clients );
-					$row = 1;									
+					$row = 1;
 					if ( $client->have_posts() ) : ?>
 
 						<div class="main-post">
 							<div class="clients-item-wrap clearfix">
-								<?php 		
-									while ( $client->have_posts() ) : $client->the_post(); 
+								<?php
+									while ( $client->have_posts() ) : $client->the_post();
 
 										if($row==7):// cut the row and add new one if row limit reached
 											echo '</div><div class="clients-item-wrap clearfix">';
 											$row=1;
-										endif; 
+										endif;
 										?>
-											<div class="border-left col-md-2 col-sm-2 col-xs-4">
+											<div class="border-left col-md-3 col-sm-3 col-xs-6">
 												<div class="clients-item">
-													<?php 
+													<?php
 														$client_url = get_post_meta(get_the_ID(), '_BookmeMB_clients_url_detil', true);
-														if ( $client_url ) 
+														if ( $client_url )
 															echo '<a href="' . esc_url( $client_url ) . '">';
 														if ( has_post_thumbnail() )
 															the_post_thumbnail();
-														if ( $client_url ) 
+														if ( $client_url )
 															echo '</a>';
 													?>
 												</div>
-											</div><?php 
+											</div><?php
 										$row++;
-									endwhile; 
+									endwhile;
 								?>
 							</div>
-						</div><?php 
+						</div><?php
 
 					endif;
-					wp_reset_postdata();  
+					wp_reset_postdata();
 				?>
 			</div>
 		</section>
