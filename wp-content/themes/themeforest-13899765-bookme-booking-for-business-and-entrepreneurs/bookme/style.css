@@ -1732,6 +1732,10 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   padding-top: 180px;
 }
 
+#clients h2 {
+  font-weight:bold;
+}
+
 .clients-item-wrap {
 	border-bottom: 1px solid #dbd6cc;
 }
