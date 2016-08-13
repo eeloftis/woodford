@@ -6902,3 +6902,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #features {
   background-size: contain;
 }
+
+#contact-estimate .contact {
+  background-color: #454d51;
+}
+
+#contact-estimate .estimate {
+  background-color: #abb2b6;
+}
