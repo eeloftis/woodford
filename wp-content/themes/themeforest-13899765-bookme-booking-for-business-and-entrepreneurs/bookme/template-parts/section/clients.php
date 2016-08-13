@@ -56,7 +56,7 @@
 								<?php
 									while ( $client->have_posts() ) : $client->the_post();
 
-										if($row==7):// cut the row and add new one if row limit reached
+										if($row==3):// cut the row and add new one if row limit reached
 											echo '</div><div class="clients-item-wrap clearfix">';
 											$row=1;
 										endif;
