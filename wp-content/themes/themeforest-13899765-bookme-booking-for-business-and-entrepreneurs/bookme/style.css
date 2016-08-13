@@ -1716,7 +1716,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*-----------------------------------------------*/
 
 #features {
-	background: url('images/bg_01.png'), #333333;
+	background: url('images/bg_01.png'), #e4e8ea;
 	background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1730,6 +1730,10 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #features .title {
 	color: #fff;
 }
+
+#features .small-title {
+}
+
 .featured-logo {
 	height: 100px;
 	line-height: 100px;

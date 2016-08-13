@@ -29,7 +29,7 @@
 								<div class="main-post" style="float:right">
 									<?php if ( $paralax_small_text ) : ?>
 										<div class="small-title">
-											<h4><?php echo esc_attr( $paralax_small_text ); ?></h4>
+											<h3><?php echo esc_attr( $paralax_small_text ); ?></h3>
 										</div>
 									<?php endif; ?>
 												<div class="small-title">
