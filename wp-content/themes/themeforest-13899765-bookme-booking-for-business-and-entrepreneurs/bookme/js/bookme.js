@@ -380,6 +380,10 @@ jQuery(document).ready(function($) {
    scrollToAnchor('about');
 });
 
+$("#services-link").click(function() {
+ scrollToAnchor('services');
+});
+
 
 
 });
