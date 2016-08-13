@@ -6937,3 +6937,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-size: 18px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+#contact-estimate .contact a {
+  width: 160px;
+  height: 60px;
+  background-color: #f4f8fc;
+  color: #214567;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
