@@ -367,7 +367,7 @@ p {
 }
 
 .btn {
-	font-family: 'montserratregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	text-transform:uppercase;
 	margin-right:15px;
@@ -481,13 +481,13 @@ p {
     color: #a90e00 !important;
 }
 .title {
-	font-family: 'montserratbold';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	color: #333333;
 }
 
 .title-regular {
-	font-family: 'montserratregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	color: #333333;
 }
@@ -514,7 +514,7 @@ h5.title ,
 }
 
 a.link-more {
-	font-family: 'montserratregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-size: 12px;
 	color: #333333;
@@ -621,7 +621,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*-----------------------------------------------*/
 .site-header{
 	text-transform:uppercase;
-	font-family: 'montserratregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	padding: 30px 0 0;
 }
 
@@ -695,7 +695,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #main-menu .nav-menu li a{
 	display: block;
-	font-family: 'montserratregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #686868;
 	font-weight: 300;
 	padding: 0 0 14px;
@@ -931,7 +931,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .mean-container .mean-nav {
 	background:  #9f8447;
-	font-family: 'montserratregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 13px;
 }
 
@@ -1020,7 +1020,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .bookme-phone{
 	display:inline-block;
 	float: left;
-	font-family: 'montserratbold';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #333333;
 	padding: 5px 15px;
 	border-left: 1px solid #e8eaeb;
@@ -1043,7 +1043,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .bookme-phone h4 {
   font-size: 22px;
-  font-family: 'montserratbold';
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 0;
   font-weight: 500;
   padding-left: 28px;
@@ -1155,7 +1155,6 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 #main-slider .quote-form input[type="submit"] {
-	font-family: 'montserratregular';
 	font-size: 14px;
 	font-weight:300;
 	text-transform:uppercase;
@@ -1194,7 +1193,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-weight: bold;
   font-style: normal;
   color: #101f2d;
-  font-family: 'montserratregular';
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
 
@@ -1610,7 +1609,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 .quote-form input[type="submit"] {
-	font-family: 'montserratregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	font-weight:300;
 	text-transform:uppercase;
@@ -2165,13 +2164,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
     #page-trainer .services-price {
         text-align: right;
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #fff;
         text-transform:uppercase;
     }
 
     #page-trainer .services-price-time {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
     }
 
@@ -2254,7 +2253,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #page-therapy #about h5 {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #333333;
         text-transform:uppercase;
     }
@@ -2818,7 +2817,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #page-corporate-trainer #tabs .nav-tabs>li>a {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: gray;
         font-size: 27px;
         background: #fff;
@@ -2881,7 +2880,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #page-corporate-trainer #tabs .useful-link li {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #bc4a1d;
         font-size: 14px;
         padding:10px 0;
@@ -3018,7 +3017,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #page-architect #about-details .about-details-count {
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 48px;
         color: #333333;
     }
@@ -3129,7 +3128,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
     #page-architect  #projects a {
         color: #ff9800;
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 13px;
         text-transform: uppercase;
     }
@@ -3247,7 +3246,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #page-architect #requests .quote-form input[type="submit"] {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight:300;
         text-transform:uppercase;
@@ -3441,7 +3440,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .list-about .title {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #000000;
     }
 
@@ -3502,7 +3501,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #page-movers #about .quote-form input[type="submit"] {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
         font-weight:300;
         text-transform:uppercase;
@@ -3570,7 +3569,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #page-movers #projects .projects-item .link-more {
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         text-transform: uppercase;
         font-size: 14px;
         color: #fff;
@@ -4070,7 +4069,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
     .entry-title {
         font-size: 30px;
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #333333;
         text-transform: uppercase;
         margin-bottom: 30px;
@@ -4143,7 +4142,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
         font-size: 30px;
         color: #333333;
         text-decoration: underline;
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     }
 
     .link-post .fa{
@@ -4198,7 +4197,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
     .page-content-wrapper .pagination > li > a,
     .page-content-wrapper .pagination > li > span {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #333333;
         background-color: #fff;
         border: 1px solid #9f8447;
@@ -4228,7 +4227,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .pagination.bookme-pagination {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         display: block;
         text-align: center;
     }
@@ -4272,7 +4271,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     .pager li > a,
     .pager li > span {
         display: inline;
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #333333;
         background-color: #fff;
         border: 1px solid #9f8447;
@@ -4305,7 +4304,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .comment-author h3 {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #333333;
         margin-top: 0;
     }
@@ -4319,7 +4318,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     .comment-author .btn-one {
         border-radius: 4px;
         padding: 5px 15px;
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 12px;
         margin-top: 0;
         min-width: auto;
@@ -4406,7 +4405,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
     .comment-reply-title,
     .comments-title {
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         text-transform: uppercase;
         font-size: 21px;
         color: #333333;
@@ -4421,7 +4420,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     ol.comment-list .comment-author-admin {}
     ol.comment-list .comment { border-bottom: 1px solid rgba(57,51,51,0.11); padding: 60px 0; }
     ol.comment-list div.comment-author { padding: 0; border: 0; }
-    ol.comment-list div.vcard { color: #333333; font-family: 'montserratregular'; font-size: 16px; }
+    ol.comment-list div.vcard { color: #333333; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 16px; }
     ol.comment-list div.vcard b.fn { font-style:normal; text-transform: uppercase; }
     ol.comment-list div.vcard img.avatar { float:left; margin:0 35px 35px 0; }
     ol.comment-list div.vcard img.avatar-32 { width: 136px; height: 121px; }
@@ -4429,7 +4428,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     ol.comment-list div.comment-metadata a { color: #9f8447; }
     ol.comment-list p { margin:20px 0; }
     ol.comment-list ul { font-size:11px; list-style:square; margin:0 0 1em 2em; }
-    ol.comment-list div.reply { font-family: 'montserratregular'; font-size: 14px; text-transform:uppercase; border-radius: 0; }
+    ol.comment-list div.reply { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; text-transform:uppercase; border-radius: 0; }
     ol.comment-list div.reply a { background: transparent; border: 1px solid #9f8447; color: #333333; padding: 5px 15px; display: inline-block; }
     ol.comment-list ol.children { list-style:none; padding-left:136px; }
     ol.comment-list ol.children li { padding: 60px 0 0 0; border-bottom: none; }
@@ -4438,7 +4437,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     .comment-form label { margin: 0; width: 95px;  text-align: left; font-family:'montserratregular'; color: #333333; font-size: 14px; vertical-align: top; }
     .comment-form input { font-family: 'loraregular'; font-size: 14px; color: #858585; height: 45px;  padding: 6px 12px; width: 62.5%; }
     .comment-form textarea { font-family: 'loraregular'; font-size: 14px; color: #858585; height: 215px;  padding: 6px 12px; width: 81%; }
-    .comment-form  input[type="submit"] { background-color: #9f8447; min-width: 90px; width: auto; font-family: 'montserratregular'; font-size: 14px; text-transform:uppercase; padding: 0 15px; color: #fff; border: 0; margin-left: 95px; }
+    .comment-form  input[type="submit"] { background-color: #9f8447; min-width: 90px; width: auto; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; text-transform:uppercase; padding: 0 15px; color: #fff; border: 0; margin-left: 95px; }
     ol.comment-list li.comment .comment-respond {
         margin: 60px 0;
     }
@@ -4462,7 +4461,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     /*-----------------------------------------------*/
 
     .widget-title {
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         text-transform: uppercase;
         font-size: 18px;
         color: #333333;
@@ -4515,7 +4514,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
     .sidebar .widget ul li a {
         color: #333333;
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     }
 
     .single-bookme_service .sidebar .widget ul li a {
@@ -4592,7 +4591,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
     .widget input[type="submit"] {
         background-color: #9f8447;
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
         text-transform:uppercase;
         margin-right:5px;
@@ -4620,7 +4619,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
         background-color: transparent;
         color: #333333;
         font-size: 12px !important;
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         -webkit-transition: all 0.8s linear 0s;
         -moz-transition: all 0.8s linear 0s;
         -o-transition: all 0.8s linear 0s;
@@ -4690,12 +4689,12 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
         border-collapse:separate;
         border-spacing:8px;
         margin-left:-2px;
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     }
 
     #wp-calendar
     caption {
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         text-transform: uppercase;
         text-align: center;
         font-size: 18px;
@@ -4798,7 +4797,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .widget_archive {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 12px;
         color: #333333;
         text-transform: uppercase;
@@ -4902,7 +4901,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .error-404 .error-content ul {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
         color: #000000;
         list-style: none;
@@ -4990,7 +4989,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .galleries .galleries-category a {
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 10px;
         color: #fff;
         background-color: #9a9a9a;
@@ -5042,7 +5041,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     #pricing .pricing-value {
         background-color: #735c29;
         padding: 0 20px;
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #fff;
         position: absolute;
         bottom: -35px;
@@ -5066,7 +5065,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #pricing .pricing-content ul {
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
         list-style: none;
         padding-left: 0;
@@ -5106,7 +5105,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     /* Heading */
 
     h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, p.bookme {
-        font-family: 'montserratbold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #333333;
         text-transform: uppercase;
         margin-top: 20px;
@@ -5238,7 +5237,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     /* Accordion */
 
     .panel-group .panel-title {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #333333;
         font-size: 18px;
     }
@@ -5290,7 +5289,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .nav-tabs>li>a {
-        font-family: 'montserratregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
         text-transform: uppercase;
         border-radius: 0;
@@ -6032,7 +6031,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .footer-widget ul li a {
    display: block;
-   font-family: 'montserratregular';
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
    font-size: 13px;
    color: #afafaf;
    padding-bottom: 5px;
@@ -6060,13 +6059,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 .contact-info-title {
-	font-family: 'montserratbold';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
 	color: #333333;
 }
 
 .contact-info-phone {
-	font-family: 'montserratregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .contact-info-number {
