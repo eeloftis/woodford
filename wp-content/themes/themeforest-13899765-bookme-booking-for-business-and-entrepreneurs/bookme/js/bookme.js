@@ -371,8 +371,8 @@ jQuery(document).ready(function($) {
 	});
 
 	function scrollToAnchor(aid){
-	
-	    var aTag = jQuery("a[name='"+ aid +"']");
+
+	    var aTag = jQuery("a[id='"+ aid +"']");
 	    jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
 	}
 
