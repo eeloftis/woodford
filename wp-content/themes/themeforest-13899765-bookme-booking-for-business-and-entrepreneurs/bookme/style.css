@@ -6942,6 +6942,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #contact-estimate .contact-button {
   margin-top: 230px;
+  margin-bottom: 70px;
   display: inline-block;
   padding: 15px 30px;
   background-color: #f4f8fc;
@@ -6954,6 +6955,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .wpcf7-submit {
     border: none;
+    margin-top: 115px;
     display: inline-block;
     padding: 15px 30px;
     background-color: #214567;
