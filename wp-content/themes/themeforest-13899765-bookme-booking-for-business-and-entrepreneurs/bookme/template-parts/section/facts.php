@@ -49,7 +49,7 @@
 										<?php elseif ( $icon ) : ?>
 											<span class="fa <?php echo $icon; ?>"></span>
 										<?php endif; ?>
-										<p><?php echo $content; ?></p>
+									<?php echo $content; ?>
 									</div>
 								</div><?php
 								$count = $count+0.5;

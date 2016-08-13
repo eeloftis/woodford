@@ -1382,7 +1382,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .facts-item {
 	margin-top: 100px;
-	min-height: 250px;
+	min-height: 400px;
 	padding: 0 30px;
 	padding-bottom: 30px;
 	background: #fff;
