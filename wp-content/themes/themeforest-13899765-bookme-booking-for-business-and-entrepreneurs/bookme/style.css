@@ -1388,8 +1388,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	background: #fff;
   color: #101f2d;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    position: relative;
-    top: -70px;
+
 }
 
 .facts-item h3 {
@@ -1397,6 +1396,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   color: #101f2d;
   font-weight: bold;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative;
+  top: -70px;
+}
+
+.facts-item p {
+  position: relative;
+  top: -70px;
 }
 
 
