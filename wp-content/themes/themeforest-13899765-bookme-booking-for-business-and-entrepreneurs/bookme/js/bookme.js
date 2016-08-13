@@ -384,6 +384,6 @@ $("#services-link").click(function() {
  scrollToAnchor('services');
 });
 
-
+ rightHeight.init();
 
 });

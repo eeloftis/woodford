@@ -60,9 +60,9 @@
 								if ( $desc_color ) {
 									$d_color = 'style="color: '.$desc_color.'"';
 								}
-								echo '<div class="col-md-4 col-sm-4 col-xs-12"><div class="row" ' . $bg_color . '>';
+								echo '<div class="col-md-4 col-sm-4 col-xs-12"><div class="row" ' . $bg_color . '  data-right-height>';
 
-								echo '<div class="services-item text-center service-'.$key.'">';
+								echo '<div class="services-item text-center service-'.$key.'"  data-right-height-content>';
 
 								if ( $icon_img ) {
 									echo '<div class="icon-img"><img src="' . esc_url( $icon_img ) . '" alt=""></div>';

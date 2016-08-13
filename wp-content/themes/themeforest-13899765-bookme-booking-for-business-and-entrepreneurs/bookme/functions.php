@@ -163,7 +163,7 @@ add_action( 'widgets_init', 'bookme_widgets_init' );
  */
 function bookme_scripts() {
 	global $bookme_option;
-	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/inc/assets/bootstrap/css/bootstrap.min.css', array(), null ); 
+	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/inc/assets/bootstrap/css/bootstrap.min.css', array(), null );
 	wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/inc/assets/fonts/font-awesome/css/font-awesome.min.css', array(), null );
 	wp_enqueue_style( 'linearicons', get_template_directory_uri() . '/inc/assets/fonts/linearicons/style.css', array(), null );
 	wp_enqueue_style( 'montserrat', get_template_directory_uri() . '/inc/assets/fonts/montserrat/stylesheet.css', array(), null );
@@ -175,7 +175,7 @@ function bookme_scripts() {
 	wp_enqueue_style( 'meanmenu', get_template_directory_uri() . '/inc/assets/meanmenu/meanmenu.css', array(), null );
 	wp_enqueue_style( 'prettyPhoto', get_template_directory_uri() . '/inc/assets/prettyPhoto/css/prettyPhoto.css', array(), null );
 	wp_enqueue_style( 'bookme-style', get_stylesheet_uri() );
-	wp_enqueue_script('gmap', '//maps.googleapis.com/maps/api/js', array('jquery'), true); 
+	wp_enqueue_script('gmap', '//maps.googleapis.com/maps/api/js', array('jquery'), true);
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/inc/assets/bootstrap/js/bootstrap.min.js', array('jquery'), null, true );
 	wp_enqueue_script( 'meanmenu', get_template_directory_uri() . '/inc/assets/meanmenu/jquery.meanmenu.js', array('jquery'), null, true );
 	$retina_ready = $bookme_option['retina_image'];
@@ -200,6 +200,9 @@ function bookme_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	wp_enqueue_script( 'right_height', get_template_directory_uri() . '/js/right-height.min.js', null, null, true );
+}
 	wp_enqueue_script( 'bookme', get_template_directory_uri() . '/js/bookme.js', null, null, true );
 }
 add_action( 'wp_enqueue_scripts', 'bookme_scripts' );
