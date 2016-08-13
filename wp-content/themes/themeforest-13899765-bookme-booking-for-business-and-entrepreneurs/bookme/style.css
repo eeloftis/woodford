@@ -496,12 +496,12 @@ p {
 .title h2,
 .title h3,
 .title h4,
-.title h5 , 
+.title h5 ,
 h1.title,
 h2.title,
 h3.title,
 h4.title,
-h5.title , 
+h5.title ,
 .title-bottom,
 .title-regular {
 	margin-top: 0;
@@ -589,9 +589,9 @@ a.link-more:hover:after{
 }
 /* Styling Owl */
 
-.bookme-recent-item { margin-bottom: 30px; } 
-.bookme-recent-item h4 { margin-top: 0; } 
-.bookme-recent-item h4 a { color: #333; font-size: 14px; font-family: "Montserratbold"; text-transform: uppercase; } 
+.bookme-recent-item { margin-bottom: 30px; }
+.bookme-recent-item h4 { margin-top: 0; }
+.bookme-recent-item h4 a { color: #333; font-size: 14px; font-family: "Montserratbold"; text-transform: uppercase; }
 .bookme-recent-item .date { font-family: "loraregular"; font-size: 12px; color: #333; }
 
 div.wpcf7-validation-errors{
@@ -879,7 +879,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .page-template-template-attorney .bookme-phone {
     border-left: 1px solid #2e3349;
     color: #e72759;
-    
+
 }
 .page-template-template-attorney .bookme-phone h4:before {
     background-image: url('images/icon_phone_quote_mag.png');
@@ -1085,7 +1085,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .slide-content h2.title {
 	color: #fff;
 }
-	
+
 #main-slider .owl-theme .owl-controls {
 	margin: 0;
 }
@@ -1167,7 +1167,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	color: #fff;
 	border: 0;
 }
-	
+
 #main-slider .quote-form ::-webkit-input-placeholder { color:#616161; }
 #main-slider .quote-form ::-moz-placeholder { color:#616161; } /* firefox 19+ */
 #main-slider .quote-form :-ms-input-placeholder { color:#616161; } /* ie */
@@ -1193,7 +1193,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*-----------------------------------------------*/
 /*	6. Services Section	*/
 /*-----------------------------------------------*/
-	
+
 .services-item {
 	padding: 15%;
 	min-height: 520px;
@@ -1487,7 +1487,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .testimonials-callout .title {
 	font-size: 18px;
 }
-	
+
 #testimonials #testimonial-slides .owl-theme .owl-controls .owl-buttons div {
 	z-index: 112;
 	color: #a49d8d;
@@ -1505,7 +1505,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #testimonials #testimonial-slides .owl-next{
 	right: 0;
 }
-	
+
 #testimonials .testimonials-author .small-title {
 	color: #747474;
 	font-size: 14px;
@@ -1514,7 +1514,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #testimonials .testimonials-author {
 	padding-left: 15px;
 }
-	
+
 #testimonials .testimonials-author img {
 	background: #a49d8d;
 	border-radius: 50%;
@@ -1525,14 +1525,14 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	z-index: -1;
 	color: #3b3b3b;
 	top: 10px;
-} 
+}
 
 #testimonials .testimonials-content p {
 	font-family: 'loraitalic';
 	color: #8c8c8c;
 	font-size: 18px;
-} 
-	
+}
+
 #testimonials  .form-request {
 	padding-right: 50px;
 }
@@ -1540,7 +1540,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #testimonials .testimonials-quote .small-title {
 	color:#503c0e;
 }
-	
+
 .quote-form .field-control,
 .quote-form input[type="text"],
 .quote-form input[type="email"],
@@ -1572,7 +1572,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	color: #fff;
 	border: 0;
 }
-	
+
 .quote-form ::-webkit-input-placeholder { color:#40351d; opacity: 1;}
 .quote-form ::-moz-placeholder { color:#40351d;  opacity: 1;} /* firefox 19+ */
 .quote-form :-ms-input-placeholder { color:#40351d;  opacity: 1;} /* ie */
@@ -1883,11 +1883,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*-----------------------------------------------*/
 /*	16. Faqs	*/
 /*-----------------------------------------------*/
-	
+
 .faqs-wrapper {
 	margin: 10px 0 50px 0;
 }
-	
+
 .faqs-wrapper .question {
 	font-family: Gulim;
 	font-size: 24px;
@@ -6040,38 +6040,38 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#main-slider .owl-theme .owl-controls .owl-buttons div {
 		top: 35%;
 	}
-	
+
 	#page-therapy .video-play {
 		width: 85%;
 	}
-	
+
 	.main-projects {
 		width: 100%;
 		margin: auto;
-	} 
+	}
 }
- 
-@media (min-width: 768px) { 
+
+@media (min-width: 768px) {
 	.about-item {
 		margin-top: 115px;
 	}
-	
+
 	#main-slider .owl-theme .owl-controls .owl-buttons div {
 		top: 45%;
 	}
-	
+
 	#page-therapy .video-play {
 		width: 90%;
 	}
-	
+
 	#page-architect #testimonials .box-testimonials {
 		height: 600px;
 	}
-	
+
 	.navbar-toggle {
 		display: block;
 	}
-	
+
 	.navbar-collapse {
 	  padding-right: 15px;
 	  padding-left: 15px;
@@ -6081,41 +6081,41 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 			  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 	}
-	
+
 	.navbar-collapse.in {
 	  overflow-y: auto;
 	}
  }
- 
+
 @media (min-width: 1024px) {
 	#page-therapy .video-play {
 		width: 80%;
 	}
-	
+
 	#page-architect #testimonials .box-testimonials {
 		height: 480px;
 	}
-	
+
 	.main-projects {
 		width: auto;
 	}
-	
+
 	#page-barber .services-wrapper {
 		padding: 50px 20px;
 	}
-	
+
 	#page-barber .services-item .service-content {
 		padding: 30px;
 	}
-	
+
 	#page-barber #services .icon-img img {
 		max-height: 48px;
 	}
-	
+
 	.navbar-toggle {
 		display: none;
 	}
-	
+
 	 .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -6138,7 +6138,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#main-slider .slide-content {
 		top: 15%;
 	}
-	
+
 	#testimonials .quote-form .field-control,
 	#testimonials .quote-form input[type="text"],
 	#testimonials .quote-form input[type="email"],
@@ -6150,31 +6150,31 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#testimonials .quote-form textarea {
 		width: 80%;
 	}
-	
+
 	#testimonials .minict_wrapper {
 		width: 80%;
 	}
-	
+
 	#main-slider .quote-form .selectBox-dropdown {
 		width: 80%;
 	}
-	
+
 	#page-barber .services-wrapper {
 		padding: 80px 40px;
 	}
-	
+
 	#page-barber .services-item .service-content {
 		padding: 50px;
 	}
-	
+
 	#page-barber #services .icon-img img {
 		max-height: 60px;
 	}
-	
+
 	#main-slider .quote-form {
 		padding: 20px 40px;
 	}
-	
+
 	#main-slider .quote-form .selectBox-dropdown,
 	#main-slider .quote-form .field-control,
 	#main-slider .quote-form input[type="text"],
@@ -6190,12 +6190,12 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#main-slider .quote-form textarea {
 		height: 40px;
 	}
-	
+
 
 	#main-slider .quote-form input[type="submit"] {
 		margin-top: 20px;
 	}
-	
+
 	#main-slider .minict_wrapper {
 		margin-bottom: 0px;
 	}
@@ -6205,7 +6205,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#main-slider .slide-content {
 		top: 20%;
 	}
-	
+
 	#page-barber .services-wrapper {
 		padding: 120px 70px;
 	}
@@ -6215,11 +6215,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#main-slider .slide-content {
 		top: 22%;
 	}
-	
+
 	#main-slider .quote-form {
 		padding: 45px 40px;
 	}
-	
+
 	#main-slider .quote-form .field-control,
 	#main-slider .quote-form input[type="text"],
 	#main-slider .quote-form input[type="email"],
@@ -6238,11 +6238,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#main-slider .quote-form input[type="submit"] {
 		margin-top: 30px;
 	}
-	
+
 	#main-slider .minict_wrapper {
 		margin-bottom: 10px;
 	}
-	
+
 	#main-slider .quote-form .selectBox-dropdown {
 		margin-bottom: 20px;
 	}
@@ -6279,7 +6279,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#page-movers #projects #project-mover-img img {
 		max-width: 200%;
 	}
-	
+
 	#page-trainer #testimonial-trainer-img img {
 		max-width: 200%;
 	}
@@ -6319,32 +6319,32 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#main-slider .slide-content {
 		top: 13%;
 	}
-	
+
 	.slide-content h4 {
 		font-size: 36px;
 	}
-	
+
 	.slide-content h3 {
 		font-size: 18px;
 	}
-	
+
 	#main-slider p {
 		font-size: 14px;
 	}
-	
+
 	#main-slider .owl-theme .owl-controls .owl-buttons div {
 		width: 18px;
 	}
-	
+
 	#main-slider .slide-form {
 		position: relative;
 	}
-	
+
 	#main-slider .quote-form {
 		float: none;
 		margin: auto;
 	}
-	
+
 	#page-architect .slide-caption:before,
 	#page-attorney .slide-caption:before {
 		left:-30%;
@@ -6385,48 +6385,48 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	.slide-content {
 		display: none;
 	}
-	
+
 	.testimonial-wrapper {
 		position: relative;
 	}
-	
+
 	.testimonials-callout {
 		position: relative;
 	}
-	
+
 	.testimonials-quote {
 		float: left;
 		width: 100%;
 		padding: 50px 23%;
 	}
-	
+
 	.quote-form {
 		min-height: auto;
 	}
-	
+
 	#page-therapy #about,
 	#page-movers #about {
 		text-align: center;
 	}
-	
+
 	#page-movers #about .quote-form {
 		text-align: left;
 		float: none;
 		margin: auto;
 	}
-	
+
 	#page-movers #projects #project-mover-img {
-		position: relative; 
+		position: relative;
 	}
-	
+
 	#testimonial-trainer-img {
-		position: relative; 
+		position: relative;
 	}
-	
+
 	#page-movers #projects .owl-theme .owl-controls {
 		position: relative;
 	}
-	
+
 	#page-movers #projects .owl-theme .owl-controls .owl-buttons {
 		position: absolute;
 		right: auto;
@@ -6437,53 +6437,53 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#page-movers #projects .projects-item {
 		padding: 67px 85px;
 	}
-	
+
 	#page-architect #requests .quote-form {
 		margin-top: 100px;
 	}
-	
+
 	.list-about {
 		text-align: left;
 	}
-	
+
 	#page-barber #schedules .post .schedules-item:nth-child(2n+0){
 		border-right: 0;
 	}
-	
+
 	.abt-video,
 	#page-trainer .abt-video {
 		margin-top: 0;
 	}
-	
+
 	.galleries .galleries-wrapper {
 		text-align: center;
 	}
-	
+
 	#page-movers #projects #project-mover-img img {
 		max-width: 100%;
 	}
-	
+
 	#page-trainer #testimonial-trainer-img img {
 		max-width: 100%;
 	}
-	
+
 	#page-barber #testimonials .content-center {
 		background: transparent;
 		padding: 0;
 	}
 
-	
+
 	.logo-wrapper,
 	.quote-text,
 	.bookme-phone {
 		margin-bottom: 20px;
 	}
-	
+
 	.header-right,
 	.bookme-phone {
 		float: left;
 	}
-    
+
     .page-template-template-accounting3 .bookme-phone{
         color: #9f8447;
         border-left: 1px solid #464646;
@@ -6491,47 +6491,47 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     .page-template-template-accounting3 .bookme-phone h4:before{
         background-image: url('images/icon_phone_quote_gold.png');
     }
-	
+
 	.header-right {
 		padding-right: 50px;
 	}
-	
+
 	#main-menu {
 		display: none;
 	}
-	
+
 	.page-template-template-accounting3 #news,
 	.page-template-template-accounting3 #news .text-right,
 	#page-attorney #news,
 	#page-attorney #news .text-right {
 		text-align: center;
 	}
-	
+
 	.page-template-template-accounting3 #news .news-entry,
 	#page-attorney #news .news-entry {
 		padding-bottom: 0;
 	}
-		
+
 	.page-template-template-accounting3 #news .news-item .news-entry,
 	#page-attorney #news .news-item .news-entry {
 		padding: 20px 0;
 	}
-	
+
 	.cd-single-point > a {
 		width: 50px;
 		height: 50px;
 	}
-	
+
 	.cd-single-point > a::after {
 		height: 2px;
 		width: 13px;
 	}
-	
+
 	.cd-single-point > a::before {
 		height: 13px;
 		width: 2px;
 	}
-	
+
 	body .booked-calendar-wrap {
 		margin-top: 30px;
 	}
@@ -6596,11 +6596,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
         line-height: 100px;
         width: 15%;
     }
-	
+
 	.testimonials-callout-img {
 		display: none;
 	}
-	
+
 	.testimonials-callout-post-content {
 		padding: 30px;
 	}
@@ -6620,15 +6620,15 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#about, #news {
 		text-align: center;
 	}
-	
+
 	.testimonials-quote {
 		padding: 50px 50px;
 	}
-	
+
 	.header-section {
 		padding: 0;
 	}
-	
+
 	#page-movers #projects .owl-theme .owl-controls .owl-buttons {
 		left: 35%;
 	}
@@ -6636,78 +6636,78 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#page-movers #projects .projects-item {
 		padding: 67px 65px;
 	}
-	
+
 	#page-movers #projects .projects-item h2.title {
 		font-size: 36px;
 	}
-	
+
 	#page-movers #testimonials .testimonials-callout-post-content {
 		padding: 30px;
 	}
-	
+
 	#page-architect #testimonials .testimonials-author p {
 		font-size: 21px;
 		width: 100%;
 	}
-	
+
 	.list-about {
 		margin: 50px 25%;
 	}
-	
+
 	#page-movers .list-about {
 		border-right: none;
 		margin: 25%;
 		border-top: 1px solid #e2e2e2;
 	}
-	
+
 	#page-barber .prices-item .prices-item-hover .prices-btn {
 		bottom: 5%;
 	}
-	
+
 	#page-barber .prices-item {
 		margin: 0 20%;
 	}
-	
+
 	#page-corporate-trainer #about #about-corp-trainer {
 		margin-top: 0;
 	}
-	
+
 	#page-architect #services  .services-wrapper {
 		width: 100%;
 	}
-	
+
 	#page-barber #testimonials {
 		text-align: center;
 	}
-	
+
 	#page-barber #testimonials .text-left,
 	#page-barber #testimonials .text-right {
 		text-align: center;
 	}
-	
+
 	#page-barber #testimonials .testimonials-item .lnr-arrow-right,
 	#page-barber #testimonials .testimonials-item .lnr-arrow-left {
 		display: none;
 	}
-	
+
 	#page-barber #testimonials img {
 		margin-bottom: 20px;
 	}
-	
+
 	.clients-item-wrap,
 	.border-left {
 		border: none;
 	}
-	
+
 	.testimonials-callout .btn {
 		position: relative;
 		right: auto;
 	}
-	
+
 	.testimonials-callout-content {
 		padding: 30px;
 		padding-top: 0;
-	}	
+	}
 }
 
 @media (max-width: 480px) {
@@ -6715,23 +6715,23 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
         display: none;
         visibility: visible;
     }
-	
+
     #page-trainer #news .post {
         max-width: 360px;
         margin: 0 auto;
     }
-	
+
 	.bookme-phone {
 		border: none;
 	}
 }
 
 @media (max-width: 479px) {
-	#page-therapy .video-play .fa { 
-		padding: 18px 20px; 
-		font-size: 18px; 
+	#page-therapy .video-play .fa {
+		padding: 18px 20px;
+		font-size: 18px;
 	}
-	
+
 	#page-movers #projects .owl-theme .owl-controls .owl-buttons {
 		left: 30%;
 	}
@@ -6739,38 +6739,38 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	#page-movers #projects .projects-item {
 		padding: 67px 45px;
 	}
-	
+
 	#page-architect #testimonials .box-testimonials {
 		width: 270px;
 	}
-	
+
 	#page-architect #testimonials .testimonials-author p {
 		font-size: 16px;
 	}
-	
+
 	#page-barber .services-wrapper {
 		padding: 50px 20px;
 	}
-	
+
 	#page-barber .prices-item {
 		margin: 0;
 	}
-	
+
 	.cd-single-point > a {
 		width: 35px;
 		height: 35px;
 	}
-	
+
 	.cd-single-point > a::after {
 		height: 2px;
 		width: 11px;
 	}
-	
+
 	.cd-single-point > a::before {
 		height: 11px;
 		width: 2px;
 	}
-	
+
 	#main-slider .booked-btn {
 		bottom: -17px;
 	}
@@ -6790,7 +6790,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     .bookme-phone {
         border: none;
     }
-	
+
 	.main-projects, #page-architect #projects .projects-item-inner .projects-item-hover {
         width: 300px;
     }
@@ -6803,13 +6803,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 
-@media (min-width: 768px) and (max-width: 1023px) { 
+@media (min-width: 768px) and (max-width: 1023px) {
 	.services-item {
 		min-height: 550px;
 	}
 }
 
-@media (min-width: 481px) and (max-width: 768px) { 
+@media (min-width: 481px) and (max-width: 768px) {
     #page-architect #projects .projects-item-inner .projects-item-hover .title, #page-architect #projects .projects-item-inner .projects-item-hover p {
         line-height: 1;
         max-height: 30px;
@@ -6817,7 +6817,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 }
 
-@media (min-width: 321px) and (max-width: 480px) { 
+@media (min-width: 321px) and (max-width: 480px) {
     #page-architect #projects .projects-item {
         margin: 15px 10%;
     }
@@ -6832,3 +6832,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*-----------------------------------------------*/
 /*	End Theme Style	*/
 /*-----------------------------------------------*/
+
+.service-0{
+  background-color: #becdd6 !important;
+}
