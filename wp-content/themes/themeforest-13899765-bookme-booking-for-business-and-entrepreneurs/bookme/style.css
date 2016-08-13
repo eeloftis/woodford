@@ -1197,14 +1197,14 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .services-item {
 	padding: 15%;
 	min-height: 520px;
-	background-color: #9f8447;
+
 }
 #services .row>div:nth-child(2n+0) .services-item {
-	background-color: #333333;
+
 }
 
 #services .row>div:nth-child(3n+0) .services-item {
-	background-color: #9b927e;
+
 }
 
 #services .fa {
