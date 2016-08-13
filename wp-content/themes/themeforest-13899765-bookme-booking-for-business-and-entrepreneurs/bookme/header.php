@@ -187,7 +187,7 @@
 																		<li><a id="features-link">Leadership</a></li>
 																		<li><a id="facts-link">Woodford Difference</a></li>
 																		<li><a id="clients-link">Clients</a></li>
-																		<li><a id="clients-link">Contact</a></li>
+																		<li><a id="contact-estimate-link">Contact</a></li>
 
 
                                     <!-- <?php
