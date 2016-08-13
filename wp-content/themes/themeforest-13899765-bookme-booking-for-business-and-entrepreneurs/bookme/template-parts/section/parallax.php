@@ -3,6 +3,8 @@
  * Section Parallax
  *
  */
+ <a name="features" />
+
 
 	$paralax_small_text = get_post_meta(get_the_ID(), '_BookmeMB_paralax_small_text', true);
 	$paralax_content = get_post_meta(get_the_ID(), '_BookmeMB_paralax_content', true);

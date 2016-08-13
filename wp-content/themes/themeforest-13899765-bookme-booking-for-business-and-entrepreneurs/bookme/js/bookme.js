@@ -384,6 +384,11 @@ $("#services-link").click(function() {
  scrollToAnchor('services');
 });
 
- rightHeight.init();
+
+$("#features-link").click(function() {
+ scrollToAnchor('features');
+});
+
+
 
 });

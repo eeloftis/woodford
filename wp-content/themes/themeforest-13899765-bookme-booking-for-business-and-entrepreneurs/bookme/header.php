@@ -183,7 +183,8 @@
                                 <ul class="nav-menu">
 
 																		<li><a id="about-link">About</a></li>
-																					<li><a id="services-link">Services</a></li>
+																		<li><a id="services-link">Services</a></li>
+																		<li><a id="features-link">Leadership</a></li>
 
                                     <!-- <?php
                                         if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'primary' ) ) {
