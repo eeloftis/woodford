@@ -1348,7 +1348,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .page-template-template-why-me  .facts-item { background: #f2f2f1; }
 
 .facts-wrapper {
-	padding: 120px 0;
+	padding: 140px 0 170px 0;
 }
 
 #facts .fa {
@@ -1404,7 +1404,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #facts .facts-item p {
   position: relative;
   top: -70px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
