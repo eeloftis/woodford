@@ -6910,6 +6910,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #contact-estimate .estimate {
   background-color: #abb2b6;
+    padding-left: 5%;
 }
 
 #contact-estimate h3 {
@@ -6981,39 +6982,4 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   color: #101f2d !important;
   font-style: italic !important;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-}
-
-::-webkit-input-placeholder {
-   color: #101f2d !important;
-   font-style: italic !important;
-   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-
-}
-
-::placeholder {
-  color: #101f2d !important;
-  font-style: italic !important;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #101f2d !important;
-   font-style: italic !important;
-   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #101f2d !important;
-   font-style: italic !important;
-   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-
-}
-
-:-ms-input-placeholder {
-   color: #101f2d !important;
-   font-style: italic !important;
-   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-
 }
