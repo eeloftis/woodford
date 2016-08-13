@@ -1722,17 +1722,28 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
-    padding-top: 200px;
+
 }
 .features-wrapper {
-	padding: 50px 0 250px 0;
+	padding: 50px 0 300px 0;
 }
 
 #features .title {
 	color: #fff;
 }
 
-#features .small-title {
+#features .small-title h3 {
+  color: #101f2d;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+#features .main-post {
+  color: #101f2d;
+
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .featured-logo {
