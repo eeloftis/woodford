@@ -1401,7 +1401,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   top: -70px;
 }
 
-.facts .facts-item p {
+#facts .facts-item p {
   position: relative;
   top: -70px;
   font-size: 14px;
