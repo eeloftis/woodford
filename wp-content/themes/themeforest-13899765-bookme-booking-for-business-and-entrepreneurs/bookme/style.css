@@ -6969,11 +6969,14 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 }
 
-.wpcf7-form-control-wrap input {
+.wpcf7-form-control-wrap input, .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap textarea {
   background: transparent;
   border: 0;
   width: 70%;
   border-bottom: 1px dashed #000;
+  color: #101f2d !important;
+  font-style: italic !important;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
 ::-webkit-input-placeholder {
