@@ -6922,6 +6922,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #contact-estimate .contact h3 {
   color: #e6edf3;
+  margin-top:80px;
 }
 
 #contact-estimate .contact h4 {
@@ -6939,12 +6940,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 #contact-estimate .contact-button {
-  padding: 30px 50px;
+  margin-top: 230px;
+  padding: 15px 30px;
   background-color: #f4f8fc;
   color: #214567;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
