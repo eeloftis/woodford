@@ -187,6 +187,8 @@
 																		<li><a id="features-link">Leadership</a></li>
 																		<li><a id="facts-link">Woodford Difference</a></li>
 																		<li><a id="clients-link">Clients</a></li>
+																		<li><a id="clients-link">Contact</a></li>
+
 
                                     <!-- <?php
                                         if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'primary' ) ) {

@@ -29,6 +29,23 @@ get_header();
 
 	?>
 
-	<div>Test</div>
+<a name="contact-estimate" />
+<section id="contact-estimate">
+	<div class="container">
+		<div class="row wow fadeInUp" data-right-height>
+			<div class="col-md-5 col-sm-5" data-right-height-content>
+				<h3>Contact</h3>
+				<p>Paul Belanger, Founder<br/>
+paul.belanger@woodfordadvisors.com</p>
+
+			</div>
+			<div class="col-md-7 col-sm-7">
+
+
+			</div>
+		</div>
+	</div>
+</section>
+
 
 	<?php get_footer(); ?>

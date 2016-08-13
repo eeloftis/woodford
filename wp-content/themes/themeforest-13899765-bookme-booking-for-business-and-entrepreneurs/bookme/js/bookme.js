@@ -397,7 +397,9 @@ $("#clients-link").click(function() {
  scrollToAnchor('clients');
 });
 
-
+$("#contact-estimate-link").click(function() {
+ scrollToAnchor('contact-estimate');
+});
 
 
 });
