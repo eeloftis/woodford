@@ -19,9 +19,16 @@ get_header();
 				get_template_part('template-parts/section/clients');
 
 
+
+
+
 			endwhile;
 		else :
 			get_template_part( 'content', 'none' );
 		endif;
 
-get_footer(); ?>
+	?>
+
+	<div>Test</div>
+
+	<?php get_footer(); ?>
