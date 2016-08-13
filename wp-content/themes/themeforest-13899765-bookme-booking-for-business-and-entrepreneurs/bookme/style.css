@@ -3315,7 +3315,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     #page-architect #testimonials .testimonials-author p {
-        font-family: 'playfair_displaybold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 24px;
         color: #fff;
         margin: 0 auto;
@@ -3559,7 +3559,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     #page-movers #projects .projects-item h3 {
         color: #fff;
         font-size: 24px;
-        font-family: 'playfair_displaybold';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         margin-bottom: 35px;
         margin-top: 0;
     }
