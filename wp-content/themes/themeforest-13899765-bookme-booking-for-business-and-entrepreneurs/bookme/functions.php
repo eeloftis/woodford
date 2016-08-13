@@ -201,8 +201,8 @@ function bookme_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	wp_enqueue_script( 'right_height', get_template_directory_uri() . '/js/right-height.min.js', null, null, true );
-}
+	wp_enqueue_script( 'right-height', get_template_directory_uri() . '/js/right-height.min.js', null, null, true );
+
 	wp_enqueue_script( 'bookme', get_template_directory_uri() . '/js/bookme.js', null, null, true );
 }
 add_action( 'wp_enqueue_scripts', 'bookme_scripts' );
