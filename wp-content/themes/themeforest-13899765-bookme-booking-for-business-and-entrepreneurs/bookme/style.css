@@ -6940,7 +6940,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#contact-estimate .contact-button {
+#contact-estimate .contact-button, .wpcf7-submit {
   margin-top: 230px;
   display: inline-block;
   padding: 15px 30px;
@@ -6950,5 +6950,8 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-weight: bold;
   font-size: 16px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
+#contact-estimate .estimate h3 {
+  color: #101f2d;
 }
