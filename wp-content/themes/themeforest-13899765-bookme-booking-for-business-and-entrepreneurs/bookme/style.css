@@ -6938,7 +6938,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#contact-estimate .contact a {
+#contact-estimate .contact-button {
   padding: 30px 50px;
   background-color: #f4f8fc;
   color: #214567;

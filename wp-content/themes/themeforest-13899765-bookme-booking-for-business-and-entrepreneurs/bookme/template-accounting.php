@@ -18,10 +18,6 @@ get_header();
 				get_template_part('template-parts/section/about', 'details');
 				get_template_part('template-parts/section/clients');
 
-
-
-
-
 			endwhile;
 		else :
 			get_template_part( 'content', 'none' );
@@ -31,20 +27,17 @@ get_header();
 
 <a name="contact-estimate" />
 <section id="contact-estimate">
-
 		<div class="row wow fadeInUp" data-right-height>
 			<div class="col-md-5 col-sm-5 contact" data-right-height-content>
 				<h3>Contact</h3>
 				<h4>Paul Belanger, Founder</h4>
 					<p>paul.belanger@woodfordadvisors.com</p>
-					<a>Contact Me</a>
+					<a class="contact-button">Contact Me</a>
 			</div>
 			<div class="col-md-7 col-sm-7 estimate" data-right-height-content>
 				<h3>Request a quote</h3>
 				<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
-
 			</div>
-
 	</div>
 </section>
 
