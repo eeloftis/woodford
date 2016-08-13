@@ -306,7 +306,8 @@ video {
     color: #fff;
     content: "Featured";
     display: inline-block;
-    font-family: "montserratregular";
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
     padding: 5px 10px 5px 20px;
     position: absolute;
     right: 0;
@@ -320,7 +321,7 @@ video {
 /*-----------------------------------------------*/
 
 body{
-	font-family: 'playfair_displayregular';
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #858585;
@@ -3953,7 +3954,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
     #page-barber .price-number:before {
         content: '$';
-        font-family: 'playfair_displayregular';
+
         color: #afafaf;
         font-size: 24px;
         vertical-align: text-top;
@@ -4259,7 +4260,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .post-cat a {
-        font-family: 'playfair_displayregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #9f8447;
         text-transform: none;
     }
@@ -4518,7 +4519,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .single-bookme_service .sidebar .widget ul li a {
-        font-family: 'playfair_displayregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 16px;
     }
 
@@ -4637,7 +4638,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
 
     .widget .input-group {
-        font-family: 'playfair_displayregular';
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     }
 
     .widget .input-group-btn .btn {
@@ -6918,6 +6919,8 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .services-item p {
   text-align:left !important;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 #features {
@@ -6935,7 +6938,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 #contact-estimate h3 {
-  font-family: "montserratregular";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
   font-size: 30px;
   text-transform: uppercase;
@@ -7012,4 +7015,8 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
  .rest {
    position: relative;
    top: -50px;
+ }
+
+ #about .about-desc {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
  }
