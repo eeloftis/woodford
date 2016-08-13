@@ -75,7 +75,7 @@
 								if ( $title )
 									echo '<div class="title"><h3 '.$t_color.'>' . esc_attr( $title ) . '</h3></div>';
 								if ( $desc )
-									echo '<p '.$d_color.'>' . esc_attr ( $desc ) . '</p>';
+									echo '<p '.$d_color.'>' .  $desc  . '</p>';
 								if ( $url )
 									echo '<a class="btn btn-services-one" href="'. esc_url( $url ) . '" ' . $color_btn . '>' . esc_attr( $more_text ) . '</a>';
 								echo '</div></div></div>';
