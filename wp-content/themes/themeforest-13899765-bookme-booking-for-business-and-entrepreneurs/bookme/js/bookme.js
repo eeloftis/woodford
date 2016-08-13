@@ -389,6 +389,15 @@ $("#features-link").click(function() {
  scrollToAnchor('features');
 });
 
+$("#facts-link").click(function() {
+ scrollToAnchor('facts');
+});
+
+$("#clients-link").click(function() {
+ scrollToAnchor('clients');
+});
+
+
 
 
 });

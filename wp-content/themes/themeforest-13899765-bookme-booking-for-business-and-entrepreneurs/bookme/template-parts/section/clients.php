@@ -8,7 +8,7 @@
 	$clients_title = get_post_meta(get_the_ID(), '_BookmeMB_clients_title',true);
 	$clients_content = get_post_meta(get_the_ID(), '_BookmeMB_clients_content',true);
 	if ( $clients_small_text || $clients_title || $clients_content ) { ?>
-
+		<a name="clients" />
 		<section id="clients">
 			<div class="container wow fadeInDown">
 				<div class="clients-header">

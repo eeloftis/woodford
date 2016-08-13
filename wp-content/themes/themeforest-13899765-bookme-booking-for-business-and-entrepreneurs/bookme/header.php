@@ -185,6 +185,8 @@
 																		<li><a id="about-link">About</a></li>
 																		<li><a id="services-link">Services</a></li>
 																		<li><a id="features-link">Leadership</a></li>
+																		<li><a id="facts-link">Woodford Difference</a></li>
+																		<li><a id="clients-link">Clients</a></li>
 
                                     <!-- <?php
                                         if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'primary' ) ) {
