@@ -182,7 +182,7 @@
                             <nav id="main-menu" class="clearfix">
                                 <ul class="nav-menu">
 
-																		<li><a name="about">About</a></li>
+																		<li><a name="about-link">About</a></li>
 
                                     <!-- <?php
                                         if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'primary' ) ) {

@@ -371,11 +371,15 @@ jQuery(document).ready(function($) {
 	});
 
 	function scrollToAnchor(aid){
-		console.log('test');
+	
 	    var aTag = jQuery("a[name='"+ aid +"']");
 	    jQuery('html,body').animate({scrollTop: aTag.offset().top},'slow');
 	}
 
-	scrollToAnchor('about');
+	$("#about-link").click(function() {
+   scrollToAnchor('about');
+});
+
+
 
 });
