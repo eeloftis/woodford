@@ -26,8 +26,8 @@
 				<div class="features-wrapper" <?php echo $style_color; ?>>
 					<div class="container wow fadeInDown">
 						<div class="row">
-							<div class="col-md-6">
-								<div class="main-post" style="float:right">
+							<div class="col-md-6 col-md-offset-6">
+								<div class="main-post">
 									<?php if ( $paralax_small_text ) : ?>
 										<div class="small-title">
 											<h3><?php echo esc_attr( $paralax_small_text ); ?></h3>
@@ -57,7 +57,7 @@
 										</div>
 								<?php } ?>
 							</div>
-							<div class="col-md-6 col-md-offset-6">
+							<!-- <div class="col-md-6">
 								<?php
 									if ( class_exists( 'booked_plugin' ) ) {
 										$parallax_booked_title = get_post_meta(get_the_ID(), '_BookmeMB_parallax_booked_title', true);
@@ -68,7 +68,7 @@
 											echo '<div class="booked-wrapper">' . do_shortcode(esc_attr($parallax_booked_shortcode) ) . '</div>';
 									}
 								?>
-							</div>
+							</div> -->
 						</div>
 					</div><!--/.container-->
 				</div>
