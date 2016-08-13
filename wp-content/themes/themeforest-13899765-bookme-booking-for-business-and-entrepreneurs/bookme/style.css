@@ -1720,10 +1720,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    padding-top: 200px;
 }
 .features-wrapper {
-	padding: 135px 0;
+	padding: 50px 0 250px 0;
 }
 
 #features .title {
@@ -6847,4 +6848,8 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .services-item p {
   text-align:left !important;
+}
+
+#features {
+  background-size: contain;
 }
