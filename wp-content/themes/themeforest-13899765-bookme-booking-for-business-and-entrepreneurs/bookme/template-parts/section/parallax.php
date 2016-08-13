@@ -3,7 +3,6 @@
  * Section Parallax
  *
  */
- <a name="features" />
 
 
 	$paralax_small_text = get_post_meta(get_the_ID(), '_BookmeMB_paralax_small_text', true);
@@ -22,7 +21,7 @@
 		if ( $paralax_bg_color ) {
 			$style_color = 'style="' . $bg_color . '"';
 		} ?>
-
+ <a name="features" />
 			<section id="features" <?php echo $style_img; ?>>
 				<div class="features-wrapper" <?php echo $style_color; ?>>
 					<div class="container wow fadeInDown">
