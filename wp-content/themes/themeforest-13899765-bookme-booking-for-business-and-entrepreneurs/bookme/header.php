@@ -17,9 +17,9 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<?php 
+<?php
 	global $bookme_option;
-	wp_head(); 
+	wp_head();
 ?>
 </head>
 
@@ -31,10 +31,10 @@
 	<header id="masthead" class="site-header">
 			<div class="container">
 			<div class="row">
-				<div class="col-md-3 re-size">
+				<div class="col-md-4 re-size">
 						<div class="logo-wrapper">
 							<a href="<?php echo esc_url( home_url() ); ?>" >
-							<?php 
+							<?php
 								$site_logo = $bookme_option['header_logo']['url'];
 								if ( $site_logo != '' || !empty($site_logo) ) {
 									echo '<img src="' . $site_logo . '" alt="' . get_bloginfo('name') . '">';
@@ -115,19 +115,19 @@
 				<div class="col-md-9 re-size">
 					<div class="row">
 						<div class="header-right">
-							<?php 
+							<?php
 								$social_icon = $bookme_option['header_social_icon'];
-								if ( $social_icon == 1 ) : 
+								if ( $social_icon == 1 ) :
 									echo '<div class="bookme-social-media">';
 										echo '<ul>';
-										
+
 										$facebook = $bookme_option['facebook_url'];
 										$twitter = $bookme_option['twitter_url'];
 										$google = $bookme_option['google_url'];
 										$linkedin = $bookme_option['linkedin_url'];
 										$instagram = $bookme_option['instagram_url'];
 										$youtube = $bookme_option['youtube_url'];
-										
+
 										if ( $facebook )
 											echo '<li><a href="' . esc_url( $facebook ) . '"><i class="fa fa-facebook"></i></a></li>';
 										if ( $twitter )
@@ -140,37 +140,37 @@
 											echo '<li><a href="' . esc_url( $instagram ) . '"><i class="fa fa-instagram"></i></a></li>';
 										if ( $youtube )
 											echo '<li><a href="' . esc_url( $youtube ) . '"><i class="fa fa-youtube"></i></a></li>';
-										
+
 										echo '</ul>';
 									echo '</div>';
 								endif;
-								
+
 								$mb_header_quote = get_post_meta(get_the_ID(), '_BookmeMB_header_quote', true);
 								if ( $mb_header_quote == 'on' ) {
 									echo '<div class="header-quote">';
-									
+
 									$quote_text = get_post_meta(get_the_ID(), '_BookmeMB_header_quote_text', true);
-									if ( $quote_text ) 
+									if ( $quote_text )
 										echo '<div class="quote-text">' . ( esc_attr( $quote_text ) ) . '</div>';
-										
+
 									$quote_phone = get_post_meta(get_the_ID(), '_BookmeMB_header_quote_phone', true);
-									if ( $quote_phone )									
+									if ( $quote_phone )
 										echo '<div class="bookme-phone"><h4> ' . esc_attr( $quote_phone ) . '</h4></div>';
-										
+
 									echo '</div>';
 								} else {
 									$header_quote = $bookme_option['header_quote'];
 									if ( $header_quote == 1 ) :
 										echo '<div class="header-quote">';
-									
+
 										$quote_text = $bookme_option['header_quote_text'];
-										if ( $quote_text ) 
+										if ( $quote_text )
 											echo '<div class="quote-text">' . ( esc_attr( $quote_text ) ) . '</div>';
-										
+
 										$quote_phone = $bookme_option['header_quote_phone'];
-										if ( $quote_phone )									
+										if ( $quote_phone )
 											echo '<div class="bookme-phone"><h4> ' . esc_attr( $quote_phone ) . '</h4></div>';
-										
+
 										echo '</div>';
 									endif;
 								}
