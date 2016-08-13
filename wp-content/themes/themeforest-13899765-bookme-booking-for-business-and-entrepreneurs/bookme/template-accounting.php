@@ -36,11 +36,11 @@ get_header();
 			<div class="col-md-5 col-sm-5" data-right-height-content>
 				<h3>Contact</h3>
 				<p>Paul Belanger, Founder<br/>
-paul.belanger@woodfordadvisors.com</p>
-
+					paul.belanger@woodfordadvisors.com</p>
+					<a>Contact Me</a>
 			</div>
 			<div class="col-md-7 col-sm-7">
-
+				<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
 
 			</div>
 		</div>
