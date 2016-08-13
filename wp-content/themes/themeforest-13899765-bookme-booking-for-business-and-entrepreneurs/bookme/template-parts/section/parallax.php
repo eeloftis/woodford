@@ -32,7 +32,6 @@
 											<h3><?php echo esc_attr( $paralax_small_text ); ?></h3>
 										</div>
 									<?php endif; ?>
-												<div class="small-title">
 									<?php if ( $paralax_content ) echo wp_kses_post($paralax_content); ?>
 								</div>
 								<?php

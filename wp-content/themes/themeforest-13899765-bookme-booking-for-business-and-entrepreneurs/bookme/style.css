@@ -6838,15 +6838,15 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*	End Theme Style	*/
 /*-----------------------------------------------*/
 
-.service-0 {
+.service-row-0 {
   background-color: #becdd6 !important;
 }
 
-.service-1 {
+.service-row-1 {
   background-color: #7b98ac !important;
 }
 
-.service-2 {
+.service-row-2 {
   background-color: #d1d0ce !important;
 }
 
