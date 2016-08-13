@@ -6846,5 +6846,5 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 .services-item p {
-  text-align:left;
+  text-align:left !important;
 }
