@@ -178,7 +178,7 @@
 						</div>
 					</div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-8">
                             <nav id="main-menu" class="clearfix">
                                 <ul class="nav-menu">
 
