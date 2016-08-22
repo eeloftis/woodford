@@ -708,6 +708,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	-webkit-transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
 	text-decoration:none;
+  font-size: 10px;
 }
 
 
@@ -6215,7 +6216,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 @media (min-width: 1200px) {
 
    #main-menu .nav-menu li a {
-     font-size: 10px;
+     font-size: 12px;
    }
 
 	#main-slider .slide-content {
