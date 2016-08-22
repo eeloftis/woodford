@@ -26,7 +26,7 @@
 				<div class="features-wrapper" <?php echo $style_color; ?>>
 					<div class="container wow fadeInDown">
 						<div class="row">
-							<div class="col-md-6 col-md-offset-6">
+							<div class="col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-4">
 								<div class="main-post">
 									<?php if ( $paralax_small_text ) : ?>
 										<div class="small-title">
