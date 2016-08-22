@@ -31,7 +31,7 @@
 	<header id="masthead" class="site-header">
 			<div class="container">
 			<div class="row">
-				<div class="col-md-4 re-size col-sm-3">
+				<div class="col-md-4 re-size col-sm-3 col-xs-6 col-xs-offset-3">
 						<div class="logo-wrapper">
 							<a href="<?php echo esc_url( home_url() ); ?>" >
 							<?php
