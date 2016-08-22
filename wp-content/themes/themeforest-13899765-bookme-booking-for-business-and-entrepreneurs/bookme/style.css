@@ -1364,6 +1364,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #facts h2 {
   color: #101f2d;
+  font-weight: bold;
 }
 
 #facts p {
@@ -1806,6 +1807,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #features .main-post {
   color: #101f2d;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 23px;
 }
 
 .featured-logo {
