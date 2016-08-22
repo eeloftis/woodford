@@ -842,7 +842,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .mean-container .mean-bar {
     float: none;
-    background-color: #101F2D;
+    background: #101F2D;
     position: fixed;
 }
 .footer-widget .widget {
@@ -6570,7 +6570,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 	}
 
 
-	.logo-wrapper,
+
 	.quote-text,
 	.bookme-phone {
 		margin-bottom: 20px;
@@ -6647,7 +6647,6 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     }
     .header-right {
         float: none;
-        padding: 10px 0;
         text-align: center;
     }
     .bookme-social-media, .header-quote {
