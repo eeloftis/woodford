@@ -1787,7 +1787,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 }
 .features-wrapper {
-	padding: 50px 0 300px 0;
+	padding: 0 0 300px 0;
 }
 
 #features .title {
@@ -1808,6 +1808,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   color: #101f2d;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 23px;
+  font-size: 14px;
 }
 
 .featured-logo {
@@ -6216,6 +6217,14 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 @media (min-width: 1200px) {
+
+  .features-wrapper {
+  	padding: 50px 0 300px 0;
+  }
+
+  #features .main-post {
+    font-size: 16px;
+  }
 
    #main-menu .nav-menu li a {
      font-size: 12px;
