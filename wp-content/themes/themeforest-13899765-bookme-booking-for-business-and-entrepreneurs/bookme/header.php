@@ -31,7 +31,7 @@
 	<header id="masthead" class="site-header">
 			<div class="container">
 			<div class="row">
-				<div class="col-md-4 re-size">
+				<div class="col-md-4 re-size col-sm-2">
 						<div class="logo-wrapper">
 							<a href="<?php echo esc_url( home_url() ); ?>" >
 							<?php
@@ -112,7 +112,7 @@
 				    </div>
                     <div class="clearfix"></div>
 				</div>
-				<div class="col-md-8 re-size">
+				<div class="col-md-8 col-sm-10 re-size">
 					<div class="row">
 						<div class="header-right">
 							<?php
@@ -178,7 +178,7 @@
 						</div>
 					</div>
                     <div class="row">
-                        <div class="col-md-12 col-sm-8">
+                        <div class="col-md-12">
                             <nav id="main-menu" class="clearfix">
                                 <ul class="nav-menu">
 
