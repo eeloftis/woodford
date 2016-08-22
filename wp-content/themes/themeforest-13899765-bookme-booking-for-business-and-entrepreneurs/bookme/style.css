@@ -6213,6 +6213,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 @media (min-width: 1200px) {
+
+   #main-menu .nav-menu li a {
+     font-size: 10px;
+   }
+
 	#main-slider .slide-content {
 		top: 15%;
 	}
