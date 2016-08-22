@@ -947,8 +947,12 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 .mean-container .mean-nav ul li a:hover {
-	background: #101F2D;
+	background: #101F2D !important;
 	color: #fff;
+}
+
+.mean-container .mean-nav a:hover {
+
 }
 
 .mean-container .mean-nav ul li li a {
