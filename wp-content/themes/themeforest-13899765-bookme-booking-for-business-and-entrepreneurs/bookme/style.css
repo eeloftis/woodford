@@ -925,7 +925,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 .mean-container .mean-bar {
-	background: #9f8447;
+	background: #101F2D;
 }
 
 .mean-container a.meanmenu-reveal {
@@ -937,17 +937,17 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 .mean-container .mean-nav {
-	background:  #9f8447;
+	background:  ##101F2D;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 13px;
 }
 
 .mean-container .mean-nav ul li a {
-	color: #ded0af;
+	color: #101F2D;
 }
 
 .mean-container .mean-nav ul li a:hover {
-	background: #9f8447;
+	background: #101F2D;
 	color: #fff;
 }
 
