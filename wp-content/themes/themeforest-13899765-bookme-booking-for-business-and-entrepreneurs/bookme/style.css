@@ -6039,6 +6039,8 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .site-footer {
 	padding: 50px 0;
   background-color: #101f2d;
+  color: white;
+
 }
 
 .footer-widget ul {
