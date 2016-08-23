@@ -5983,6 +5983,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     height:120px;
 
 }
+
+.tp-caption {
+  font-size: 40px !important;
+}
+
 .page-template-template-trainer .custom.tparrows, .page-template-template-attorney .custom.tparrows, .page-template-template-barber .custom.tparrows {
     background:#fff;
     color: #333333;
@@ -6148,6 +6153,10 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 }
 
 @media (min-width: 768px) {
+
+  .tp-caption {
+    font-size: 90px !important;
+  }
 
   .logo-wrapper {
     margin-top: 12px;
