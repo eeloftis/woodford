@@ -41,7 +41,6 @@ get_header();
 </section>
 
 <script>
-<![CDATA[
 function initMap() {
         var mapDiv = document.getElementById("ny-map");
         var map = new google.maps.Map(mapDiv, {
@@ -52,11 +51,10 @@ function initMap() {
         var marker1 = new google.maps.Marker({
           position: andover,
           map: map,
-          icon: 'http://emilyloftis.com/gbpflag/wordpress/wp-content/themes/HighendWP/images/orange-small.png',
           title: 'Andover, Merrimack Valley'
         });
      }
-></script>
+</script>
 
 
 
