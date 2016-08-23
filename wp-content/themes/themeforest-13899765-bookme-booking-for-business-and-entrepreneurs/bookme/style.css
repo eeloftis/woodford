@@ -6989,11 +6989,14 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #contact-estimate .contact {
   background-color: #454d51;
   padding-left: 5%;
+  padding-top: 5%;
 }
 
 #contact-estimate .estimate {
   background-color: #abb2b6;
     padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 70px;
 }
 
 #contact-estimate h3 {
@@ -7006,7 +7009,6 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #contact-estimate .contact h3 {
   color: #e6edf3;
-  margin-top:80px;
   margin-bottom: 50px;
 }
 
@@ -7052,9 +7054,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #contact-estimate .estimate h3 {
   color: #101f2d;
-  margin-top:80px;
   margin-bottom: 50px;
-
 }
 
 .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap textarea {
