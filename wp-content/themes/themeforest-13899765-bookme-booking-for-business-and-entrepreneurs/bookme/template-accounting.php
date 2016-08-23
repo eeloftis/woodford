@@ -45,12 +45,12 @@ function initMap() {
         var mapDiv = document.getElementById("ny-map");
         var map = new google.maps.Map(mapDiv, {
           center: {lat: 40.712, lng: -74.005},
-          zoom: 8
+          zoom: 7
         });
 				var othermapDiv = document.getElementById("miami-map");
 				var othermap = new google.maps.Map(othermapDiv, {
 					center: {lat: 25.761, lng: -80.191},
-					zoom: 8
+					zoom: 9
 				});
      }
 </script>
