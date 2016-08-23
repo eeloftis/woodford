@@ -18,17 +18,17 @@
 
 					</div>
 					<div class="col-sm-4 col-md-3">
-            new york    917.574.3870
+            new york&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+917-574-3870">917.574.3870</a>
 
 
 					</div>
 					<div class="col-sm-4 col-md-3">
-              miami    305.590.8473
+              miami&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+305-590-8473">305.590.8473</a>
 					</div>
 					<div class="col-sm-12 col-md-2 col-md-offset-3">
             <div class="social">
 
-              visit us: <img src="<?php echo esc_url( home_url() ); ?>wp-content/themes/themeforest-13899765-bookme-booking-for-business-and-entrepreneurs/bookme/images/social-sharing.png" >
+              visit us: <img src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/themeforest-13899765-bookme-booking-for-business-and-entrepreneurs/bookme/images/social-sharing.png" >
 
             </div>
 					</div>
