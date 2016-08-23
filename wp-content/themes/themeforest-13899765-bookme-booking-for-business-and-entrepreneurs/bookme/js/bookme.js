@@ -401,7 +401,7 @@ $("#contact-estimate-link").click(function() {
  scrollToAnchor('contact-estimate');
 });
 
-
+$("#the-maps").hide();
 
 $("#locate").click(function() {
   if ($("#locate").hasClass('open')) {
