@@ -40,5 +40,26 @@ get_header();
 	</div>
 </section>
 
+<script>
+<![CDATA[
+function initMap() {
+        var mapDiv = document.getElementById("ny-map");
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 42.360, lng: -71.058},
+          zoom: 9
+        });
+        var andover = {lat: 42.653, lng: -71.143};
+        var marker1 = new google.maps.Marker({
+          position: andover,
+          map: map,
+          icon: 'http://emilyloftis.com/gbpflag/wordpress/wp-content/themes/HighendWP/images/orange-small.png',
+          title: 'Andover, Merrimack Valley'
+        });
+     }
+	// ]]></script>
+		 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdKNvCuxd3k3ikHAvBdRUtlASg5QJKs6E&amp;callback=initMap" async="" defer="defer"></script>
+
+
+
 
 	<?php get_footer(); ?>
