@@ -410,6 +410,7 @@ $("#locate").click(function() {
 	}
 	else {
 		$("#locate").addClass('open');
+			google.maps.event.trigger(map, 'resize');
 		$("#the-maps").show();
 	}
 });
