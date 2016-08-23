@@ -44,14 +44,8 @@ get_header();
 function initMap() {
         var mapDiv = document.getElementById("ny-map");
         var map = new google.maps.Map(mapDiv, {
-          center: {lat: 42.360, lng: -71.058},
+          center: {lat: 40.712, lng: -74.005},
           zoom: 9
-        });
-        var andover = {lat: 42.653, lng: -71.143};
-        var marker1 = new google.maps.Marker({
-          position: andover,
-          map: map,
-          title: 'Andover, Merrimack Valley'
         });
      }
 </script>
