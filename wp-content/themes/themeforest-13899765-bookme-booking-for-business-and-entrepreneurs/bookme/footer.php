@@ -25,7 +25,7 @@
 					<div class="col-sm-4 col-md-3">
               miami&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+305-590-8473">305.590.8473</a>
 					</div>
-					<div class="col-sm-12 col-md-1 col-md-offset-4">
+					<div class="col-sm-12 col-md-2 col-md-offset-3">
             <div class="social">
 
               visit us:&nbsp;&nbsp;<img src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/themeforest-13899765-bookme-booking-for-business-and-entrepreneurs/bookme/images/social-sharing.png" >
