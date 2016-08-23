@@ -401,16 +401,20 @@ $("#contact-estimate-link").click(function() {
  scrollToAnchor('contact-estimate');
 });
 
+
+
 $("#locate").click(function() {
   if ($("#locate").hasClass('open')) {
 		$("#locate").removeClass('open');
-		$("#ny-map,#miami-map").hide();
+		$("#the-maps").hide();
 	}
 	else {
 		$("#locate").addClass('open');
-		$("#ny-map,#miami-map").show();
+		$("#the-maps").show();
 	}
 });
+
+
 
 
 });
