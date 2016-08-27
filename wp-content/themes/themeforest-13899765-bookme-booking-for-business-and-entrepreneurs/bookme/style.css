@@ -1738,30 +1738,11 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #the-maps {
   position: absolute;
+  bottom: 20px;
+  left: -100px;
 }
 
-#ny-map {
-  height: 145px;
-  width: 145px;
-  border-radius: 100%;
-  float: left;
-  z-index: 9;
-  border: 5px solid #BDCCD5;
-  margin-right: 20px;
-  left: -80px;
-  top: -200px;
-}
 
-#miami-map {
-  height: 145px;
-  width: 145px;
-  border-radius: 100%;
-  float: left;
-  z-index: 9;
-  border: 5px solid #BDCCD5;
-  top: -200px;
-  left: -60px;
-}
 
 
 /*-----------------------------------------------*/

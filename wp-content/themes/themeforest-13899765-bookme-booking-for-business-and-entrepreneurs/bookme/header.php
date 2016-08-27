@@ -23,11 +23,7 @@
 ?>
 </head>
 
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 
 <body <?php body_class(); ?>>
     <div id="wrapp">
@@ -35,6 +31,11 @@ function googleTranslateElementInit() {
 	<?php bookme_before_header(); ?>
 
 	<header id="masthead" class="site-header">
+		<div id="google_translate_element"></div><script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+		}
+		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 			<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-md-offset-0 re-size col-sm-3 col-sm-offset-0 col-xs-6 col-xs-offset-3">
