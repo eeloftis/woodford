@@ -7044,8 +7044,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#contact-estimate .contact-button {
-  margin-top: 230px;
+.contact .wpcf7-submit {
   margin-bottom: 70px;
   display: inline-block;
   padding: 15px 30px;
@@ -7057,7 +7056,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.wpcf7-submit {
+.estimate .wpcf7-submit {
     border: none;
     margin-top: 115px;
     display: inline-block;
@@ -7075,7 +7074,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   margin-bottom: 50px;
 }
 
-.wpcf7-form-control-wrap input, .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap textarea {
+.estimate .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap textarea {
   background: transparent;
   border: 0;
   width: 70%;
