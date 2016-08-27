@@ -7075,6 +7075,15 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   margin-bottom: 50px;
 }
 
+.contact .wpcf7-form-control-wrap input, .contact .wpcf7-form-control-wrap input {
+  color: #ccc;
+  padding-left: 20px;
+}
+
+.contact .wpcf7-form-control-wrap textarea {
+  height: 120px;
+}
+
 .estimate .wpcf7-form-control-wrap input, .estimate .wpcf7-form-control-wrap input, .estimate .wpcf7-form-control-wrap textarea {
   background: transparent;
   border: 0;
