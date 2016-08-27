@@ -7082,6 +7082,8 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .contact .wpcf7-form-control-wrap textarea {
   height: 120px;
+  color: #ccc;
+  padding-left: 20px;
 }
 
 .estimate .wpcf7-form-control-wrap input, .estimate .wpcf7-form-control-wrap input, .estimate .wpcf7-form-control-wrap textarea {
