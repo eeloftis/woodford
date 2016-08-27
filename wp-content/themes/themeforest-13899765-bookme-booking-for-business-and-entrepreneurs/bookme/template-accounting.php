@@ -31,7 +31,8 @@ get_header();
 				<h3>Contact</h3>
 				<h4>Paul Belanger, Founder</h4>
 					<p>paul.belanger@woodfordadvisors.com</p>
-					<a class="contact-button" href="mailto:paul.belanger@woodfordadvisors.com">Contact Me</a>
+					<?php echo do_shortcode( '[contact-form-7 id="64" title="Contact 2"]' ); ?>
+
 			</div>
 			<div class="col-md-7 col-sm-7 estimate" data-right-height-content>
 				<h3>Request a quote</h3>
