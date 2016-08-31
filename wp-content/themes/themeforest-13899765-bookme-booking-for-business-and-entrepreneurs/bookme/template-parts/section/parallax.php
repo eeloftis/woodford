@@ -22,6 +22,11 @@
 			$style_color = 'style="' . $bg_color . '"';
 		} ?>
  <a name="features" />
+		<section id="features" class="hidden-md-up">
+			<div <?php echo $style_img; ?>></div>
+
+		</section>
+
 			<section id="features" <?php echo $style_img; ?> class="hidden-sm hidden-xs">
 				<div class="features-wrapper" <?php echo $style_color; ?>>
 					<div class="container wow fadeInDown">
