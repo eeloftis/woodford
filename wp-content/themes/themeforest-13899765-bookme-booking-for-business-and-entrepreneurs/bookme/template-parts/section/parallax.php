@@ -27,7 +27,19 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div>
-							<img src="<?php echo $bg_img;?>">
+							<img src="<?php echo $paralax_bg_img;?>">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div>
+							<div class="main-post">
+								<?php if ( $paralax_small_text ) : ?>
+									<div class="small-title">
+										<h3><?php echo esc_attr( $paralax_small_text ); ?></h3>
+									</div>
+								<?php endif; ?>
+								<?php if ( $paralax_content ) echo wp_kses_post($paralax_content); ?>
+							</div>
 						</div>
 					</div>
 				</div>
