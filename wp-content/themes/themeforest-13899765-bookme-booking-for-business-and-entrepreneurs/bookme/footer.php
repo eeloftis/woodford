@@ -28,7 +28,7 @@
 					<div class="col-sm-12 col-md-2 col-md-offset-3">
             <div class="social">
 
-              visit us:&nbsp;&nbsp;<img src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/themeforest-13899765-bookme-booking-for-business-and-entrepreneurs/bookme/images/social-sharing.png" >
+              visit us:&nbsp;&nbsp;<img src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/bookme/images/social-sharing.png" >
 
             </div>
 					</div>
