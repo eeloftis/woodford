@@ -8,7 +8,7 @@
 <?php
 	$services = get_post_meta(get_the_ID(), '_BookmeMB_services', true);
 	if ( $services ) : ?>
-		<section id="services">
+		<section id="services" style="z-index:10;">
 			<div class="container-fluid">
 				<div class="row wow fadeInUp" data-right-height>
 					<?php

@@ -22,10 +22,10 @@
 			$style_color = 'style="' . $bg_color . '"';
 		} ?>
  <a name="features" />
-		<section id="features" class="hidden-md-up" style="position:relative;top:-40px;overflow:hidden;background:#BCB9AE !important;">
+		<section id="features" class="hidden-xl hidden-lg hidden-md" style="background:#BCB9AE !important;">
 
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12" style="position:relative;top:-40px;overflow:hidden;z-index:1">
 						<div>
 							<img src="<?php echo $paralax_bg_img;?>">
 						</div>
