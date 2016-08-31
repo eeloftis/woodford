@@ -415,7 +415,7 @@ $("#locate").click(function() {
 	}
 });
 
-$(document).click(function(e) {
+$(document).click(function() {
 	event.stopPropagation();
   if ($("#locate").hasClass('open')) {
 		$("#locate").removeClass('open');

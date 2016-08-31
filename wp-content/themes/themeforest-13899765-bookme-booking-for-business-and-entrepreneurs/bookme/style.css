@@ -6969,6 +6969,10 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*	End Theme Style	*/
 /*-----------------------------------------------*/
 
+.service-0 {
+  margin-top: 23px !important;
+}
+
 .service-row-0 {
   background-color: #becdd6 !important;
 }
