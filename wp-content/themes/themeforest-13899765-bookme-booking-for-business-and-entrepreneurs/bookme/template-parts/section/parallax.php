@@ -22,8 +22,8 @@
 			$style_color = 'style="' . $bg_color . '"';
 		} ?>
  <a name="features" />
-		<section id="features" class="hidden-md-up">
-			<div class="container">
+		<section id="features" class="hidden-md-up" style="position:relative;top:-40px;overflow:hidden;background:#BCB9AE !important;">
+
 				<div class="row">
 					<div class="col-md-12">
 						<div>
@@ -32,7 +32,7 @@
 					</div>
 					<div class="col-md-12">
 						<div>
-							<div class="main-post">
+							<div class="main-post" style="text-align:center;">
 								<?php if ( $paralax_small_text ) : ?>
 									<div class="small-title">
 										<h3><?php echo esc_attr( $paralax_small_text ); ?></h3>
@@ -43,7 +43,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+
 		</section>
 
 			<section id="features" <?php echo $style_img; ?> class="hidden-sm hidden-xs">
