@@ -404,6 +404,7 @@ $("#contact-estimate-link").click(function() {
 $("#the-maps").hide();
 
 $("#locate").click(function() {
+	event.stopPropagation();
   if ($("#locate").hasClass('open')) {
 		$("#locate").removeClass('open');
 		$("#the-maps").hide();
@@ -414,13 +415,12 @@ $("#locate").click(function() {
 	}
 });
 
-$(document).click(function() {
+$(document).click(function(e) {
+	event.stopPropagation();
   if ($("#locate").hasClass('open')) {
 		$("#locate").removeClass('open');
 		$("#the-maps").hide();
 	}
 });
-
-
 
 });
