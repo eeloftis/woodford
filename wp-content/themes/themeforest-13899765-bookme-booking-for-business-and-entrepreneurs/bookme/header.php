@@ -29,7 +29,7 @@
 	<?php bookme_before_header(); ?>
 
 	<header id="masthead" class="site-header">
-		<div id="google_translate_element"></div><script type="text/javascript">
+		<div id="google_translate_element" class="hidden-xs hidden-sm"></div><script type="text/javascript">
 		function googleTranslateElementInit() {
 		  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 		}
