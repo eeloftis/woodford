@@ -22,17 +22,17 @@
 			$style_color = 'style="' . $bg_color . '"';
 		} ?>
  <a name="features" />
-		<section id="features" class="hidden-xl hidden-lg hidden-md" style="background:#BCB9AE !important;position:relative;top:-40px;overflow:hidden;z-index:1">
+		<section id="features" class="hidden-xl hidden-lg hidden-md" style="background:#BCB9AE !important;">
 
 				<div class="row">
 					<div class="col-md-12" style="">
 						<div>
-							<img src="<?php echo $paralax_bg_img;?>">
+							<img src="http://www.emilyloftis.com/woodford/wp-content/uploads/2016/08/WoodfordAdviors_Home_1_33-1.jpg">
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div>
-							<div class="main-post" style="text-align:center;padding:0 50px;">
+							<div class="main-post" style="text-align:center;padding:50px;">
 								<?php if ( $paralax_small_text ) : ?>
 									<div class="small-title">
 										<h3><?php echo esc_attr( $paralax_small_text ); ?></h3>
