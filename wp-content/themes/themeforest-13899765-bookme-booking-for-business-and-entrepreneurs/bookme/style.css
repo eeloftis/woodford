@@ -6977,9 +6977,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
     #contact-estimate .contact, #contact-estimate .estimate {
       padding-left: 20px;
     }
- #contact-estimate .contact p:last-child{
-   margin-bottom: 0;
- }
+
 
 }
 
@@ -7026,6 +7024,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
   background-color: #454d51;
   padding-left: 5%;
   padding-top: 140px;
+      padding-bottom: 70px;
 }
 
 #contact-estimate .estimate {
