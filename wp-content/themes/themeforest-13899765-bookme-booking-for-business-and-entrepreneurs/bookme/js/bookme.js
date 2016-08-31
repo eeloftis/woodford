@@ -377,27 +377,33 @@ jQuery(document).ready(function($) {
 	}
 
 	$("#about-link").click(function() {
+			event.stopPropagation();
    scrollToAnchor('about');
 });
 
 $("#services-link").click(function() {
+		event.stopPropagation();
  scrollToAnchor('services');
 });
 
 
 $("#features-link").click(function() {
+		event.stopPropagation();
  scrollToAnchor('features');
 });
 
 $("#facts-link").click(function() {
+		event.stopPropagation();
  scrollToAnchor('facts');
 });
 
 $("#clients-link").click(function() {
+		event.stopPropagation();
  scrollToAnchor('clients');
 });
 
 $("#contact-estimate-link").click(function() {
+		event.stopPropagation();
  scrollToAnchor('contact-estimate');
 });
 
