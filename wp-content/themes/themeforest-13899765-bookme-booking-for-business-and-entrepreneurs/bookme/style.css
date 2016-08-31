@@ -6969,8 +6969,8 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*	End Theme Style	*/
 /*-----------------------------------------------*/
 
-@media (min-width: 698px) {
-    #the-buttons{
+@media (min-width: 768px) {
+    .theButtons{
         max-width: 300px;
         margin: 40px auto 0 auto;
     }
