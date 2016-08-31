@@ -414,6 +414,12 @@ $("#locate").click(function() {
 	}
 });
 
+$(document).click(function() {
+  if ($("#locate").hasClass('open')) {
+		$("#locate").removeClass('open');
+		$("#the-maps").hide();
+	}
+});
 
 
 
