@@ -27,14 +27,14 @@ get_header();
 <a name="contact-estimate" />
 <section id="contact-estimate">
 		<div class="row wow fadeInUp" data-right-height>
-			<div class="col-md-5 col-sm-5 contact" data-right-height-content>
+			<div class="col-md-5 col-sm-6 contact" data-right-height-content>
 				<h3>Contact</h3>
 				<h4>Paul Belanger, Founder</h4>
 					<p>paul.belanger@woodfordadvisors.com</p>
 					<?php echo do_shortcode( '[contact-form-7 id="64" title="Contact 2"]' ); ?>
 
 			</div>
-			<div class="col-md-7 col-sm-7 estimate" data-right-height-content>
+			<div class="col-md-7 col-sm-6 estimate" data-right-height-content>
 				<h3>Request a quote</h3>
 				<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
 			</div>
