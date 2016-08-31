@@ -23,8 +23,15 @@
 		} ?>
  <a name="features" />
 		<section id="features" class="hidden-md-up">
-			<div <?php echo $style_img; ?>></div>
-
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div>
+							<img src="<?php echo $bg_img;?>">
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
 			<section id="features" <?php echo $style_img; ?> class="hidden-sm hidden-xs">
