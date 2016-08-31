@@ -1192,7 +1192,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*-----------------------------------------------*/
 
 #about {
-	padding: 100px 0 115px;
+	padding: 140px 0 115px;
 }
 
 #about img {
@@ -1229,7 +1229,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 .services-item {
 	padding: 15%;
 	min-height: 520px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 #services .row>div:nth-child(2n+0) .services-item {
@@ -1751,7 +1751,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 #clients {
 	padding-bottom: 75px;
-  padding-top: 130px;
+  padding-top: 140px;
 }
 
 #clients h2 {
@@ -6260,7 +6260,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 @media (min-width: 1200px) {
 
   .features-wrapper {
-  	padding: 50px 0 300px 0;
+  	padding: 150px 0 200px 0;
   }
 
   #features .main-post {
@@ -6970,7 +6970,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 /*-----------------------------------------------*/
 
 .service-0 {
-  margin-top: 23px !important;
+  margin-top: 63px !important;
 }
 
 .service-row-0 {
@@ -7011,13 +7011,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 #contact-estimate .contact {
   background-color: #454d51;
   padding-left: 5%;
-  padding-top: 5%;
+  padding-top: 140px;
 }
 
 #contact-estimate .estimate {
   background-color: #abb2b6;
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 140px;
     padding-bottom: 70px;
 }
 
@@ -7063,7 +7063,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
 
 .estimate .wpcf7-submit {
     border: none;
-    margin-top: 115px;
+    margin-top: 135px;
     display: inline-block;
     padding: 15px 30px;
     background-color: #214567;
