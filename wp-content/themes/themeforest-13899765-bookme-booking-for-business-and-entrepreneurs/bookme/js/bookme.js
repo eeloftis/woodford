@@ -429,50 +429,11 @@ $(document).click(function() {
 	}
 });
 
-// Find all placeholders
-var placeholders = document.querySelectorAll('input[placeholder]');
-
-if (placeholders.length) {
-     // convert to array
-    placeholders = Array.prototype.slice.call(placeholders);
-
-    // copy placeholder text to a hidden div
-    var div = $('<div id="placeholders" style="display:none;"></div>');
-
-    placeholders.forEach(function(input){
-      var text = input.placeholder;
-      div.append('<div>' + text + '</div>');
-    });
-
-    $('body').append(div);
-
-    // save the first placeholder in a closure
-    var originalPH = placeholders[0].placeholder;
-
-    // check for changes and update as needed
-    setInterval(function(){
-      if (isTranslated()) {
-        updatePlaceholders();
-        originalPH = placeholders[0].placeholder;
-      }
-    }, 500);
-
-    // hoisted ---------------------------
-    function isTranslated() { // true if the text has been translated
-       var currentPH = $($('#placeholders > div')[0]).text();
-       return !(originalPH == currentPH);
-    }
-
-    function updatePlaceholders() {
-      $('#placeholders > div').each(function(i, div){
-        placeholders[i].placeholder = $(div).text();
-      });
-    }
-}
-
-	$('input, textarea').select(function() {
-			console.log('hello');
-
-	});
+$('input,textarea').focus(function(){
+   $(this).data('placeholder',$(this).attr('placeholder'))
+          .attr('placeholder','');
+}).blur(function(){
+   $(this).attr('placeholder',$(this).data('placeholder'));
+});
 
 });
