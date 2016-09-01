@@ -7138,3 +7138,13 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
  #about .about-desc {
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
  }
+
+ input:focus::-webkit-input-placeholder{
+    color: transparent!important;
+}
+input:focus::-moz-placeholder{
+    color: transparent!important;
+}
+input:focus:-moz-placeholder{
+    color: transparent!important;
+}
