@@ -28,7 +28,7 @@
 					<div class="col-sm-12 col-md-2 col-md-offset-3">
             <div class="social">
 
-              visit us:&nbsp;&nbsp;<img src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/bookme/images/social-sharing.png" >
+              visit us:&nbsp;&nbsp;<a href="https://www.linkedin.com/in/pauljbelanger" target="_blank"><img src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/bookme/images/social-sharing.png" >
 
             </div>
 					</div>

@@ -7138,3 +7138,7 @@ body #booked-profile-page input[type=submit].button-primary, body table.booked-c
  #about .about-desc {
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
  }
+
+.estimate ::-webkit-input-placeholder { color:#101F2D; }
+.estimate ::-moz-placeholder { color:#101F2D; } /* firefox 19+ */
+ .estimate :-ms-input-placeholder { color:#101F2D; } /* ie */

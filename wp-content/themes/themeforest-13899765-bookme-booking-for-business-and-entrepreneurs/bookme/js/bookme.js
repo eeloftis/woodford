@@ -430,6 +430,7 @@ $(document).click(function() {
 });
 
 $('input,textarea').focus(function(){
+	console.log('test');
    $(this).data('placeholder',$(this).attr('placeholder'))
           .attr('placeholder','');
 }).blur(function(){
